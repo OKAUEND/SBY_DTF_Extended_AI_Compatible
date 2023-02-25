@@ -1,11 +1,11 @@
 
-tech_dtf_weapons_6 = {
+tech_dtf_ai_only_weapons_6 = {
 	cost = @dtf_tier6cost2
 	area = physics
 	tier = 6
 	is_rare = no
 	category = { particles }
-	prerequisites = { "tech_dtf_weapons_5" }
+	prerequisites = { "tech_dtf_ai_only_weapons_5" }
 	weight = @dtf_tier6weight2
 
 	potential = {  
@@ -22,13 +22,13 @@ tech_dtf_weapons_6 = {
   	}
 }
 
-tech_dtf_weapons_7 = {
+tech_dtf_ai_only_weapons_7 = {
 	cost = @dtf_tier7cost2
 	area = physics
 	tier = 7
 	is_rare = no
 	category = { particles }
-	prerequisites = { "tech_dtf_weapons_6" "tech_dtf_mass_production_1" }
+	prerequisites = { "tech_dtf_ai_only_weapons_6" "tech_dtf_ai_only_mass_production_1" }
 	weight = @dtf_tier7weight2
 
 	potential = {  
@@ -50,13 +50,13 @@ tech_dtf_weapons_7 = {
 
 
 
-tech_dtf_wave_motion_gun_2 = {
+tech_dtf_ai_only_wave_motion_gun_2 = {
 	cost = @dtf_tier7cost3
 	area = physics
 	tier = 7
 	is_rare = no
 	category = { particles }
-	prerequisites = { "tech_dtf_wave_motion_gun_1" "tech_dtf_weapons_7" }
+	prerequisites = { "tech_dtf_ai_only_wave_motion_gun_1" "tech_dtf_ai_only_weapons_7" }
 	weight = @dtf_tier7weight3
 
 	potential = {  

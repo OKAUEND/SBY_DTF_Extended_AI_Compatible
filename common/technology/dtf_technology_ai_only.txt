@@ -1,11 +1,10 @@
-
-tech_dtf_pretech = {
-	cost = @dtf_tier1cost2
+tech_dtf_ai_only_pretech = {
+	cost = @dtf_ai_tier1cost2
 	area = engineering
 	tier = 1
 	is_rare = no
 	category = { industry }
-	weight = @dtf_tier1weight1
+	weight = @dtf_ai_tier1weight1
 
 	feature_flags = {
 		unlocks_auto_research 
@@ -13,12 +12,12 @@ tech_dtf_pretech = {
 	}
 
 	potential = {  
-		is_ai = no  
+		is_ai = yes  
 		has_origin = origin_earth_2200
 	} 
 	
 	ai_weight = {
-		factor = @dtf_techAIbaseweight
+		factor = @dtf_ai_techAIbaseweight
 		modifier = {
 			factor = 0.0
 			NOT = { has_origin = origin_earth_2200 }
@@ -26,23 +25,24 @@ tech_dtf_pretech = {
   	}
 }
 
-tech_dtf_technology_1 = {
-	cost = @dtf_tier2cost2
+
+tech_dtf_ai_only_technology_1 = {
+	cost = @dtf_ai_tier2cost2
 	area = engineering
 	tier = 2
 	is_rare = no
 	category = { industry }
-	prerequisites = { "tech_dtf_pretech" }
-	weight = @dtf_tier2weight1
+	prerequisites = { "tech_dtf_ai_only_pretech" }
+	weight = @dtf_ai_tier2weight1
 
 
 	potential = {  
-		is_ai = no  
+		is_ai = yes  
 		has_origin = origin_earth_2200
 	} 
 
 	ai_weight = {
-        	factor = @dtf_techAIbaseweight
+        	factor = @dtf_ai_techAIbaseweight
 		modifier = {
 			factor = 0.0
 			NOT = { has_origin = origin_earth_2200 }
@@ -50,23 +50,23 @@ tech_dtf_technology_1 = {
     	}
 }
 
-tech_dtf_technology_2 = {
-	cost = @dtf_tier3cost2
+tech_dtf_ai_only_technology_2 = {
+	cost = @dtf_ai_tier3cost2
 	area = engineering
 	tier = 3
 	is_rare = no
 	category = { industry }
-	prerequisites = { "tech_dtf_technology_1" }
-	weight = @dtf_tier3weight1
+	prerequisites = { "tech_dtf_ai_only_technology_1" }
+	weight = @dtf_ai_tier3weight1
 
 
 	potential = {  
-		is_ai = no  
+		is_ai = yes  
 		has_origin = origin_earth_2200
 	} 
 
 	ai_weight = {
-        	factor = @dtf_techAIbaseweight
+        	factor = @dtf_ai_techAIbaseweight
 		modifier = {
 			factor = 0.0
 			NOT = { has_origin = origin_earth_2200 }
@@ -75,24 +75,24 @@ tech_dtf_technology_2 = {
 }
 
 
-tech_dtf_technology_3 = {
-	cost = @dtf_tier5cost2
+tech_dtf_ai_only_technology_3 = {
+	cost = @dtf_ai_tier5cost2
 	area = engineering
 	tier = 5
 	is_rare = no
 	category = { industry }
-	prerequisites = { "tech_dtf_technology_2" }
-	weight = @dtf_tier5weight1
+	prerequisites = { "tech_dtf_ai_only_technology_2" }
+	weight = @dtf_ai_tier5weight1
 
 	feature_flags = { gateway_activation }
 
 	potential = {  
-		is_ai = no  
+		is_ai = yes  
 		has_origin = origin_earth_2200
 	} 
 
 	ai_weight = {
-        	factor = @dtf_techAIbaseweight
+        	factor = @dtf_ai_techAIbaseweight
 		modifier = {
 			factor = 0.0
 			NOT = { has_origin = origin_earth_2200 }

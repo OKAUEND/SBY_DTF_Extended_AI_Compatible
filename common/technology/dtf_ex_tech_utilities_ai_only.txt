@@ -1,11 +1,11 @@
 
-tech_dtf_reactor_4 = {
+tech_dtf_ai_only_reactor_4 = {
 	cost = @dtf_tier8cost3
 	area = engineering
 	tier = 7
 	is_rare = no
 	category = { propulsion }
-	prerequisites = { "tech_dtf_reactor_3" "tech_dtf_mass_production_1" }
+	prerequisites = { "tech_dtf_ai_only_reactor_3" "tech_dtf_ai_only_mass_production_1" }
 	weight = @dtf_tier8weight3
 
 	potential = {  
