@@ -11,7 +11,7 @@ tech_dtf_ai_only_industry_6 = {
 	weight = @tier6weight2
 
 	potential = {  
-		is_ai = no  
+		is_ai = yes  
 		has_origin = origin_earth_2200
 	} 
 
@@ -37,7 +37,7 @@ tech_dtf_ai_only_industry_7 = {
 	weight = @tier7weight2
 
 	potential = {  
-		is_ai = no  
+		is_ai = yes  
 		has_origin = origin_earth_2200
 	} 
 

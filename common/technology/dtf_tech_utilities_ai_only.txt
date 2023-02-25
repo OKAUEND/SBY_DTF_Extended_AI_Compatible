@@ -9,9 +9,9 @@ tech_dtf_ai_only_reactor_1 = {
 	weight = @dtf_tier1weight3
 
 	potential = {  
-		is_ai = no  
+		is_ai = yes  
 		has_origin = origin_earth_2200
-	}
+	} 
 	
 	ai_weight = {
   	      factor = @dtf_techAIbaseweight
@@ -33,9 +33,9 @@ tech_dtf_ai_only_reactor_2 = {
 	weight = @dtf_tier3weight3
 
 	potential = {  
-		is_ai = no  
+		is_ai = yes  
 		has_origin = origin_earth_2200
-	} 
+	}  
 	
 	ai_weight = {
   	      factor = @dtf_techAIbaseweight
@@ -57,9 +57,9 @@ tech_dtf_ai_only_reactor_3 = {
 	weight = @dtf_tier5weight3
 
 	potential = {  
-		is_ai = no  
+		is_ai = yes  
 		has_origin = origin_earth_2200
-	} 
+	}  
 
 	ai_weight = {
         	factor = @dtf_techAIbaseweight

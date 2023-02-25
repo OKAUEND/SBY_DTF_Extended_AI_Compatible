@@ -9,7 +9,7 @@ tech_dtf_ai_only_armor_6 = {
 	weight = @dtf_tier6weight2
 
 	potential = {  
-		is_ai = no  
+		is_ai = yes  
 		has_origin = origin_earth_2200
 	} 
 	
@@ -32,7 +32,7 @@ tech_dtf_ai_only_armor_7 = {
 	weight = @dtf_tier7weight2
 
 	potential = {  
-		is_ai = no  
+		is_ai = yes  
 		has_origin = origin_earth_2200
 	} 
 	

@@ -9,7 +9,7 @@ tech_dtf_ai_only_reactor_4 = {
 	weight = @dtf_tier8weight3
 
 	potential = {  
-		is_ai = no  
+		is_ai = yes  
 		has_origin = origin_earth_2200
 	} 
 
@@ -19,7 +19,7 @@ tech_dtf_ai_only_reactor_4 = {
 			factor = 0.0
 			NOT = { has_origin = origin_earth_2200 }
 		}
-    	}
+    }
 	ai_update_type = all
 }
 

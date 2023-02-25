@@ -9,7 +9,7 @@ tech_dtf_ai_only_shield_1 = {
 	weight = @dtf_tier1weight3
 
 	potential = {  
-		is_ai = no  
+		is_ai = yes  
 		has_origin = origin_earth_2200
 	} 
 	
@@ -32,7 +32,7 @@ tech_dtf_ai_only_shield_2 = {
 	weight = @dtf_tier2weight3
 
 	potential = {  
-		is_ai = no  
+		is_ai = yes  
 		has_origin = origin_earth_2200
 	} 
 	
@@ -55,7 +55,7 @@ tech_dtf_ai_only_shield_3 = {
 	weight = @dtf_tier3weight3
 
 	potential = {  
-		is_ai = no  
+		is_ai = yes  
 		has_origin = origin_earth_2200
 	} 
 	
@@ -78,7 +78,7 @@ tech_dtf_ai_only_shield_4 = {
 	weight = @dtf_tier4weight3
 
 	potential = {  
-		is_ai = no  
+		is_ai = yes  
 		has_origin = origin_earth_2200
 	} 
 	
@@ -101,7 +101,7 @@ tech_dtf_ai_only_shield_5 = {
 	weight = @dtf_tier5weight3
 
 	potential = {  
-		is_ai = no  
+		is_ai = yes  
 		has_origin = origin_earth_2200
 	} 
 	

@@ -9,7 +9,7 @@ tech_dtf_ai_only_armor_1 = {
 	weight = @dtf_tier1weight2
 
 	potential = {  
-		is_ai = no  
+		is_ai = yes  
 		has_origin = origin_earth_2200
 	} 
 	
@@ -32,7 +32,7 @@ tech_dtf_ai_only_armor_2 = {
 	weight = @dtf_tier2weight2
 
 	potential = {  
-		is_ai = no  
+		is_ai = yes  
 		has_origin = origin_earth_2200
 	} 
 	
@@ -55,7 +55,7 @@ tech_dtf_ai_only_armor_3 = {
 	weight = @dtf_tier3weight2
 
 	potential = {  
-		is_ai = no  
+		is_ai = yes  
 		has_origin = origin_earth_2200
 	} 
 	
@@ -78,7 +78,7 @@ tech_dtf_ai_only_armor_4 = {
 	weight = @dtf_tier4weight2
 
 	potential = {  
-		is_ai = no  
+		is_ai = yes  
 		has_origin = origin_earth_2200
 	} 
 	
@@ -101,7 +101,7 @@ tech_dtf_ai_only_armor_5 = {
 	weight = @dtf_tier5weight2
 
 	potential = {  
-		is_ai = no  
+		is_ai = yes  
 		has_origin = origin_earth_2200
 	} 
 	

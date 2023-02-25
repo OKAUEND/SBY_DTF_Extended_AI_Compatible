@@ -11,7 +11,7 @@ tech_dtf_ai_only_technology_4 = {
 	feature_flags = { gateway_construction }
 
 	potential = {  
-		is_ai = no  
+		is_ai = yes  
 		has_origin = origin_earth_2200
 	} 
 
@@ -21,7 +21,7 @@ tech_dtf_ai_only_technology_4 = {
 			factor = 0.0
 			NOT = { has_origin = origin_earth_2200 }
 		}
-    	}
+    }
 }
 
 
@@ -43,7 +43,7 @@ tech_dtf_ai_only_mass_production_1 = {
 
 
 	potential = {  
-		is_ai = no  
+		is_ai = yes  
 		has_origin = origin_earth_2200
 	} 
 	
@@ -58,7 +58,7 @@ tech_dtf_ai_only_mass_production_1 = {
 			factor = 0.0
 			NOT = { has_origin = origin_earth_2200 }
 		}
-    	}
+    }
 }
 
 

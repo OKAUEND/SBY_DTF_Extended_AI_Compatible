@@ -11,7 +11,7 @@ tech_dtf_ai_only_industry_1 = {
 	tier = 1
 
 	potential = {  
-		is_ai = no  
+		is_ai = yes  
 		has_origin = origin_earth_2200
 	} 
 
@@ -38,7 +38,7 @@ tech_dtf_ai_only_industry_2 = {
 	prerequisites = { "tech_dtf_ai_only_industry_1" }
 
 	potential = {  
-		is_ai = no  
+		is_ai = yes  
 		has_origin = origin_earth_2200
 	} 
 
@@ -64,7 +64,7 @@ tech_dtf_ai_only_industry_3 = {
 	weight = @tier3weight2
 
 	potential = {  
-		is_ai = no  
+		is_ai = yes  
 		has_origin = origin_earth_2200
 	} 
 
@@ -90,7 +90,7 @@ tech_dtf_ai_only_industry_4 = {
 	weight = @tier4weight2
 
 	potential = {  
-		is_ai = no  
+		is_ai = yes  
 		has_origin = origin_earth_2200
 	} 
 
@@ -116,7 +116,7 @@ tech_dtf_ai_only_industry_5 = {
 	weight = @tier5weight2
 
 	potential = {  
-		is_ai = no  
+		is_ai = yes  
 		has_origin = origin_earth_2200
 	} 
 
