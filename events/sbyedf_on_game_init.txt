@@ -1,0 +1,98 @@
+namespace = sbydtf_init_ai
+
+#############################################
+# Technology - Start
+#############################################
+
+event = {
+	id = sbydtf_init_ai.1
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			is_ai = yes
+			has_origin = origin_earth_2200
+		}
+	}
+
+	immediate = {
+		limit = { 
+			is_ai = yes
+			has_origin = origin_earth_2200
+		}
+		capital_scope = {
+			
+			clear_blockers = yes
+			clear_deposits = yes
+			remove_all_districts = yes
+
+			remove_building = building_research_lab_1
+			remove_building = building_commercial_zone
+
+			if = {
+				limit = { root = { is_machine_empire = yes } }
+
+				root = {
+					give_technology = { tech = tech_dtf_ai_only_pretech message = no }
+					give_technology = { tech = tech_dtf_ai_only_weapons_1 message = no }
+					give_technology = { tech = tech_dtf_ai_only_armor_1 message = no }
+					give_technology = { tech = tech_dtf_ai_only_shield_1 message = no }
+					give_technology = { tech = tech_dtf_ai_only_reactor_1 message = no }
+					give_technology = { tech = tech_robotic_workers message = no }
+				}
+
+				add_district = district_dtf_earth_2200_housing
+				add_district = district_dtf_earth_2200_science
+				add_district = district_dtf_earth_2200_science
+				add_district = district_dtf_earth_2200_foundry_industry
+				add_district = district_dtf_earth_2200_energy
+				add_district = district_dtf_earth_2200_energy
+				add_district = district_dtf_earth_2200_mining
+
+			}
+			else_if = {
+				limit = { root = { is_hive_empire = yes } }
+
+				root = {
+					give_technology = { tech = tech_dtf_ai_only_pretech message = no }
+					give_technology = { tech = tech_dtf_ai_only_weapons_1 message = no }
+					give_technology = { tech = tech_dtf_ai_only_armor_1 message = no }
+					give_technology = { tech = tech_dtf_ai_only_shield_1 message = no }
+					give_technology = { tech = tech_dtf_ai_only_reactor_1 message = no }
+					give_technology = { tech = tech_robotic_workers message = no }
+				}
+
+				add_district = district_dtf_earth_2200_housing
+				add_district = district_dtf_earth_2200_science
+				add_district = district_dtf_earth_2200_science
+				add_district = district_dtf_earth_2200_foundry_industry
+				add_district = district_dtf_earth_2200_energy
+				add_district = district_dtf_earth_2200_mining
+				add_district = district_dtf_earth_2200_farming
+
+			}
+			else = {
+				#limit = { root = { is_regular_empire = yes } }
+				
+				root = {
+					give_technology = { tech = tech_dtf_ai_only_pretech message = no }
+					give_technology = { tech = tech_dtf_ai_only_weapons_1 message = no }
+					give_technology = { tech = tech_dtf_ai_only_armor_1 message = no }
+					give_technology = { tech = tech_dtf_ai_only_shield_1 message = no }
+					give_technology = { tech = tech_dtf_ai_only_reactor_1 message = no }
+					give_technology = { tech = tech_robotic_workers message = no }
+				}
+
+				add_district = district_dtf_earth_2200_housing
+				add_district = district_dtf_earth_2200_science
+				add_district = district_dtf_earth_2200_foundry_industry
+				add_district = district_dtf_earth_2200_civilian_industry
+				add_district = district_dtf_earth_2200_energy
+				add_district = district_dtf_earth_2200_mining
+				add_district = district_dtf_earth_2200_farming
+				add_district = district_dtf_earth_2200_leisure
+			}
+		}
+	}
+}
