@@ -5,7 +5,7 @@ tech_dtf_ai_only_armor_6 = {
 	tier = 6
 	is_rare = no
 	category = { materials }
-	prerequisites = { "tech_dtf_ai_only_armor_5" }
+	prerequisites = { "tech_dtf_ai_only_flag_tech" "tech_dtf_ai_only_armor_5" }
 	weight = @dtf_tier6weight2
 
 	potential = {  
@@ -28,7 +28,7 @@ tech_dtf_ai_only_armor_7 = {
 	tier = 7
 	is_rare = no
 	category = { materials }
-	prerequisites = { "tech_dtf_ai_only_armor_6" "tech_dtf_ai_only_mass_production_1" }
+	prerequisites = { "tech_dtf_ai_only_flag_tech" "tech_dtf_ai_only_armor_6" "tech_dtf_ai_only_mass_production_1" }
 	weight = @dtf_tier7weight2
 
 	potential = {  

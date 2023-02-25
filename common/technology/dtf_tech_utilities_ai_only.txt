@@ -5,7 +5,7 @@ tech_dtf_ai_only_reactor_1 = {
 	tier = 1
 	is_rare = no
 	category = { propulsion }
-	prerequisites = { "tech_dtf_ai_only_pretech" }
+	prerequisites = { "tech_dtf_ai_only_flag_tech" "tech_dtf_ai_only_pretech" }
 	weight = @dtf_tier1weight3
 
 	potential = {  
@@ -29,7 +29,7 @@ tech_dtf_ai_only_reactor_2 = {
 	tier = 3
 	is_rare = no
 	category = { propulsion }
-	prerequisites = { "tech_dtf_ai_only_reactor_1" }
+	prerequisites = { "tech_dtf_ai_only_flag_tech" "tech_dtf_ai_only_reactor_1" }
 	weight = @dtf_tier3weight3
 
 	potential = {  
@@ -53,7 +53,7 @@ tech_dtf_ai_only_reactor_3 = {
 	tier = 5
 	is_rare = no
 	category = { propulsion }
-	prerequisites = { "tech_dtf_ai_only_reactor_2" "tech_dtf_ai_only_technology_2" }
+	prerequisites = { "tech_dtf_ai_only_flag_tech" "tech_dtf_ai_only_reactor_2" "tech_dtf_ai_only_technology_2" }
 	weight = @dtf_tier5weight3
 
 	potential = {  

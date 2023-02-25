@@ -7,7 +7,7 @@ tech_dtf_ai_only_industry_6 = {
 	area = engineering
 	category = { industry }
 	tier = 6
-	prerequisites = { "tech_dtf_ai_only_industry_5" }
+	prerequisites = { "tech_dtf_ai_only_flag_tech" "tech_dtf_ai_only_industry_5" }
 	weight = @tier6weight2
 
 	potential = {  
@@ -33,7 +33,7 @@ tech_dtf_ai_only_industry_7 = {
 	area = engineering
 	category = { industry }
 	tier = 7
-	prerequisites = { "tech_dtf_ai_only_industry_6" "tech_dtf_ai_only_mass_production_1" }
+	prerequisites = { "tech_dtf_ai_only_flag_tech" "tech_dtf_ai_only_industry_6" "tech_dtf_ai_only_mass_production_1" }
 	weight = @tier7weight2
 
 	potential = {  

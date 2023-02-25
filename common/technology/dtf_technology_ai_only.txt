@@ -1,3 +1,21 @@
+tech_dtf_ai_only_flag_tech = {
+	cost = 0
+	area = engineering
+	tier = 1
+	is_rare = no
+	category = { industry }
+	weight = 0
+
+	potential = {  
+		is_ai = yes  
+		has_origin = origin_earth_2200
+	} 
+	
+	ai_weight = {
+		factor = 0
+  	}
+}
+
 tech_dtf_ai_only_pretech = {
 	cost = @dtf_tier1cost2
 	area = engineering
@@ -32,7 +50,7 @@ tech_dtf_ai_only_technology_1 = {
 	tier = 2
 	is_rare = no
 	category = { industry }
-	prerequisites = { "tech_dtf_ai_only_pretech" }
+	prerequisites = { "tech_dtf_ai_only_flag_tech" "tech_dtf_ai_only_pretech" }
 	weight = @dtf_tier2weight1
 
 
@@ -56,7 +74,7 @@ tech_dtf_ai_only_technology_2 = {
 	tier = 3
 	is_rare = no
 	category = { industry }
-	prerequisites = { "tech_dtf_ai_only_technology_1" }
+	prerequisites = { "tech_dtf_ai_only_flag_tech" "tech_dtf_ai_only_technology_1" }
 	weight = @dtf_tier3weight1
 
 
@@ -81,7 +99,7 @@ tech_dtf_ai_only_technology_3 = {
 	tier = 5
 	is_rare = no
 	category = { industry }
-	prerequisites = { "tech_dtf_ai_only_technology_2" }
+	prerequisites = { "tech_dtf_ai_only_flag_tech" "tech_dtf_ai_only_technology_2" }
 	weight = @dtf_tier5weight1
 
 	feature_flags = { gateway_activation }

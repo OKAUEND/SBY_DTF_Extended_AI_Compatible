@@ -5,7 +5,7 @@ tech_dtf_ai_only_weapons_1 = {
 	tier = 1
 	is_rare = no
 	category = { particles }
-	prerequisites = { "tech_dtf_ai_only_pretech" }
+	prerequisites = { "tech_dtf_ai_only_flag_tech" "tech_dtf_ai_only_pretech" }
 	weight = @dtf_tier1weight2
 
 	potential = {  
@@ -27,7 +27,7 @@ tech_dtf_ai_only_weapons_2 = {
 	tier = 2
 	is_rare = no
 	category = { particles }
-	prerequisites = { "tech_dtf_ai_only_weapons_1" }
+	prerequisites = { "tech_dtf_ai_only_flag_tech" "tech_dtf_ai_only_weapons_1" }
 	weight = @dtf_tier2weight2
 
 	potential = {  
@@ -50,7 +50,7 @@ tech_dtf_ai_only_weapons_3 = {
 	tier = 3
 	is_rare = no
 	category = { particles }
-	prerequisites = { "tech_dtf_ai_only_weapons_2" }
+	prerequisites = { "tech_dtf_ai_only_flag_tech" "tech_dtf_ai_only_weapons_2" }
 	weight = @dtf_tier3weight2
 
 	potential = {  
@@ -73,7 +73,7 @@ tech_dtf_ai_only_weapons_4 = {
 	tier = 4
 	is_rare = no
 	category = { particles }
-	prerequisites = { "tech_dtf_ai_only_weapons_3" }
+	prerequisites = { "tech_dtf_ai_only_flag_tech" "tech_dtf_ai_only_weapons_3" }
 	weight = @dtf_tier4weight2
 
 	potential = {  
@@ -96,7 +96,7 @@ tech_dtf_ai_only_weapons_5 = {
 	tier = 5
 	is_rare = no
 	category = { particles }
-	prerequisites = { "tech_dtf_ai_only_weapons_4" }
+	prerequisites = { "tech_dtf_ai_only_flag_tech" "tech_dtf_ai_only_weapons_4" }
 	weight = @dtf_tier5weight2
 
 	potential = {  
@@ -128,7 +128,7 @@ tech_dtf_ai_only_wave_motion_gun_1 = {
 	tier = 5
 	is_rare = yes
 	category = { particles }
-	prerequisites = { "tech_dtf_ai_only_weapons_5" }
+	prerequisites = { "tech_dtf_ai_only_flag_tech" "tech_dtf_ai_only_weapons_5" }
 	weight = @dtf_tier5weight3
 
 	potential = {  
