@@ -1,0 +1,9 @@
+
+
+6 = { # Tier 6
+	previously_unlocked = 3
+}
+
+7 = { # Tier 7
+	previously_unlocked = 2
+}

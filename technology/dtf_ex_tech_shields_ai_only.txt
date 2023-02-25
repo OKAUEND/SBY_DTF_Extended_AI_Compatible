@@ -1,0 +1,47 @@
+
+tech_dtf_shield_6 = {
+	cost = @dtf_tier6cost3
+	area = physics
+	tier = 6
+	is_rare = no
+	category = { field_manipulation }
+	prerequisites = { "tech_dtf_shield_5" }
+	weight = @dtf_tier6weight3
+
+	potential = {  
+		is_ai = no  
+		has_origin = origin_earth_2200
+	} 
+	
+	ai_weight = {
+  	      factor = @dtf_techAIbaseweight
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+  	}
+}
+
+tech_dtf_shield_7 = {
+	cost = @dtf_tier7cost3
+	area = physics
+	tier = 7
+	is_rare = no
+	category = { field_manipulation }
+	prerequisites = { "tech_dtf_shield_6" "tech_dtf_mass_production_1" }
+	weight = @dtf_tier7weight3
+
+	potential = {  
+		is_ai = no  
+		has_origin = origin_earth_2200
+	} 
+	
+	ai_weight = {
+  	      factor = @dtf_techAIbaseweight
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+  	}
+}
+

@@ -1,0 +1,47 @@
+
+tech_dtf_armor_6 = {
+	cost = @dtf_tier6cost2
+	area = engineering
+	tier = 6
+	is_rare = no
+	category = { materials }
+	prerequisites = { "tech_dtf_armor_5" }
+	weight = @dtf_tier6weight2
+
+	potential = {  
+		is_ai = no  
+		has_origin = origin_earth_2200
+	} 
+	
+	ai_weight = {
+  	       factor = @dtf_techAIbaseweight
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+  	}
+}
+
+tech_dtf_armor_7 = {
+	cost = @dtf_tier7cost2
+	area = engineering
+	tier = 7
+	is_rare = no
+	category = { materials }
+	prerequisites = { "tech_dtf_armor_6" "tech_dtf_mass_production_1" }
+	weight = @dtf_tier7weight2
+
+	potential = {  
+		is_ai = no  
+		has_origin = origin_earth_2200
+	} 
+	
+	ai_weight = {
+  	      factor = @dtf_techAIbaseweight
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+  	}
+}
+

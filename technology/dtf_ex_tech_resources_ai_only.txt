@@ -1,0 +1,55 @@
+# ##################
+# industrys
+# ##################
+
+tech_dtf_industry_6 = {
+	cost = @tier6cost2
+	area = engineering
+	category = { industry }
+	tier = 6
+	prerequisites = { "tech_dtf_industry_5" }
+	weight = @tier6weight2
+
+	potential = {  
+		is_ai = no  
+		has_origin = origin_earth_2200
+	} 
+
+	modifier = {
+		planet_jobs_produces_mult = 0.05
+	}
+
+	ai_weight = {
+		factor = @dtf_techAIbaseweight
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+  	}
+}
+
+tech_dtf_industry_7 = {
+	cost = @tier7cost2
+	area = engineering
+	category = { industry }
+	tier = 7
+	prerequisites = { "tech_dtf_industry_6" "tech_dtf_mass_production_1" }
+	weight = @tier7weight2
+
+	potential = {  
+		is_ai = no  
+		has_origin = origin_earth_2200
+	} 
+
+	modifier = {
+		planet_jobs_produces_mult = 0.10
+	}
+
+	ai_weight = {
+		factor = @dtf_techAIbaseweight
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+  	}
+}

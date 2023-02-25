@@ -1,0 +1,66 @@
+
+tech_dtf_technology_4 = {
+	cost = @dtf_tier7cost2
+	area = engineering
+	tier = 7
+	is_rare = no
+	category = { industry }
+	prerequisites = { "tech_dtf_technology_3" "tech_dtf_mass_production_1" }
+	weight = @dtf_tier7weight1
+
+	feature_flags = { gateway_construction }
+
+	potential = {  
+		is_ai = no  
+		has_origin = origin_earth_2200
+	} 
+
+	ai_weight = {
+        	factor = @dtf_techAIbaseweight
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+    	}
+}
+
+
+
+
+
+
+
+
+
+tech_dtf_mass_production_1 = {
+	cost = @dtf_tier7cost2
+	area = engineering
+	tier = 7
+	is_rare = no
+	category = { industry }
+	prerequisites = { "tech_dtf_technology_3" "tech_dtf_weapons_6" "tech_dtf_armor_6" "tech_dtf_shield_6" "tech_dtf_reactor_3" }
+	weight = @dtf_tier7weight1
+
+
+	potential = {  
+		is_ai = no  
+		has_origin = origin_earth_2200
+	} 
+	
+	allow = { 
+		is_ai = no 
+		has_origin = origin_earth_2200
+	}
+
+	ai_weight = {
+        	factor = @dtf_techAIbaseweight
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+    	}
+}
+
+
+
+

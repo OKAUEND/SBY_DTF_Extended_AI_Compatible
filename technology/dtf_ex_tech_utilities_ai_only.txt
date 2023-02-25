@@ -1,0 +1,25 @@
+
+tech_dtf_reactor_4 = {
+	cost = @dtf_tier8cost3
+	area = engineering
+	tier = 7
+	is_rare = no
+	category = { propulsion }
+	prerequisites = { "tech_dtf_reactor_3" "tech_dtf_mass_production_1" }
+	weight = @dtf_tier8weight3
+
+	potential = {  
+		is_ai = no  
+		has_origin = origin_earth_2200
+	} 
+
+	ai_weight = {
+        	factor = @dtf_techAIbaseweight
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+    	}
+	ai_update_type = all
+}
+
