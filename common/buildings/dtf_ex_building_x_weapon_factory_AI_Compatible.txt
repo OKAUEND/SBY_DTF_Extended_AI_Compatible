@@ -1,0 +1,114 @@
+@dtf_weapon_factory_build_time_3 = 200
+@dtf_weapon_factory_build_time_4 = 240
+
+
+@dtf_weapon_factory_job_3 = 3
+@dtf_weapon_factory_job_4 = 4
+
+
+
+@dtf_weapon_factory_alloys_cost_3 = 10000
+@dtf_weapon_factory_alloys_cost_4 = 36000
+
+
+@dtf_weapon_factory_energy_upkeep_3 = 60
+@dtf_weapon_factory_energy_upkeep_4 = 100
+
+@dtf_weapon_factory_minerals_upkeep_3 = 60
+@dtf_weapon_factory_minerals_upkeep_4 = 100
+
+
+
+
+building_dtf_ai_compatible_weapon_factory_3 = {
+	base_buildtime = @dtf_weapon_factory_build_time_3
+	category = manufacturing
+	can_build = no
+
+	icon = building_dtf_weapon_factory
+
+	
+
+
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_soldier_add = @dtf_weapon_factory_job_3
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_hive_empire = yes }
+		}
+		modifier = {
+			job_warrior_drone_add = @dtf_weapon_factory_job_3
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_machine_empire = yes }
+		}
+		modifier = {
+			job_warrior_drone_add = @dtf_weapon_factory_job_3
+		}
+
+	}
+
+
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			alloys = @dtf_weapon_factory_alloys_cost_3
+		}
+		upkeep = {
+			energy = @dtf_weapon_factory_energy_upkeep_3
+			minerals = @dtf_weapon_factory_minerals_upkeep_3
+		}
+
+		produces = {
+			
+
+		}
+	}
+
+	planet_modifier = {
+		
+
+	}
+
+
+	country_modifier = {
+		army_damage_mult = 0.75
+		army_health = 0.35
+		armies_upkeep_mult = -0.15
+
+		ship_weapon_damage = 0.10
+		ship_fire_rate_mult = 0.10
+	}
+
+	on_built = {
+		set_planet_flag = dtf_weapon_factory_built_3
+	}
+	on_unqueued = {
+		remove_planet_flag = dtf_weapon_factory_built_3
+	}
+
+	upgrades = {
+		"building_dtf_weapon_factory_4"
+	}
+
+	prerequisites = { "tech_dtf_ai_only_technology_4" }
+
+	ai_weight = {
+		weight = 100
+	}
+}

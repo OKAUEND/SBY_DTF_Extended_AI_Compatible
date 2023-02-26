@@ -1,0 +1,81 @@
+
+@dtf_defense_command_build_time_3 = 240
+@dtf_defense_command_build_time_4 = 360
+
+
+
+
+@dtf_defense_command_alloys_cost_3 = 8000
+@dtf_defense_command_alloys_cost_4 = 20000
+
+
+
+@dtf_defense_command_energy_upkeep_3 = 80
+@dtf_defense_command_energy_upkeep_4 = 160
+
+
+@dtf_defense_command_minerals_upkeep_3 = 0
+@dtf_defense_command_minerals_upkeep_4 = 0
+
+
+
+
+
+
+
+building_dtf_ai_compatible_defense_command_3 = {
+	base_buildtime = @dtf_defense_command_build_time_3
+	category = government
+	can_build = no
+	planetary_ftl_inhibitor = yes
+
+	icon = building_dtf_defense_command
+
+	potential = {
+		exists = owner
+		planet = { is_planet_class = pc_earth_2200 }
+	}
+
+	allow = { 
+		exists = owner
+		planet = { is_planet_class = pc_earth_2200 }
+	}
+
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			alloys = @dtf_defense_command_alloys_cost_3
+		}
+		upkeep = {
+			energy = @dtf_defense_command_energy_upkeep_3
+			minerals = @dtf_defense_command_minerals_upkeep_3
+		}
+
+		produces = {	
+			influence = 3.0
+		}
+	}
+
+	planet_modifier = {
+
+	}
+
+	country_modifier = {
+		country_naval_cap_add = 2400
+		country_command_limit_add = 128
+		species_leader_exp_gain = 0.5
+	}
+
+
+	upgrades = {
+		"building_dtf_defense_command_4"
+	}
+
+
+	prerequisites = { "tech_dtf_ai_only_technology_4" }
+
+	ai_weight = {
+		weight = 100
+	}
+}

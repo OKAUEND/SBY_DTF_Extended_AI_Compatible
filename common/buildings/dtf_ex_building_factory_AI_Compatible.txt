@@ -1,0 +1,169 @@
+@dtf_factory_build_time_5 = 840
+@dtf_factory_build_time_6 = 960
+
+
+@dtf_factory_job_5 = 10
+@dtf_factory_job_6 = 12
+
+@dtf_factory_research_job_5 = 10
+@dtf_factory_research_job_6 = 12
+
+
+
+@dtf_factory_alloys_cost_5 = 32000
+@dtf_factory_alloys_cost_6 = 100000
+
+
+@dtf_factory_energy_upkeep_5 = 50
+@dtf_factory_energy_upkeep_6 = 60
+
+@dtf_factory_minerals_upkeep_5 = 60
+@dtf_factory_minerals_upkeep_6 = 72
+
+
+
+
+@dtf_factory_alloys_produces_5 = 30
+@dtf_factory_alloys_produces_6 = 36
+
+@dtf_factory_consumer_goods_produces_5 = 20
+@dtf_factory_consumer_goods_produces_6 = 24
+
+
+
+building_dtf_ai_compatible_factory_5 = {
+	base_buildtime = @dtf_factory_build_time_5
+	category = manufacturing
+	can_build = no
+
+	icon = building_dtf_factory
+
+	
+
+
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			#job_researcher_add = @dtf_factory_job_5
+			job_dtf_head_researcher_add = 2
+			job_dtf_researcher_add = @dtf_factory_research_job_5
+			job_dtf_foundry_add = @dtf_factory_job_5
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_hive_empire = yes }
+		}
+		modifier = {
+			#job_brain_drone_add = @dtf_factory_job_5
+			job_dtf_brain_drone_add = @dtf_factory_research_job_5
+			job_dtf_alloy_drone_add = @dtf_factory_job_5
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_machine_empire = yes }
+		}
+		modifier = {
+			#job_calculator_add = @dtf_factory_job_5
+			job_dtf_calculator_add = @dtf_factory_research_job_5
+			job_dtf_fabricator_add = @dtf_factory_job_5
+			
+		}
+
+	}
+
+
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			alloys = @dtf_factory_alloys_cost_5
+		}
+		upkeep = {
+			energy = @dtf_factory_energy_upkeep_5
+			minerals = @dtf_factory_minerals_upkeep_5
+		}
+
+		produces = {
+			alloys = @dtf_factory_alloys_produces_5
+			#consumer_goods = @dtf_factory_consumer_goods_produces_5
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { controlled_systems > 20 }
+		}
+		modifier = {
+			planet_jobs_energy_produces_mult = -0.25
+			planet_jobs_minerals_produces_mult = -0.25
+			planet_jobs_alloys_produces_mult = -0.25
+		}
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { controlled_systems > 30 }
+		}
+		modifier = {
+			planet_jobs_energy_produces_mult = -0.25
+			planet_jobs_minerals_produces_mult = -0.25
+			planet_jobs_alloys_produces_mult = -0.25
+		}
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { controlled_systems > 40 }
+		}
+		modifier = {
+			planet_jobs_energy_produces_mult = -0.25
+			planet_jobs_minerals_produces_mult = -0.25
+			planet_jobs_alloys_produces_mult = -0.25
+		}
+	}
+
+	planet_modifier = {
+		#planet_housing_add = @dtf_factory_job_5
+		#planet_jobs_physics_research_produces_mult = 1.00
+		#planet_jobs_society_research_produces_mult = 1.00
+		#planet_jobs_engineering_research_produces_mult = 1.00
+	}
+
+
+	country_modifier = {
+		#country_alloys_produces_add = 300
+
+		all_technology_research_speed = 0.15
+		country_resource_max_add = 1800000
+		
+		ships_upkeep_mult = -0.20
+	}
+
+	on_built = {
+		set_planet_flag = dtf_factory_built_5
+	}
+	on_unqueued = {
+		remove_planet_flag = dtf_factory_built_5
+	}
+
+	upgrades = {
+		"building_dtf_factory_6"
+	}
+
+	prerequisites = { "tech_dtf_ai_only_technology_4" }
+
+	ai_weight = {
+		weight = 100
+	}
+}

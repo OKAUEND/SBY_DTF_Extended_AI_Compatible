@@ -1,0 +1,127 @@
+@dtf_underground_city_build_time_1 = 120
+@dtf_underground_city_build_time_2 = 160
+
+
+
+
+@dtf_underground_city_housing_1 = 10
+@dtf_underground_city_housing_2 = 20
+
+@dtf_underground_city_amenities_1 = 6
+@dtf_underground_city_amenities_2 = 12
+
+
+@dtf_underground_city_alloys_cost_1 = 150
+@dtf_underground_city_alloys_cost_2 = 1000
+
+
+@dtf_underground_city_energy_upkeep_1 = 2
+@dtf_underground_city_energy_upkeep_2 = 4
+
+@dtf_underground_city_minerals_upkeep_1 = 0
+@dtf_underground_city_minerals_upkeep_2 = 0
+
+
+
+
+building_dtf_ai_compatible_underground_city_1 = {
+	base_buildtime = @dtf_underground_city_build_time_1
+	base_cap_amount = 1
+	category = government
+
+	icon = building_dtf_underground_city
+
+	potential = {
+		exists = owner
+		planet = { is_planet_class = pc_earth_2200 }
+	}
+
+	allow = { 
+		exists = owner
+		planet = { is_planet_class = pc_earth_2200 }
+	}
+
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			alloys = @dtf_underground_city_alloys_cost_1
+		}
+		upkeep = {
+			energy = @dtf_underground_city_energy_upkeep_1
+			minerals = @dtf_underground_city_minerals_upkeep_1
+		}
+
+		produces = {
+			#food = 50	
+		}
+	}
+
+	planet_modifier = {
+		planet_housing_add = @dtf_underground_city_housing_1
+		planet_amenities_add = @dtf_underground_city_amenities_1
+		planet_orbital_bombardment_damage = -0.20
+	}
+
+
+	upgrades = {
+		"building_dtf_underground_city_2"
+	}
+
+	prerequisites = { "tech_dtf_ai_only_pretech" }
+
+	ai_weight = {
+		weight = 100
+	}
+}
+
+building_dtf_ai_compatible_underground_city_2 = {
+	base_buildtime = @dtf_underground_city_build_time_2
+	category = government
+	can_build = no
+
+	icon = building_dtf_underground_city
+
+	potential = {
+		exists = owner
+		planet = { is_planet_class = pc_earth_2200 }
+	}
+
+	allow = { 
+		exists = owner
+		planet = { is_planet_class = pc_earth_2200 }
+	}
+
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			alloys = @dtf_underground_city_alloys_cost_2
+		}
+		upkeep = {
+			energy = @dtf_underground_city_energy_upkeep_2
+			minerals = @dtf_underground_city_minerals_upkeep_2
+		}
+
+		produces = {
+			#food = 100	
+		}
+	}
+
+	planet_modifier = {
+		planet_housing_add = @dtf_underground_city_housing_2
+		planet_amenities_add = @dtf_underground_city_amenities_2
+		planet_orbital_bombardment_damage = -0.30
+	}
+
+
+	upgrades = {
+		"building_dtf_underground_city_3"
+	}
+
+	prerequisites = { "tech_dtf_ai_only_technology_2" }
+
+	ai_weight = {
+		weight = 100
+	}
+}
