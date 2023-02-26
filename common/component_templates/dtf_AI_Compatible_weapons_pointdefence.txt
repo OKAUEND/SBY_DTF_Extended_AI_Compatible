@@ -1,0 +1,100 @@
+
+### Point Defence 1
+weapon_component_template = {
+	key = "DTF_EDF_POINT_DEFENCE_1"
+	size = point_defence
+	
+	icon = "GFX_dtf_ship_part_pulse_laser_turret_1"
+	icon_frame = 1
+	
+	prerequisites = { "tech_dtf_weapons_1" }
+	component_set = "DTF_EDF_POINT_DEFENCE_CS_1"
+	type = point_defence
+	projectile_gfx = "dtf_red_laser_pd"
+	tags = { weapon_type_point_defense weapon_type_energy }
+	ai_tags = { weapon_role_point_defense }
+
+	upgrades_to = "DTF_EDF_POINT_DEFENCE_2"
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_dtf_t1_cost
+		}
+		upkeep = {
+			energy = @s_dtf_t1_uk_energy
+			alloys = @s_dtf_t1_uk_alloys
+		}
+	}
+
+	power = -8.0
+	damage = { min = 1.5 max = 5.0 }
+	hull_damage = 1.05
+	#shield_damage = 1.05
+	armor_damage = 1.05
+	
+	windup = { min = 0 max = 0 }
+	total_fire_time = 5
+	range = @dtf_weapon_range_30
+	accuracy = 0.80
+	tracking = 0.10
+	point_defence_targets = { "missile" "strike_craft" }
+
+	ai_weight = {
+		weight = @dtf_ai_weight_1
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+	}
+}
+
+### Point Defence 2
+weapon_component_template = {
+	key = "DTF_EDF_POINT_DEFENCE_2"
+	size = point_defence
+	
+	icon = "GFX_dtf_ship_part_pulse_laser_turret_2"
+	icon_frame = 1
+	
+	prerequisites = { "tech_dtf_weapons_4" }
+	component_set = "DTF_EDF_POINT_DEFENCE_CS_2"
+	type = point_defence
+	projectile_gfx = "dtf_red_laser_pd"
+	tags = { weapon_type_point_defense weapon_type_energy }
+	ai_tags = { weapon_role_point_defense }
+
+	upgrades_to = "DTF_EDF_POINT_DEFENCE_3"
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_dtf_t4_cost
+		}
+		upkeep = {
+			energy = @s_dtf_t4_uk_energy
+			alloys = @s_dtf_t4_uk_alloys
+		}
+	}
+
+	power = -16.0
+	damage = { min = 3.0 max = 7.0 }
+	hull_damage = 1.10
+	#shield_damage = 1.10
+	armor_damage = 1.10
+	
+	windup = { min = 0 max = 0 }
+	total_fire_time = 5
+	range = @dtf_weapon_range_30
+	accuracy = 0.85
+	tracking = 0.15
+	point_defence_targets = { "missile" "strike_craft" }
+
+	ai_weight = {
+		weight = @dtf_ai_weight_4
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+	}
+}

@@ -1,0 +1,908 @@
+
+####################################################################################################################################
+### HIGH_PRESSURE_BEAM_CANNON_1
+####################################################################################################################################
+weapon_component_template = {
+	key = "DTF_HIGH_PRESSURE_BEAM_CANNON_SMALL_1"
+	size = small
+	#entity = "small_laser_gun_entity"
+	type = instant
+	icon = "GFX_dtf_ship_part_hp_beam_cannon_1"
+	icon_frame = 1
+	prerequisites = { "tech_dtf_weapons_1" }
+	component_set = "DTF_HIGH_PRESSURE_BEAM_CANNON_CS_1"
+	projectile_gfx = "dtf_green_laser_s"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_artillery }
+	upgrades_to = "DTF_HIGH_PRESSURE_BEAM_CANNON_SMALL_2"
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_dtf_t1_cost
+		}		
+		upkeep = {
+			energy = @s_dtf_t1_uk_energy
+			alloys = @s_dtf_t1_uk_alloys
+		}
+	}
+
+	power = -5.00
+	damage = { min = 10.30 max = 31.00 }
+	shield_damage = 0.50
+	armor_damage = 1.50
+	hull_damage = 1.00
+	windup = { min = 40.0 max = 55.0 }
+	total_fire_time = 10.0
+	range = @dtf_weapon_range_50
+	accuracy = 0.85
+	tracking = 0.20
+	
+	ai_weight = {
+		weight = @dtf_ai_weight_1
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+	}
+
+	
+	
+}
+
+weapon_component_template = {
+	key = "DTF_HIGH_PRESSURE_BEAM_CANNON_MEDIUM_1"
+	size = medium
+	#entity = "medium_laser_gun_entity"
+	type = instant
+	icon = "GFX_dtf_ship_part_hp_beam_cannon_1"
+	icon_frame = 1
+	prerequisites = { "tech_dtf_weapons_1" }
+	component_set = "DTF_HIGH_PRESSURE_BEAM_CANNON_CS_1"
+	projectile_gfx = "dtf_green_laser_m"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_artillery }
+	upgrades_to = "DTF_HIGH_PRESSURE_BEAM_CANNON_MEDIUM_2"
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_dtf_t1_cost
+		}		
+		upkeep = {
+			energy = @m_dtf_t1_uk_energy
+			alloys = @m_dtf_t1_uk_alloys
+		}
+	}
+
+	power = -10.00
+	damage = { min = 20.60 max = 62.00 }
+	shield_damage = 0.50
+	armor_damage = 1.50
+	hull_damage = 1.00
+	windup = { min = 40.0 max = 55.0 }
+	total_fire_time = 10.0
+	range = @dtf_weapon_range_70
+	accuracy = 0.85
+	tracking = 0.15
+	
+	ai_weight = {
+		weight = @dtf_ai_weight_1
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+	}
+
+	
+	
+}
+
+weapon_component_template = {
+	key = "DTF_HIGH_PRESSURE_BEAM_CANNON_LARGE_1"
+	size = large
+	#entity = "large_laser_gun_entity"
+	type = instant
+	icon = "GFX_dtf_ship_part_hp_beam_cannon_1"
+	icon_frame = 1
+	prerequisites = { "tech_dtf_weapons_1" }
+	component_set = "DTF_HIGH_PRESSURE_BEAM_CANNON_CS_1"
+	projectile_gfx = "dtf_green_laser_l"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_artillery }
+	upgrades_to = "DTF_HIGH_PRESSURE_BEAM_CANNON_LARGE_2"
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_dtf_t1_cost
+		}		
+		upkeep = {
+			energy = @l_dtf_t1_uk_energy
+			alloys = @l_dtf_t1_uk_alloys
+		}
+	}
+
+	power = -20.00
+	damage = { min = 41.30 max = 124.00 }
+	shield_damage = 0.50
+	armor_damage = 1.50
+	hull_damage = 1.00
+	windup = { min = 40.0 max = 55.0 }
+	total_fire_time = 10.0
+	range = @dtf_weapon_range_90
+	accuracy = 0.85
+	tracking = 0.10
+	
+	ai_weight = {
+		weight = @dtf_ai_weight_1
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+	}
+
+	
+	
+}
+
+
+########################################################################################
+### HIGH_PRESSURE_BEAM_CANNON_2
+############################################
+weapon_component_template = {
+	key = "DTF_HIGH_PRESSURE_BEAM_CANNON_SMALL_2"
+	size = small
+	#entity = "small_laser_gun_entity"
+	type = instant
+	icon = "GFX_dtf_ship_part_hp_beam_cannon_2"
+	icon_frame = 1
+	prerequisites = { "tech_dtf_weapons_2" }
+	component_set = "DTF_HIGH_PRESSURE_BEAM_CANNON_CS_2"
+	projectile_gfx = "dtf_green_laser_s"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_artillery }
+	upgrades_to = "DTF_HIGH_PRESSURE_BEAM_CANNON_SMALL_3"
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_dtf_t2_cost
+		}		
+		upkeep = {
+			energy = @s_dtf_t2_uk_energy
+			alloys = @s_dtf_t2_uk_alloys
+		}
+	}
+
+	power = -8.00
+	damage = { min = 13.80 max = 41.50 }
+	shield_damage = 0.50
+	armor_damage = 1.50
+	hull_damage = 1.00
+	windup = { min = 40.0 max = 55.0 }
+	total_fire_time = 10.0
+	range = @dtf_weapon_range_50
+	accuracy = 0.85
+	tracking = 0.20
+	
+	ai_weight = {
+		weight = @dtf_ai_weight_2
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+	}
+
+	
+	
+}
+
+weapon_component_template = {
+	key = "DTF_HIGH_PRESSURE_BEAM_CANNON_MEDIUM_2"
+	size = medium
+	#entity = "medium_laser_gun_entity"
+	type = instant
+	icon = "GFX_dtf_ship_part_hp_beam_cannon_2"
+	icon_frame = 1
+	prerequisites = { "tech_dtf_weapons_2" }
+	component_set = "DTF_HIGH_PRESSURE_BEAM_CANNON_CS_2"
+	projectile_gfx = "dtf_green_laser_m"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_artillery }
+	upgrades_to = "DTF_HIGH_PRESSURE_BEAM_CANNON_MEDIUM_3"
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_dtf_t2_cost
+		}		
+		upkeep = {
+			energy = @m_dtf_t2_uk_energy
+			alloys = @m_dtf_t2_uk_alloys
+		}
+	}
+
+	power = -15.00
+	damage = { min = 27.60 max = 83.00 }
+	shield_damage = 0.50
+	armor_damage = 1.50
+	hull_damage = 1.00
+	windup = { min = 40.0 max = 55.0 }
+	total_fire_time = 10.0
+	range = @dtf_weapon_range_70
+	accuracy = 0.85
+	tracking = 0.15
+	
+	ai_weight = {
+		weight = @dtf_ai_weight_2
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+	}
+
+	
+	
+}
+
+weapon_component_template = {
+	key = "DTF_HIGH_PRESSURE_BEAM_CANNON_LARGE_2"
+	size = large
+	#entity = "large_laser_gun_entity"
+	type = instant
+	icon = "GFX_dtf_ship_part_hp_beam_cannon_2"
+	icon_frame = 1
+	prerequisites = { "tech_dtf_weapons_2" }
+	component_set = "DTF_HIGH_PRESSURE_BEAM_CANNON_CS_2"
+	projectile_gfx = "dtf_green_laser_l"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_artillery }
+	upgrades_to = "DTF_HIGH_PRESSURE_BEAM_CANNON_LARGE_3"
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_dtf_t2_cost
+		}		
+		upkeep = {
+			energy = @l_dtf_t2_uk_energy
+			alloys = @l_dtf_t2_uk_alloys
+		}
+	}
+
+	power = -30.00
+	damage = { min = 55.00 max = 166.00 }
+	shield_damage = 0.50
+	armor_damage = 1.50
+	hull_damage = 1.00
+	windup = { min = 40.0 max = 55.0 }
+	total_fire_time = 10.0
+	range = @dtf_weapon_range_90
+	accuracy = 0.85
+	tracking = 0.10
+	
+	ai_weight = {
+		weight = @dtf_ai_weight_2
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+	}
+
+	
+	
+}
+
+
+########################################################################################
+### HIGH_PRESSURE_BEAM_CANNON_3
+############################################
+weapon_component_template = {
+	key = "DTF_HIGH_PRESSURE_BEAM_CANNON_SMALL_3"
+	size = small
+	#entity = "small_laser_gun_entity"
+	type = instant
+	icon = "GFX_dtf_ship_part_hp_beam_cannon_3"
+	icon_frame = 1
+	prerequisites = { "tech_dtf_weapons_3" }
+	component_set = "DTF_HIGH_PRESSURE_BEAM_CANNON_CS_3"
+	projectile_gfx = "dtf_green_laser_s"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_artillery }
+	upgrades_to = "DTF_HIGH_PRESSURE_BEAM_CANNON_SMALL_4"
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_dtf_t3_cost
+		}		
+		upkeep = {
+			energy = @s_dtf_t3_uk_energy
+			alloys = @s_dtf_t3_uk_alloys
+		}
+	}
+
+	power = -11.00
+	damage = { min = 17.60 max = 53.00 }
+	shield_damage = 0.50
+	armor_damage = 1.50
+	hull_damage = 1.00
+	windup = { min = 40.0 max = 55.0 }
+	total_fire_time = 10.0
+	range = @dtf_weapon_range_50
+	accuracy = 0.85
+	tracking = 0.20
+	
+	ai_weight = {
+		weight = @dtf_ai_weight_3
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+	}
+
+	
+	
+}
+
+weapon_component_template = {
+	key = "DTF_HIGH_PRESSURE_BEAM_CANNON_MEDIUM_3"
+	size = medium
+	#entity = "medium_laser_gun_entity"
+	type = instant
+	icon = "GFX_dtf_ship_part_hp_beam_cannon_3"
+	icon_frame = 1
+	prerequisites = { "tech_dtf_weapons_3" }
+	component_set = "DTF_HIGH_PRESSURE_BEAM_CANNON_CS_3"
+	projectile_gfx = "dtf_green_laser_m"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_artillery }
+	upgrades_to = "DTF_HIGH_PRESSURE_BEAM_CANNON_MEDIUM_4"
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_dtf_t3_cost
+		}		
+		upkeep = {
+			energy = @m_dtf_t3_uk_energy
+			alloys = @m_dtf_t3_uk_alloys
+		}
+	}
+
+	power = -20.00
+	damage = { min = 35.00 max = 106.00 }
+	shield_damage = 0.50
+	armor_damage = 1.50
+	hull_damage = 1.00
+	windup = { min = 40.0 max = 55.0 }
+	total_fire_time = 10.0
+	range = @dtf_weapon_range_70
+	accuracy = 0.85
+	tracking = 0.15
+	
+	ai_weight = {
+		weight = @dtf_ai_weight_3
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+	}
+
+	
+	
+}
+
+weapon_component_template = {
+	key = "DTF_HIGH_PRESSURE_BEAM_CANNON_LARGE_3"
+	size = large
+	#entity = "large_laser_gun_entity"
+	type = instant
+	icon = "GFX_dtf_ship_part_hp_beam_cannon_3"
+	icon_frame = 1
+	prerequisites = { "tech_dtf_weapons_3" }
+	component_set = "DTF_HIGH_PRESSURE_BEAM_CANNON_CS_3"
+	projectile_gfx = "dtf_green_laser_l"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_artillery }
+	upgrades_to = "DTF_HIGH_PRESSURE_BEAM_CANNON_LARGE_4"
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_dtf_t3_cost
+		}		
+		upkeep = {
+			energy = @l_dtf_t3_uk_energy
+			alloys = @l_dtf_t3_uk_alloys
+		}
+	}
+
+	power = -40.00
+	damage = { min = 71.00 max = 212.00 }
+	shield_damage = 0.50
+	armor_damage = 1.50
+	hull_damage = 1.00
+	windup = { min = 40.0 max = 55.0 }
+	total_fire_time = 10.0
+	range = @dtf_weapon_range_90
+	accuracy = 0.85
+	tracking = 0.10
+	
+	ai_weight = {
+		weight = @dtf_ai_weight_3
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+	}
+
+	
+	
+}
+
+
+########################################################################################
+### HIGH_PRESSURE_BEAM_CANNON_4
+############################################
+weapon_component_template = {
+	key = "DTF_HIGH_PRESSURE_BEAM_CANNON_SMALL_4"
+	size = small
+	#entity = "small_laser_gun_entity"
+	type = instant
+	icon = "GFX_dtf_ship_part_hp_beam_cannon_4"
+	icon_frame = 1
+	prerequisites = { "tech_dtf_weapons_4" }
+	component_set = "DTF_HIGH_PRESSURE_BEAM_CANNON_CS_4"
+	projectile_gfx = "dtf_green_laser_s"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_artillery }
+	upgrades_to = "DTF_HIGH_PRESSURE_BEAM_CANNON_SMALL_5"
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_dtf_t4_cost
+		}		
+		upkeep = {
+			energy = @s_dtf_t4_uk_energy
+			alloys = @s_dtf_t4_uk_alloys
+		}
+	}
+
+	power = -13.00
+	damage = { min = 21.00 max = 62.50 }
+	shield_damage = 0.50
+	armor_damage = 1.50
+	hull_damage = 1.00
+	windup = { min = 40.0 max = 55.0 }
+	total_fire_time = 10.0
+	range = @dtf_weapon_range_50
+	accuracy = 0.85
+	tracking = 0.20
+	
+	ai_weight = {
+		weight = @dtf_ai_weight_4
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+	}
+
+	
+	
+}
+
+weapon_component_template = {
+	key = "DTF_HIGH_PRESSURE_BEAM_CANNON_MEDIUM_4"
+	size = medium
+	#entity = "medium_laser_gun_entity"
+	type = instant
+	icon = "GFX_dtf_ship_part_hp_beam_cannon_4"
+	icon_frame = 1
+	prerequisites = { "tech_dtf_weapons_4" }
+	component_set = "DTF_HIGH_PRESSURE_BEAM_CANNON_CS_4"
+	projectile_gfx = "dtf_green_laser_m"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_artillery }
+	upgrades_to = "DTF_HIGH_PRESSURE_BEAM_CANNON_MEDIUM_5"
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_dtf_t4_cost
+		}		
+		upkeep = {
+			energy = @m_dtf_t4_uk_energy
+			alloys = @m_dtf_t4_uk_alloys
+		}
+	}
+
+	power = -25.00
+	damage = { min = 42.00 max = 125.00 }
+	shield_damage = 0.50
+	armor_damage = 1.50
+	hull_damage = 1.00
+	windup = { min = 40.0 max = 55.0 }
+	total_fire_time = 10.0
+	range = @dtf_weapon_range_70
+	accuracy = 0.85
+	tracking = 0.15
+	
+	ai_weight = {
+		weight = @dtf_ai_weight_4
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+	}
+
+	
+	
+}
+
+weapon_component_template = {
+	key = "DTF_HIGH_PRESSURE_BEAM_CANNON_LARGE_4"
+	size = large
+	#entity = "large_laser_gun_entity"
+	type = instant
+	icon = "GFX_dtf_ship_part_hp_beam_cannon_4"
+	icon_frame = 1
+	prerequisites = { "tech_dtf_weapons_4" }
+	component_set = "DTF_HIGH_PRESSURE_BEAM_CANNON_CS_4"
+	projectile_gfx = "dtf_green_laser_l"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_artillery }
+	upgrades_to = "DTF_HIGH_PRESSURE_BEAM_CANNON_LARGE_5"
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_dtf_t4_cost
+		}		
+		upkeep = {
+			energy = @l_dtf_t4_uk_energy
+			alloys = @l_dtf_t4_uk_alloys
+		}
+	}
+
+	power = -49.00
+	damage = { min = 83.00 max = 250.00 }
+	shield_damage = 0.50
+	armor_damage = 1.50
+	hull_damage = 1.00
+	windup = { min = 40.0 max = 55.0 }
+	total_fire_time = 10.0
+	range = @dtf_weapon_range_90
+	accuracy = 0.85
+	tracking = 0.10
+	
+	ai_weight = {
+		weight = @dtf_ai_weight_4
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+	}
+
+	
+	
+}
+
+########################################################################################
+### HIGH_PRESSURE_BEAM_CANNON_5
+############################################
+weapon_component_template = {
+	key = "DTF_HIGH_PRESSURE_BEAM_CANNON_SMALL_5"
+	size = small
+	#entity = "small_laser_gun_entity"
+	type = instant
+	icon = "GFX_dtf_ship_part_hp_beam_cannon_5"
+	icon_frame = 1
+	prerequisites = { "tech_dtf_weapons_5" }
+	component_set = "DTF_HIGH_PRESSURE_BEAM_CANNON_CS_5"
+	projectile_gfx = "dtf_blue_laser_s"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_artillery }
+	upgrades_to = "DTF_POSITRON_SHOCK_CANNON_SMALL_1"
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_dtf_t5_cost
+		}		
+		upkeep = {
+			energy = @s_dtf_t5_uk_energy
+			alloys = @s_dtf_t5_uk_alloys
+		}
+	}
+
+	power = -16.00
+	damage = { min = 22.00 max = 56.00 }
+	shield_damage = 0.50
+	armor_damage = 1.50
+	hull_damage = 1.00
+	windup = { min = 40.0 max = 55.0 }
+	total_fire_time = 10.0
+	range = @dtf_weapon_range_80
+	accuracy = 0.90
+	tracking = 0.20
+	
+	ai_weight = {
+		weight = @dtf_ai_weight_5
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+	}
+
+	
+	
+}
+
+weapon_component_template = {
+	key = "DTF_HIGH_PRESSURE_BEAM_CANNON_MEDIUM_5"
+	size = medium
+	#entity = "medium_laser_gun_entity"
+	type = instant
+	icon = "GFX_dtf_ship_part_hp_beam_cannon_5"
+	icon_frame = 1
+	prerequisites = { "tech_dtf_weapons_5" }
+	component_set = "DTF_HIGH_PRESSURE_BEAM_CANNON_CS_5"
+	projectile_gfx = "dtf_blue_laser_m"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_artillery }
+	upgrades_to = "DTF_POSITRON_SHOCK_CANNON_MEDIUM_1"
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_dtf_t5_cost
+		}		
+		upkeep = {
+			energy = @m_dtf_t5_uk_energy
+			alloys = @m_dtf_t5_uk_alloys
+		}
+	}
+
+	power = -30.00
+	damage = { min = 58.00 max = 150.00 }
+	shield_damage = 0.50
+	armor_damage = 1.50
+	hull_damage = 1.00
+	windup = { min = 40.0 max = 55.0 }
+	total_fire_time = 10.0
+	range = @dtf_weapon_range_90
+	accuracy = 0.90
+	tracking = 0.15
+	
+	ai_weight = {
+		weight = @dtf_ai_weight_5
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+	}
+
+	
+	
+}
+
+weapon_component_template = {
+	key = "DTF_HIGH_PRESSURE_BEAM_CANNON_LARGE_5"
+	size = large
+	#entity = "large_laser_gun_entity"
+	type = instant
+	icon = "GFX_dtf_ship_part_hp_beam_cannon_5"
+	icon_frame = 1
+	prerequisites = { "tech_dtf_weapons_5" }
+	component_set = "DTF_HIGH_PRESSURE_BEAM_CANNON_CS_5"
+	projectile_gfx = "dtf_blue_laser_l"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_artillery }
+	upgrades_to = "DTF_POSITRON_SHOCK_CANNON_LARGE_1"
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_dtf_t5_cost
+		}		
+		upkeep = {
+			energy = @l_dtf_t5_uk_energy
+			alloys = @l_dtf_t5_uk_alloys
+		}
+	}
+
+	power = -59.00
+	damage = { min = 145.00 max = 350.00 }
+	shield_damage = 0.50
+	armor_damage = 1.50
+	hull_damage = 1.00
+	windup = { min = 40.0 max = 55.0 }
+	total_fire_time = 10.0
+	range = @dtf_weapon_range_100
+	accuracy = 0.90
+	tracking = 0.10
+	
+	ai_weight = {
+		weight = @dtf_ai_weight_5
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+	}
+
+	
+	
+}
+
+
+
+
+
+
+
+
+########################################################################################
+### Shock_Cannon_0
+############################################
+weapon_component_template = {
+	key = "DTF_SHOCK_CANNON_SMALL_0"
+	size = small
+	#entity = "small_laser_gun_entity"
+	type = instant
+	icon = "GFX_dtf_ship_part_shockcannon_0"
+	icon_frame = 1
+	prerequisites = { "tech_dtf_weapons_5" }
+	component_set = "DTF_SHOCK_CANNON_CS_0"
+	projectile_gfx = "dtf_blue_laser_s"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_artillery }
+	upgrades_to = "DTF_SHOCK_CANNON_SMALL_1"
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_dtf_t5_cost
+		}		
+		upkeep = {
+			energy = @s_dtf_t5_uk_energy
+			alloys = @s_dtf_t5_uk_alloys
+		}
+	}
+
+	power = -16.00
+	damage = { min = 12.00 max = 31.00 }
+	shield_damage = 0.75
+	armor_damage = 1.25
+	hull_damage = 1.25
+	windup = { min = 20.0 max = 27.5 }
+	total_fire_time = 10.0
+	range = @dtf_weapon_range_80
+	accuracy = 0.90
+	tracking = 0.20
+	
+	ai_weight = {
+		weight = @dtf_ai_weight_5
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+	}
+
+	
+	
+}
+
+weapon_component_template = {
+	key = "DTF_SHOCK_CANNON_MEDIUM_0"
+	size = medium
+	#entity = "medium_laser_gun_entity"
+	type = instant
+	icon = "GFX_dtf_ship_part_shockcannon_0"
+	icon_frame = 1
+	prerequisites = { "tech_dtf_weapons_5" }
+	component_set = "DTF_SHOCK_CANNON_CS_0"
+	projectile_gfx = "dtf_blue_laser_m"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_artillery }
+	upgrades_to = "DTF_SHOCK_CANNON_MEDIUM_1"
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_dtf_t5_cost
+		}		
+		upkeep = {
+			energy = @m_dtf_t5_uk_energy
+			alloys = @m_dtf_t5_uk_alloys
+		}
+	}
+
+	power = -30.00
+	damage = { min = 38.00 max = 92.00 }
+	shield_damage = 0.75
+	armor_damage = 1.25
+	hull_damage = 1.25
+	windup = { min = 20.0 max = 27.5 }
+	total_fire_time = 10.0
+	range = @dtf_weapon_range_90
+	accuracy = 0.90
+	tracking = 0.15
+	
+	ai_weight = {
+		weight = @dtf_ai_weight_5
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+	}
+
+	
+	
+}
+
+weapon_component_template = {
+	key = "DTF_SHOCK_CANNON_LARGE_0"
+	size = large
+	#entity = "large_laser_gun_entity"
+	type = instant
+	icon = "GFX_dtf_ship_part_shockcannon_0"
+	icon_frame = 1
+	prerequisites = { "tech_dtf_weapons_5" }
+	component_set = "DTF_SHOCK_CANNON_CS_0"
+	projectile_gfx = "dtf_blue_laser_l"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_artillery }
+	upgrades_to = "DTF_SHOCK_CANNON_LARGE_1"
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_dtf_t5_cost
+		}		
+		upkeep = {
+			energy = @l_dtf_t5_uk_energy
+			alloys = @l_dtf_t5_uk_alloys
+		}
+	}
+
+	power = -59.00
+	damage = { min = 80.00 max = 195.00 }
+	shield_damage = 0.75
+	armor_damage = 1.25
+	hull_damage = 1.25
+	windup = { min = 20.0 max = 27.5 }
+	total_fire_time = 10.0
+	range = @dtf_weapon_range_100
+	accuracy = 0.90
+	tracking = 0.10
+	
+	ai_weight = {
+		weight = @dtf_ai_weight_5
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+	}
+
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
