@@ -2,12 +2,12 @@
 # industrys
 # ##################
 
-tech_dtf_ai_only_industry_1 = {
+tech_dtf_ai_compatible_industry_1 = {
 	cost = @dtf_tier1cost2
 	area = engineering
 	start_tech = yes
 	category = { industry }
-	prerequisites = { "tech_dtf_ai_only_flag_tech" "tech_dtf_ai_only_pretech" }
+	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_pretech" }
 	tier = 1
 
 	potential = {  
@@ -29,13 +29,13 @@ tech_dtf_ai_only_industry_1 = {
 }
 
 
-tech_dtf_ai_only_industry_2 = {
+tech_dtf_ai_compatible_industry_2 = {
 	cost = @dtf_tier2cost2
 	area = engineering
 	start_tech = yes
 	category = { industry }
 	tier = 2
-	prerequisites = { "tech_dtf_ai_only_flag_tech" "tech_dtf_ai_only_industry_1" }
+	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_industry_1" }
 
 	potential = {  
 		is_ai = yes  
@@ -55,12 +55,12 @@ tech_dtf_ai_only_industry_2 = {
   	}
 }
 
-tech_dtf_ai_only_industry_3 = {
+tech_dtf_ai_compatible_industry_3 = {
 	cost = @tier3cost2
 	area = engineering
 	category = { industry }
 	tier = 3
-	prerequisites = { "tech_dtf_ai_only_flag_tech" "tech_dtf_ai_only_industry_2" }
+	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_industry_2" }
 	weight = @tier3weight2
 
 	potential = {  
@@ -81,12 +81,12 @@ tech_dtf_ai_only_industry_3 = {
   	}
 }
 
-tech_dtf_ai_only_industry_4 = {
+tech_dtf_ai_compatible_industry_4 = {
 	cost = @tier4cost2
 	area = engineering
 	category = { industry }
 	tier = 4
-	prerequisites = { "tech_dtf_ai_only_flag_tech" "tech_dtf_ai_only_industry_3" }
+	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_industry_3" }
 	weight = @tier4weight2
 
 	potential = {  
@@ -107,12 +107,12 @@ tech_dtf_ai_only_industry_4 = {
   	}
 }
 
-tech_dtf_ai_only_industry_5 = {
+tech_dtf_ai_compatible_industry_5 = {
 	cost = @tier5cost2
 	area = engineering
 	category = { industry }
 	tier = 5
-	prerequisites = { "tech_dtf_ai_only_flag_tech" "tech_dtf_ai_only_industry_4" }
+	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_industry_4" }
 	weight = @tier5weight2
 
 	potential = {  

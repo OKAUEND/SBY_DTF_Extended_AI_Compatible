@@ -97,7 +97,7 @@ building_dtf_ai_compatible_mining_plant_4 = {
 		remove_planet_flag = dtf_mining_plant_built_4
 	}
 
-	prerequisites = { "tech_dtf_ai_only_technology_4" }
+	prerequisites = { "tech_dtf_ai_compatible_technology_4" }
 
 	ai_weight = {
 		weight = 100
@@ -175,7 +175,7 @@ building_dtf_ai_compatible_mining_plant_5 = {
 		remove_planet_flag = dtf_mining_plant_built_5
 	}
 
-	prerequisites = { "tech_dtf_ai_only_technology_4" }
+	prerequisites = { "tech_dtf_ai_compatible_technology_4" }
 
 	ai_weight = {
 		weight = 100

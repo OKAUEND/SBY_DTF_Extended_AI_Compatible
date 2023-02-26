@@ -1,11 +1,11 @@
 
-tech_dtf_ai_only_shield_1 = {
+tech_dtf_ai_compatible_shield_1 = {
 	cost = @dtf_tier1cost3
 	area = physics
 	tier = 1
 	is_rare = no
 	category = { field_manipulation }
-	prerequisites = { "tech_dtf_ai_only_flag_tech" "tech_dtf_ai_only_pretech" }
+	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_pretech" }
 	weight = @dtf_tier1weight3
 
 	potential = {  
@@ -22,13 +22,13 @@ tech_dtf_ai_only_shield_1 = {
   	}
 }
 
-tech_dtf_ai_only_shield_2 = {
+tech_dtf_ai_compatible_shield_2 = {
 	cost = @dtf_tier2cost3
 	area = physics
 	tier = 2
 	is_rare = no
 	category = { field_manipulation }
-	prerequisites = { "tech_dtf_ai_only_flag_tech" "tech_dtf_ai_only_shield_1" }
+	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_shield_1" }
 	weight = @dtf_tier2weight3
 
 	potential = {  
@@ -45,13 +45,13 @@ tech_dtf_ai_only_shield_2 = {
   	}
 }
 
-tech_dtf_ai_only_shield_3 = {
+tech_dtf_ai_compatible_shield_3 = {
 	cost = @dtf_tier3cost3
 	area = physics
 	tier = 3
 	is_rare = no
 	category = { field_manipulation }
-	prerequisites = { "tech_dtf_ai_only_flag_tech" "tech_dtf_ai_only_shield_2" }
+	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_shield_2" }
 	weight = @dtf_tier3weight3
 
 	potential = {  
@@ -68,13 +68,13 @@ tech_dtf_ai_only_shield_3 = {
   	}
 }
 
-tech_dtf_ai_only_shield_4 = {
+tech_dtf_ai_compatible_shield_4 = {
 	cost = @dtf_tier4cost3
 	area = physics
 	tier = 4
 	is_rare = no
 	category = { field_manipulation }
-	prerequisites = { "tech_dtf_ai_only_flag_tech" "tech_dtf_ai_only_shield_3" }
+	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_shield_3" }
 	weight = @dtf_tier4weight3
 
 	potential = {  
@@ -91,13 +91,13 @@ tech_dtf_ai_only_shield_4 = {
   	}
 }
 
-tech_dtf_ai_only_shield_5 = {
+tech_dtf_ai_compatible_shield_5 = {
 	cost = @dtf_tier5cost3
 	area = physics
 	tier = 5
 	is_rare = no
 	category = { field_manipulation }
-	prerequisites = { "tech_dtf_ai_only_flag_tech" "tech_dtf_ai_only_shield_4" }
+	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_shield_4" }
 	weight = @dtf_tier5weight3
 
 	potential = {  

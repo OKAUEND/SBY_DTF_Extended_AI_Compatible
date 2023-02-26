@@ -121,7 +121,7 @@ building_dtf_ai_compatible_weapon_factory_1 = {
 		"building_dtf_weapon_factory_2"
 	}
 
-	prerequisites = { "tech_dtf_ai_only_pretech" }
+	prerequisites = { "tech_dtf_ai_compatible_pretech" }
 
 	ai_weight = {
 		weight = 100
@@ -214,7 +214,7 @@ building_dtf_ai_compatible_weapon_factory_2 = {
 		"building_dtf_weapon_factory_3"
 	}
 
-	prerequisites = { "tech_dtf_ai_only_technology_2" }
+	prerequisites = { "tech_dtf_ai_compatible_technology_2" }
 
 	ai_weight = {
 		weight = 100

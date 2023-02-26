@@ -1,11 +1,11 @@
 
-tech_dtf_ai_only_shield_6 = {
+tech_dtf_ai_compatible_shield_6 = {
 	cost = @dtf_tier6cost3
 	area = physics
 	tier = 6
 	is_rare = no
 	category = { field_manipulation }
-	prerequisites = { "tech_dtf_ai_only_flag_tech" "tech_dtf_ai_only_shield_5" }
+	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_shield_5" }
 	weight = @dtf_tier6weight3
 
 	potential = {  
@@ -22,13 +22,13 @@ tech_dtf_ai_only_shield_6 = {
   	}
 }
 
-tech_dtf_ai_only_shield_7 = {
+tech_dtf_ai_compatible_shield_7 = {
 	cost = @dtf_tier7cost3
 	area = physics
 	tier = 7
 	is_rare = no
 	category = { field_manipulation }
-	prerequisites = { "tech_dtf_ai_only_flag_tech" "tech_dtf_ai_only_shield_6" "tech_dtf_ai_only_mass_production_1" }
+	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_shield_6" "tech_dtf_ai_compatible_mass_production_1" }
 	weight = @dtf_tier7weight3
 
 	potential = {  

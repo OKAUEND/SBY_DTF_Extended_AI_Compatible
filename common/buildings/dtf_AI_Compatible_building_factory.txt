@@ -190,7 +190,7 @@ building_dtf_ai_compatible_factory_1 = {
 		"building_dtf_factory_2"
 	}
 
-	prerequisites = { "tech_dtf_ai_only_pretech" }
+	prerequisites = { "tech_dtf_ai_compatible_pretech" }
 
 	ai_weight = {
 		weight = 100
@@ -326,7 +326,7 @@ building_dtf_ai_compatible_factory_2 = {
 		"building_dtf_factory_3"
 	}
 
-	prerequisites = { "tech_dtf_ai_only_technology_1" }
+	prerequisites = { "tech_dtf_ai_compatible_technology_1" }
 
 	ai_weight = {
 		weight = 100
@@ -463,7 +463,7 @@ building_dtf_ai_compatible_factory_3 = {
 		"building_dtf_factory_4"
 	}
 
-	prerequisites = { "tech_dtf_ai_only_technology_2" }
+	prerequisites = { "tech_dtf_ai_compatible_technology_2" }
 
 	ai_weight = {
 		weight = 100
@@ -600,7 +600,7 @@ building_dtf_ai_compatible_factory_4 = {
 		"building_dtf_factory_5"
 	}
 
-	prerequisites = { "tech_dtf_ai_only_technology_3" }
+	prerequisites = { "tech_dtf_ai_compatible_technology_3" }
 
 	ai_weight = {
 		weight = 100

@@ -97,7 +97,7 @@ building_dtf_ai_compatible_energy_plant_4 = {
 		"building_dtf_energy_plant_5"
 	}
 
-	prerequisites = { "tech_dtf_ai_only_technology_4" }
+	prerequisites = { "tech_dtf_ai_compatible_technology_4" }
 
 	ai_weight = {
 		weight = 100
@@ -175,7 +175,7 @@ building_dtf_ai_compatible_energy_plant_5 = {
 		"building_dtf_energy_plant_6"
 	}
 
-	prerequisites = { "tech_dtf_ai_only_technology_4" }
+	prerequisites = { "tech_dtf_ai_compatible_technology_4" }
 
 	ai_weight = {
 		weight = 100

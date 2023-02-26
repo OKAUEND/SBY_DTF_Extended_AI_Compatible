@@ -118,7 +118,7 @@ building_dtf_ai_compatible_secret_laboratory_3 = {
 		"building_dtf_secret_laboratory_4"
 	}
 
-	prerequisites = { "tech_dtf_ai_only_technology_4" }
+	prerequisites = { "tech_dtf_ai_compatible_technology_4" }
 	ai_weight = {
 		weight = 100
 	}
@@ -196,7 +196,7 @@ building_dtf_ai_compatible_biomineral_farm_2 = {
 		"building_dtf_biomineral_farm_3"
 	}
 
-	prerequisites = { "tech_dtf_ai_only_technology_4" }
+	prerequisites = { "tech_dtf_ai_compatible_technology_4" }
 	ai_weight = {
 		weight = 100
 	}
@@ -273,7 +273,7 @@ building_dtf_ai_compatible_biomineral_casting_facility_2 = {
 		"building_dtf_biomineral_casting_facility_3"
 	}
 
-	prerequisites = { "tech_dtf_ai_only_technology_4" }
+	prerequisites = { "tech_dtf_ai_compatible_technology_4" }
 	ai_weight = {
 		weight = 100
 	}

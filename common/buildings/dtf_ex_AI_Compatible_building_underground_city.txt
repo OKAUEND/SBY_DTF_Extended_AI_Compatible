@@ -71,7 +71,7 @@ building_dtf_ai_compatible_underground_city_3 = {
 	}
 
 
-	prerequisites = { "tech_dtf_ai_only_technology_4" }
+	prerequisites = { "tech_dtf_ai_compatible_technology_4" }
 
 	ai_weight = {
 		weight = 100

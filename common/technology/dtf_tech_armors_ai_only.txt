@@ -1,11 +1,11 @@
 
-tech_dtf_ai_only_armor_1 = {
+tech_dtf_ai_compatible_armor_1 = {
 	cost = @dtf_tier1cost2
 	area = engineering
 	tier = 1
 	is_rare = no
 	category = { materials }
-	prerequisites = { "tech_dtf_ai_only_flag_tech" "tech_dtf_ai_only_pretech" }
+	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_pretech" }
 	weight = @dtf_tier1weight2
 
 	potential = {  
@@ -22,13 +22,13 @@ tech_dtf_ai_only_armor_1 = {
   	}
 }
 
-tech_dtf_ai_only_armor_2 = {
+tech_dtf_ai_compatible_armor_2 = {
 	cost = @dtf_tier2cost2
 	area = engineering
 	tier = 2
 	is_rare = no
 	category = { materials }
-	prerequisites = { "tech_dtf_ai_only_flag_tech" "tech_dtf_ai_only_armor_1" }
+	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_armor_1" }
 	weight = @dtf_tier2weight2
 
 	potential = {  
@@ -45,13 +45,13 @@ tech_dtf_ai_only_armor_2 = {
   	}
 }
 
-tech_dtf_ai_only_armor_3 = {
+tech_dtf_ai_compatible_armor_3 = {
 	cost = @dtf_tier3cost2
 	area = engineering
 	tier = 3
 	is_rare = no
 	category = { materials }
-	prerequisites = { "tech_dtf_ai_only_flag_tech" "tech_dtf_ai_only_armor_2" }
+	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_armor_2" }
 	weight = @dtf_tier3weight2
 
 	potential = {  
@@ -68,13 +68,13 @@ tech_dtf_ai_only_armor_3 = {
   	}
 }
 
-tech_dtf_ai_only_armor_4 = {
+tech_dtf_ai_compatible_armor_4 = {
 	cost = @dtf_tier4cost2
 	area = engineering
 	tier = 4
 	is_rare = no
 	category = { materials }
-	prerequisites = { "tech_dtf_ai_only_flag_tech" "tech_dtf_ai_only_armor_3" }
+	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_armor_3" }
 	weight = @dtf_tier4weight2
 
 	potential = {  
@@ -91,13 +91,13 @@ tech_dtf_ai_only_armor_4 = {
   	}
 }
 
-tech_dtf_ai_only_armor_5 = {
+tech_dtf_ai_compatible_armor_5 = {
 	cost = @dtf_tier5cost2
 	area = engineering
 	tier = 5
 	is_rare = no
 	category = { materials }
-	prerequisites = { "tech_dtf_ai_only_flag_tech" "tech_dtf_ai_only_armor_4" }
+	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_armor_4" }
 	weight = @dtf_tier5weight2
 
 	potential = {  

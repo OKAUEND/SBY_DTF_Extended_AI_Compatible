@@ -1,5 +1,5 @@
 
-tech_dtf_ai_only_repeatable_components_physics = {
+tech_dtf_ai_compatible_repeatable_components_physics = {
 	area = physics
 	cost = @repeatableTechBaseCost
 	cost_per_level = @repeatableTechLevelCost
@@ -7,7 +7,7 @@ tech_dtf_ai_only_repeatable_components_physics = {
 	category = { field_manipulation }
 	ai_update_type = all
 	levels = -1
-	prerequisites = { "tech_dtf_ai_only_flag_tech" "tech_dtf_ai_only_technology_3"}
+	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_technology_3"}
 	weight = @repeatableTechWeight
 
 	weight_modifier = {
@@ -32,7 +32,7 @@ tech_dtf_ai_only_repeatable_components_physics = {
 	}
 }
 
-tech_dtf_ai_only_repeatable_station_engineer = {
+tech_dtf_ai_compatible_repeatable_station_engineer = {
 	area = engineering
 	cost = @repeatableTechBaseCost
 	cost_per_level = @repeatableTechLevelCost
@@ -40,7 +40,7 @@ tech_dtf_ai_only_repeatable_station_engineer = {
 	category = { voidcraft }
 	ai_update_type = all
 	levels = -1
-	prerequisites = { "tech_dtf_ai_only_flag_tech" "tech_dtf_ai_only_technology_3"}
+	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_technology_3"}
 	weight = @repeatableTechWeight
 
 	weight_modifier = {
@@ -64,7 +64,7 @@ tech_dtf_ai_only_repeatable_station_engineer = {
 	}
 }
 
-tech_dtf_ai_only_repeatable_ship_engineer = {
+tech_dtf_ai_compatible_repeatable_ship_engineer = {
 	area = engineering
 	cost = @repeatableTechBaseCost
 	cost_per_level = @repeatableTechLevelCost
@@ -72,7 +72,7 @@ tech_dtf_ai_only_repeatable_ship_engineer = {
 	category = { voidcraft }
 	ai_update_type = all
 	levels = -1
-	prerequisites = { "tech_dtf_ai_only_flag_tech" "tech_dtf_ai_only_technology_3"}
+	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_technology_3"}
 	weight = @repeatableTechWeight
 
 	weight_modifier = {
@@ -96,7 +96,7 @@ tech_dtf_ai_only_repeatable_ship_engineer = {
 	}
 }
 
-tech_dtf_ai_only_repeatable_components_engineer = {
+tech_dtf_ai_compatible_repeatable_components_engineer = {
 	area = engineering
 	cost = @repeatableTechBaseCost
 	cost_per_level = @repeatableTechLevelCost
@@ -104,7 +104,7 @@ tech_dtf_ai_only_repeatable_components_engineer = {
 	category = { voidcraft }
 	ai_update_type = all
 	levels = -1
-	prerequisites = { "tech_dtf_ai_only_flag_tech" "tech_dtf_ai_only_technology_3"}
+	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_technology_3"}
 	weight = @repeatableTechWeight
 
 	weight_modifier = {
