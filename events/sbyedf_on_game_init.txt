@@ -34,12 +34,13 @@ event = {
 				limit = { root = { is_machine_empire = yes } }
 
 				root = {
-					give_technology = { tech = tech_dtf_ai_only_flag_tech message = no }
-					give_technology = { tech = tech_dtf_ai_only_pretech message = no }
-					give_technology = { tech = tech_dtf_ai_only_weapons_1 message = no }
-					give_technology = { tech = tech_dtf_ai_only_armor_1 message = no }
-					give_technology = { tech = tech_dtf_ai_only_shield_1 message = no }
-					give_technology = { tech = tech_dtf_ai_only_reactor_1 message = no }
+					give_technology = { tech = tech_dtf_ai_compatible_flag_tech message = no }
+					give_technology = { tech = tech_Wave_motion_gun_Fleet message = no }
+					give_technology = { tech = tech_dtf_ai_compatible_pretech message = no }
+					give_technology = { tech = tech_dtf_ai_compatible_weapons_1 message = no }
+					give_technology = { tech = tech_dtf_ai_compatible_armor_1 message = no }
+					give_technology = { tech = tech_dtf_ai_compatible_shield_1 message = no }
+					give_technology = { tech = tech_dtf_ai_compatible_reactor_1 message = no }
 					give_technology = { tech = tech_robotic_workers message = no }
 				}
 
@@ -56,12 +57,13 @@ event = {
 				limit = { root = { is_hive_empire = yes } }
 
 				root = {
-					give_technology = { tech = tech_dtf_ai_only_flag_tech message = no }
-					give_technology = { tech = tech_dtf_ai_only_pretech message = no }
-					give_technology = { tech = tech_dtf_ai_only_weapons_1 message = no }
-					give_technology = { tech = tech_dtf_ai_only_armor_1 message = no }
-					give_technology = { tech = tech_dtf_ai_only_shield_1 message = no }
-					give_technology = { tech = tech_dtf_ai_only_reactor_1 message = no }
+					give_technology = { tech = tech_dtf_ai_compatible_flag_tech message = no }
+					give_technology = { tech = tech_Wave_motion_gun_Fleet message = no }
+					give_technology = { tech = tech_dtf_ai_compatible_pretech message = no }
+					give_technology = { tech = tech_dtf_ai_compatible_weapons_1 message = no }
+					give_technology = { tech = tech_dtf_ai_compatible_armor_1 message = no }
+					give_technology = { tech = tech_dtf_ai_compatible_shield_1 message = no }
+					give_technology = { tech = tech_dtf_ai_compatible_reactor_1 message = no }
 					give_technology = { tech = tech_robotic_workers message = no }
 				}
 
@@ -78,12 +80,13 @@ event = {
 				#limit = { root = { is_regular_empire = yes } }
 				
 				root = {
-					give_technology = { tech = tech_dtf_ai_only_flag_tech message = no }
-					give_technology = { tech = tech_dtf_ai_only_pretech message = no }
-					give_technology = { tech = tech_dtf_ai_only_weapons_1 message = no }
-					give_technology = { tech = tech_dtf_ai_only_armor_1 message = no }
-					give_technology = { tech = tech_dtf_ai_only_shield_1 message = no }
-					give_technology = { tech = tech_dtf_ai_only_reactor_1 message = no }
+					give_technology = { tech = tech_dtf_ai_compatible_flag_tech message = no }
+					give_technology = { tech = tech_Wave_motion_gun_Fleet message = no }
+					give_technology = { tech = tech_dtf_ai_compatible_pretech message = no }
+					give_technology = { tech = tech_dtf_ai_compatible_weapons_1 message = no }
+					give_technology = { tech = tech_dtf_ai_compatible_armor_1 message = no }
+					give_technology = { tech = tech_dtf_ai_compatible_shield_1 message = no }
+					give_technology = { tech = tech_dtf_ai_compatible_reactor_1 message = no }
 					give_technology = { tech = tech_robotic_workers message = no }
 				}
 
