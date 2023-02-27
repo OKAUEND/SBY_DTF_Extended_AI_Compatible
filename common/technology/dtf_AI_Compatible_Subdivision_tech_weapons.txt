@@ -24,77 +24,8 @@ tech_dtf_ai_compatible_weapons_2_Energy = {
 		}
   	}
 }
-#Ion
-tech_dtf_ai_compatible_weapons_2_Ion = {
-	cost = @dtf_tier2cost2
-	area = physics
-	tier = 2
-	is_rare = no
-	category = { particles }
-	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_2" }
-	weight = @dtf_tier2weight2
-
-	potential = {  
-		is_ai = yes  
-		has_origin = origin_earth_2200
-	} 
-	
-	ai_weight = {
-  	     factor = @dtf_techAIbaseweight
-		modifier = {
-			factor = 0.0
-			NOT = { has_origin = origin_earth_2200 }
-		}
-  	}
-}
 #Kinetic 
 tech_dtf_ai_compatible_weapons_2_Kinetic = {
-	cost = @dtf_tier2cost2
-	area = physics
-	tier = 2
-	is_rare = no
-	category = { particles }
-	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_2" }
-	weight = @dtf_tier2weight2
-
-	potential = {  
-		is_ai = yes  
-		has_origin = origin_earth_2200
-	} 
-	
-	ai_weight = {
-  	     factor = @dtf_techAIbaseweight
-		modifier = {
-			factor = 0.0
-			NOT = { has_origin = origin_earth_2200 }
-		}
-  	}
-}
-#Missile
-tech_dtf_ai_compatible_weapons_2_Missile = {
-	cost = @dtf_tier2cost2
-	area = physics
-	tier = 2
-	is_rare = no
-	category = { particles }
-	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_2" }
-	weight = @dtf_tier2weight2
-
-	potential = {  
-		is_ai = yes  
-		has_origin = origin_earth_2200
-	} 
-	
-	ai_weight = {
-  	     factor = @dtf_techAIbaseweight
-		modifier = {
-			factor = 0.0
-			NOT = { has_origin = origin_earth_2200 }
-		}
-  	}
-}
-#PointDefence
-tech_dtf_ai_compatible_weapons_2_PointDefence = {
 	cost = @dtf_tier2cost2
 	area = physics
 	tier = 2
@@ -125,7 +56,7 @@ tech_dtf_ai_compatible_weapons_3_Energy = {
 	tier = 3
 	is_rare = no
 	category = { particles }
-	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_3" }
+	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_3" "tech_dtf_ai_compatible_weapons_2_Energy" }
 	weight = @dtf_tier3weight2
 
 	potential = {  
@@ -141,77 +72,8 @@ tech_dtf_ai_compatible_weapons_3_Energy = {
 		}
   	}
 }
-#Ion
-tech_dtf_ai_compatible_weapons_3_Ion = {
-	cost = @dtf_tier3cost2
-	area = physics
-	tier = 3
-	is_rare = no
-	category = { particles }
-	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_3" }
-	weight = @dtf_tier3weight2
-
-	potential = {  
-		is_ai = yes  
-		has_origin = origin_earth_2200
-	} 
-	
-	ai_weight = {
-  	     factor = @dtf_techAIbaseweight
-		modifier = {
-			factor = 0.0
-			NOT = { has_origin = origin_earth_2200 }
-		}
-  	}
-}
-#Kinetic 
-tech_dtf_ai_compatible_weapons_3_Kinetic = {
-	cost = @dtf_tier3cost2
-	area = physics
-	tier = 3
-	is_rare = no
-	category = { particles }
-	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_3" }
-	weight = @dtf_tier3weight2
-
-	potential = {  
-		is_ai = yes  
-		has_origin = origin_earth_2200
-	} 
-	
-	ai_weight = {
-  	     factor = @dtf_techAIbaseweight
-		modifier = {
-			factor = 0.0
-			NOT = { has_origin = origin_earth_2200 }
-		}
-  	}
-}
-#Missile
-tech_dtf_ai_compatible_weapons_3_Missile = {
-	cost = @dtf_tier3cost2
-	area = physics
-	tier = 3
-	is_rare = no
-	category = { particles }
-	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_3" }
-	weight = @dtf_tier3weight2
-
-	potential = {  
-		is_ai = yes  
-		has_origin = origin_earth_2200
-	} 
-	
-	ai_weight = {
-  	     factor = @dtf_techAIbaseweight
-		modifier = {
-			factor = 0.0
-			NOT = { has_origin = origin_earth_2200 }
-		}
-  	}
-}
-#PointDefence
-tech_dtf_ai_compatible_weapons_3_PointDefence = {
+#StrikeCraft
+tech_dtf_ai_compatible_weapons_3_StrikeCraft = {
 	cost = @dtf_tier3cost2
 	area = physics
 	tier = 3
@@ -242,30 +104,7 @@ tech_dtf_ai_compatible_weapons_4_Energy = {
 	tier = 4
 	is_rare = no
 	category = { particles }
-	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_4" }
-	weight = @dtf_tier4weight2
-
-	potential = {  
-		is_ai = yes  
-		has_origin = origin_earth_2200
-	} 
-	
-	ai_weight = {
-  	     factor = @dtf_techAIbaseweight
-		modifier = {
-			factor = 0.0
-			NOT = { has_origin = origin_earth_2200 }
-		}
-  	}
-}
-#Ion
-tech_dtf_ai_compatible_weapons_4_Ion = {
-	cost = @dtf_tier4cost2
-	area = physics
-	tier = 4
-	is_rare = no
-	category = { particles }
-	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_4" }
+	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_4" "tech_dtf_ai_compatible_weapons_3_Energy" }
 	weight = @dtf_tier4weight2
 
 	potential = {  
@@ -288,7 +127,7 @@ tech_dtf_ai_compatible_weapons_4_Kinetic = {
 	tier = 4
 	is_rare = no
 	category = { particles }
-	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_4" }
+	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_4" "tech_dtf_ai_compatible_weapons_2_Kinetic" }
 	weight = @dtf_tier4weight2
 
 	potential = {  
@@ -306,6 +145,29 @@ tech_dtf_ai_compatible_weapons_4_Kinetic = {
 }
 #Missile
 tech_dtf_ai_compatible_weapons_4_Missile = {
+	cost = @dtf_tier4cost2
+	area = physics
+	tier = 4
+	is_rare = no
+	category = { particles }
+	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_4" }
+	weight = @dtf_tier4weight2
+
+	potential = {  
+		is_ai = yes  
+		has_origin = origin_earth_2200
+	} 
+	
+	ai_weight = {
+  	     factor = @dtf_techAIbaseweight
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+  	}
+}
+#Torpedoes
+tech_dtf_ai_compatible_weapons_4_Torpedoes = {
 	cost = @dtf_tier4cost2
 	area = physics
 	tier = 4
@@ -360,7 +222,7 @@ tech_dtf_ai_compatible_weapons_5_Energy = {
 	tier = 5
 	is_rare = no
 	category = { particles }
-	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_5" }
+	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_5" "tech_dtf_ai_compatible_weapons_4_Energy" }
 	weight = @dtf_tier5weight2
 
 	potential = {  
@@ -376,83 +238,14 @@ tech_dtf_ai_compatible_weapons_5_Energy = {
 		}
   	}
 }
-#Ion
-tech_dtf_ai_compatible_weapons_5_Ion = {
+#StrikeCraft
+tech_dtf_ai_compatible_weapons_5_StrikeCraft = {
 	cost = @dtf_tier5cost2
 	area = physics
 	tier = 5
 	is_rare = no
 	category = { particles }
-	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_5" }
-	weight = @dtf_tier5weight2
-
-	potential = {  
-		is_ai = yes  
-		has_origin = origin_earth_2200
-	} 
-	
-	ai_weight = {
-  	     factor = @dtf_techAIbaseweight
-		modifier = {
-			factor = 0.0
-			NOT = { has_origin = origin_earth_2200 }
-		}
-  	}
-}
-#Kinetic 
-tech_dtf_ai_compatible_weapons_5_Kinetic = {
-	cost = @dtf_tier5cost2
-	area = physics
-	tier = 5
-	is_rare = no
-	category = { particles }
-	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_5" }
-	weight = @dtf_tier5weight2
-
-	potential = {  
-		is_ai = yes  
-		has_origin = origin_earth_2200
-	} 
-	
-	ai_weight = {
-  	     factor = @dtf_techAIbaseweight
-		modifier = {
-			factor = 0.0
-			NOT = { has_origin = origin_earth_2200 }
-		}
-  	}
-}
-#Missile
-tech_dtf_ai_compatible_weapons_5_Missile = {
-	cost = @dtf_tier5cost2
-	area = physics
-	tier = 5
-	is_rare = no
-	category = { particles }
-	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_5" }
-	weight = @dtf_tier5weight2
-
-	potential = {  
-		is_ai = yes  
-		has_origin = origin_earth_2200
-	} 
-	
-	ai_weight = {
-  	     factor = @dtf_techAIbaseweight
-		modifier = {
-			factor = 0.0
-			NOT = { has_origin = origin_earth_2200 }
-		}
-  	}
-}
-#PointDefence
-tech_dtf_ai_compatible_weapons_5_PointDefence = {
-	cost = @dtf_tier5cost2
-	area = physics
-	tier = 5
-	is_rare = no
-	category = { particles }
-	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_5" }
+	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_5" "tech_dtf_ai_compatible_weapons_3_StrikeCraft" }
 	weight = @dtf_tier5weight2
 
 	potential = {  
