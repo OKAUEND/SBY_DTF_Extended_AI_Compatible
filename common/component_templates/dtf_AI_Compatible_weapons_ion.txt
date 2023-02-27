@@ -2,7 +2,7 @@
 
 # ## Perdition Beam
 weapon_component_template = {
-	key = "DTF_ION_BEAM_1"
+	key = "DTF_AI_COMPATIBLE_ION_BEAM_1"
 	size = titanic
 	type = instant
 	prio_projectile = yes
@@ -17,7 +17,7 @@ weapon_component_template = {
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_artillery }
 
-	prerequisites = { "tech_dtf_wave_motion_gun_1" }
+	prerequisites = { "tech_dtf_ai_compatible_wave_motion_gun_1" }
 	component_set = "DTF_ION_BEAM_CS_1"
 	projectile_gfx = "dtf_ion_beam"
 	size_restriction = { ion_cannon }
@@ -51,5 +51,5 @@ weapon_component_template = {
 		}
 	}
 
-	upgrades_to = "DTF_ION_BEAM_2"
+	upgrades_to = "DTF_AI_COMPATIBLE_ION_BEAM_2"
 }

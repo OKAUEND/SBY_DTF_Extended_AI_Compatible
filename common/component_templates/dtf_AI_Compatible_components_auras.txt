@@ -4,7 +4,7 @@
 #####################
 
 utility_component_template = {
-	key = "DTF_SHIP_AURA_WAVE_MOTION_RESONANCE"
+	key = "DTF_AI_COMPATIBLE_AURA_WAVE_MOTION_RESONANCE"
 	size = medium
 	icon = "GFX_ship_part_science_lab_1"
 	icon_frame = 1
@@ -60,7 +60,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "DTF_SHIP_AURA_WAVE_MOTION_RESONANCE_NSC"
+	key = "DTF_AI_COMPATIBLE_AURA_WAVE_MOTION_RESONANCE_NSC"
 	size = medium
 	icon = "GFX_ship_part_science_lab_1"
 	icon_frame = 1

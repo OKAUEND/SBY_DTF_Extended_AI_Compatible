@@ -6,13 +6,13 @@
 weapon_component_template = {
 	type = instant
 	
-	key = "DTF_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_SMALL_1"
+	key = "DTF_AI_COMPATIBLE_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_SMALL_1"
 	size = small
 	
 	icon = "GFX_dtf_ship_part_anti_shield_gun_1"
 	icon_frame = 1
 	
-	prerequisites = { "tech_dtf_weapons_2" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_2" }
 	component_set = "DTF_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_CS_1"
 	projectile_gfx = "dtf_blue_kinetic_shell_s"
 	tags = { weapon_type_kinetic }
@@ -48,19 +48,19 @@ weapon_component_template = {
 		}
 	}
 
-	upgrades_to = "DTF_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_SMALL_2"
+	upgrades_to = "DTF_AI_COMPATIBLE_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_SMALL_2"
 }
 
 weapon_component_template = {
 	type = instant
 	
-	key = "DTF_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_MEDIUM_1"
+	key = "DTF_AI_COMPATIBLE_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_MEDIUM_1"
 	size = medium
 	
 	icon = "GFX_dtf_ship_part_anti_shield_gun_1"
 	icon_frame = 1
 	
-	prerequisites = { "tech_dtf_weapons_2" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_2" }
 	component_set = "DTF_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_CS_1"
 	projectile_gfx = "dtf_blue_kinetic_shell_m"
 	tags = { weapon_type_kinetic }
@@ -96,19 +96,19 @@ weapon_component_template = {
 		}
 	}
 
-	upgrades_to = "DTF_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_MEDIUM_2"
+	upgrades_to = "DTF_AI_COMPATIBLE_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_MEDIUM_2"
 }
 
 weapon_component_template = {
 	type = instant
 	
-	key = "DTF_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_LARGE_1"
+	key = "DTF_AI_COMPATIBLE_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_LARGE_1"
 	size = large
 	
 	icon = "GFX_dtf_ship_part_anti_shield_gun_1"
 	icon_frame = 1
 	
-	prerequisites = { "tech_dtf_weapons_2" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_2" }
 	component_set = "DTF_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_CS_1"
 	projectile_gfx = "dtf_blue_kinetic_shell_l"
 	tags = { weapon_type_kinetic }
@@ -144,7 +144,7 @@ weapon_component_template = {
 		}
 	}
 
-	upgrades_to = "DTF_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_LARGE_2"
+	upgrades_to = "DTF_AI_COMPATIBLE_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_LARGE_2"
 }
 
 
@@ -153,13 +153,13 @@ weapon_component_template = {
 weapon_component_template = {
 	type = instant
 	
-	key = "DTF_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_SMALL_2"
+	key = "DTF_AI_COMPATIBLE_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_SMALL_2"
 	size = small
 	
 	icon = "GFX_dtf_ship_part_anti_shield_gun_2"
 	icon_frame = 1
 	
-	prerequisites = { "tech_dtf_weapons_4" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_4" }
 	component_set = "DTF_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_CS_2"
 	projectile_gfx = "dtf_blue_kinetic_shell_s"
 	tags = { weapon_type_kinetic }
@@ -195,19 +195,19 @@ weapon_component_template = {
 		}
 	}
 
-	upgrades_to = "DTF_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_SMALL_3"
+	upgrades_to = "DTF_AI_COMPATIBLE_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_SMALL_3"
 }
 
 weapon_component_template = {
 	type = instant
 	
-	key = "DTF_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_MEDIUM_2"
+	key = "DTF_AI_COMPATIBLE_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_MEDIUM_2"
 	size = medium
 	
 	icon = "GFX_dtf_ship_part_anti_shield_gun_2"
 	icon_frame = 1
 	
-	prerequisites = { "tech_dtf_weapons_4" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_4" }
 	component_set = "DTF_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_CS_2"
 	projectile_gfx = "dtf_blue_kinetic_shell_m"
 	tags = { weapon_type_kinetic }
@@ -243,19 +243,19 @@ weapon_component_template = {
 		}
 	}
 
-	upgrades_to = "DTF_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_MEDIUM_3"
+	upgrades_to = "DTF_AI_COMPATIBLE_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_MEDIUM_3"
 }
 
 weapon_component_template = {
 	type = instant
 	
-	key = "DTF_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_LARGE_2"
+	key = "DTF_AI_COMPATIBLE_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_LARGE_2"
 	size = large
 	
 	icon = "GFX_dtf_ship_part_anti_shield_gun_2"
 	icon_frame = 1
 	
-	prerequisites = { "tech_dtf_weapons_4" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_4" }
 	component_set = "DTF_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_CS_2"
 	projectile_gfx = "dtf_blue_kinetic_shell_l"
 	tags = { weapon_type_kinetic }
@@ -291,7 +291,7 @@ weapon_component_template = {
 		}
 	}
 
-	upgrades_to = "DTF_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_LARGE_3"
+	upgrades_to = "DTF_AI_COMPATIBLE_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_LARGE_3"
 }
 
 
@@ -314,13 +314,13 @@ weapon_component_template = {
 weapon_component_template = {
 	type = instant
 	
-	key = "DTF_Type_3_SHELL_1"
+	key = "DTF_AI_COMPATIBLE_Type_3_SHELL_1"
 	size = large
 	
 	icon = "GFX_dtf_ship_part_wave_motion_cartridge_shell_1"
 	icon_frame = 1
 	
-	prerequisites = { "tech_dtf_weapons_2" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_2" }
 	component_set = "DTF_Type_3_SHELL_CS_1"
 	projectile_gfx = "dtf_blue_kinetic_shell_l"
 	tags = { weapon_type_kinetic }
@@ -359,19 +359,19 @@ weapon_component_template = {
 		}
 	}
 
-	upgrades_to = "DTF_Type_3_SHELL_2"
+	upgrades_to = "DTF_AI_COMPATIBLE_Type_3_SHELL_2"
 }
 
 weapon_component_template = {
 	type = instant
 	
-	key = "DTF_Type_3_SHELL_2"
+	key = "DTF_AI_COMPATIBLE_Type_3_SHELL_2"
 	size = large
 	
 	icon = "GFX_dtf_ship_part_wave_motion_cartridge_shell_2"
 	icon_frame = 1
 	
-	prerequisites = { "tech_dtf_weapons_4" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_4" }
 	component_set = "DTF_Type_3_SHELL_CS_2"
 	projectile_gfx = "dtf_blue_kinetic_shell_l"
 	tags = { weapon_type_kinetic }
@@ -410,7 +410,7 @@ weapon_component_template = {
 		}
 	}
 
-	upgrades_to = "DTF_WAVE_MOTION_CARTRIDGE_SHELL_1"
+	upgrades_to = "DTF_AI_COMPATIBLE_WAVE_MOTION_CARTRIDGE_SHELL_1"
 }
 
 
@@ -421,13 +421,13 @@ weapon_component_template = {
 weapon_component_template = {
 	type = instant
 	
-	key = "DTF_WAVE_MOTION_CARTRIDGE_SHELL_1"
+	key = "DTF_AI_COMPATIBLE_WAVE_MOTION_CARTRIDGE_SHELL_1"
 	size = large
 	
 	icon = "GFX_dtf_ship_part_wave_motion_cartridge_shell_3"
 	icon_frame = 1
 	
-	prerequisites = { "tech_dtf_wave_motion_gun_1" }
+	prerequisites = { "tech_dtf_ai_compatible_wave_motion_gun_1" }
 	component_set = "DTF_WAVE_MOTION_CARTRIDGE_SHELL_CS_1"
 	projectile_gfx = "dtf_blue_laser_cannon_l"
 	tags = { weapon_type_kinetic }
@@ -466,7 +466,7 @@ weapon_component_template = {
 		}
 	}
 
-	upgrades_to = "DTF_WAVE_MOTION_CARTRIDGE_SHELL_2"
+	upgrades_to = "DTF_AI_COMPATIBLE_WAVE_MOTION_CARTRIDGE_SHELL_2"
 }
 
 

@@ -19,7 +19,7 @@
 ### Warpdrive 1
 ##############################################
 utility_component_template = {
-	key = "DTF_WARPDRIVE_1"
+	key = "DTF_AI_COMPATIBLE_WARPDRIVE_1"
 	size = small
 	icon = "GFX_dtf_ship_part_warpdrive_1"
 	icon_frame = 1
@@ -38,10 +38,10 @@ utility_component_template = {
 		ship_disengage_opportunities_add = 1
 	}
 
-	prerequisites = { "tech_dtf_reactor_1" }
+	prerequisites = { "tech_dtf_ai_compatible_reactor_1" }
 	component_set = "ftl_components"
 	
-	upgrades_to = "DTF_WARPDRIVE_2"
+	upgrades_to = "DTF_AI_COMPATIBLE_WARPDRIVE_2"
 
 	ai_weight = {
 		weight = @dtf_ai_weight_1
@@ -57,7 +57,7 @@ utility_component_template = {
 ### Warpdrive 2
 ##############################################
 utility_component_template = {
-	key = "DTF_WARPDRIVE_2"
+	key = "DTF_AI_COMPATIBLE_WARPDRIVE_2"
 	size = small
 	icon = "GFX_dtf_ship_part_warpdrive_2"
 	icon_frame = 1
@@ -76,10 +76,10 @@ utility_component_template = {
 		ship_disengage_opportunities_add = 1
 	}
 
-	prerequisites = { "tech_dtf_reactor_2" }
+	prerequisites = { "tech_dtf_ai_compatible_reactor_2" }
 	component_set = "ftl_components"
 	
-	upgrades_to = "DTF_WARPDRIVE_3"
+	upgrades_to = "DTF_AI_COMPATIBLE_WARPDRIVE_3"
 
 	ai_weight = {
 		weight = @dtf_ai_weight_3
@@ -95,7 +95,7 @@ utility_component_template = {
 ### Warpdrive 3
 ##############################################
 utility_component_template = {
-	key = "DTF_WARPDRIVE_3"
+	key = "DTF_AI_COMPATIBLE_WARPDRIVE_3"
 	size = small
 	icon = "GFX_dtf_ship_part_warpdrive_3"
 	icon_frame = 1
@@ -115,10 +115,10 @@ utility_component_template = {
 		ship_disengage_opportunities_add = 2
 	}
 
-	prerequisites = { "tech_dtf_reactor_3" }
+	prerequisites = { "tech_dtf_ai_compatible_reactor_3" }
 	component_set = "ftl_components"
 	
-	upgrades_to = "DTF_WARPDRIVE_4"
+	upgrades_to = "DTF_AI_COMPATIBLE_WARPDRIVE_4"
 
 	ai_weight = {
 		weight = @dtf_ai_weight_5

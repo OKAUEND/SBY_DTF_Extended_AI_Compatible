@@ -3,18 +3,18 @@
 ### HIGH_PRESSURE_BEAM_CANNON_1
 ####################################################################################################################################
 weapon_component_template = {
-	key = "DTF_HIGH_PRESSURE_BEAM_CANNON_SMALL_1"
+	key = "DTF_AI_COMPATIBLE_HIGH_PRESSURE_BEAM_CANNON_SMALL_1"
 	size = small
 	#entity = "small_laser_gun_entity"
 	type = instant
 	icon = "GFX_dtf_ship_part_hp_beam_cannon_1"
 	icon_frame = 1
-	prerequisites = { "tech_dtf_weapons_1" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_1" }
 	component_set = "DTF_HIGH_PRESSURE_BEAM_CANNON_CS_1"
 	projectile_gfx = "dtf_green_laser_s"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_artillery }
-	upgrades_to = "DTF_HIGH_PRESSURE_BEAM_CANNON_SMALL_2"
+	upgrades_to = "DTF_AI_COMPATIBLE_HIGH_PRESSURE_BEAM_CANNON_SMALL_2"
 	
 	resources = {
 		category = ship_components
@@ -51,18 +51,18 @@ weapon_component_template = {
 }
 
 weapon_component_template = {
-	key = "DTF_HIGH_PRESSURE_BEAM_CANNON_MEDIUM_1"
+	key = "DTF_AI_COMPATIBLE_HIGH_PRESSURE_BEAM_CANNON_MEDIUM_1"
 	size = medium
 	#entity = "medium_laser_gun_entity"
 	type = instant
 	icon = "GFX_dtf_ship_part_hp_beam_cannon_1"
 	icon_frame = 1
-	prerequisites = { "tech_dtf_weapons_1" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_1" }
 	component_set = "DTF_HIGH_PRESSURE_BEAM_CANNON_CS_1"
 	projectile_gfx = "dtf_green_laser_m"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_artillery }
-	upgrades_to = "DTF_HIGH_PRESSURE_BEAM_CANNON_MEDIUM_2"
+	upgrades_to = "DTF_AI_COMPATIBLE_HIGH_PRESSURE_BEAM_CANNON_MEDIUM_2"
 	
 	resources = {
 		category = ship_components
@@ -99,18 +99,18 @@ weapon_component_template = {
 }
 
 weapon_component_template = {
-	key = "DTF_HIGH_PRESSURE_BEAM_CANNON_LARGE_1"
+	key = "DTF_AI_COMPATIBLE_HIGH_PRESSURE_BEAM_CANNON_LARGE_1"
 	size = large
 	#entity = "large_laser_gun_entity"
 	type = instant
 	icon = "GFX_dtf_ship_part_hp_beam_cannon_1"
 	icon_frame = 1
-	prerequisites = { "tech_dtf_weapons_1" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_1" }
 	component_set = "DTF_HIGH_PRESSURE_BEAM_CANNON_CS_1"
 	projectile_gfx = "dtf_green_laser_l"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_artillery }
-	upgrades_to = "DTF_HIGH_PRESSURE_BEAM_CANNON_LARGE_2"
+	upgrades_to = "DTF_AI_COMPATIBLE_HIGH_PRESSURE_BEAM_CANNON_LARGE_2"
 	
 	resources = {
 		category = ship_components
@@ -151,18 +151,18 @@ weapon_component_template = {
 ### HIGH_PRESSURE_BEAM_CANNON_2
 ############################################
 weapon_component_template = {
-	key = "DTF_HIGH_PRESSURE_BEAM_CANNON_SMALL_2"
+	key = "DTF_AI_COMPATIBLE_HIGH_PRESSURE_BEAM_CANNON_SMALL_2"
 	size = small
 	#entity = "small_laser_gun_entity"
 	type = instant
 	icon = "GFX_dtf_ship_part_hp_beam_cannon_2"
 	icon_frame = 1
-	prerequisites = { "tech_dtf_weapons_2" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_2" }
 	component_set = "DTF_HIGH_PRESSURE_BEAM_CANNON_CS_2"
 	projectile_gfx = "dtf_green_laser_s"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_artillery }
-	upgrades_to = "DTF_HIGH_PRESSURE_BEAM_CANNON_SMALL_3"
+	upgrades_to = "DTF_AI_COMPATIBLE_HIGH_PRESSURE_BEAM_CANNON_SMALL_3"
 	
 	resources = {
 		category = ship_components
@@ -199,18 +199,18 @@ weapon_component_template = {
 }
 
 weapon_component_template = {
-	key = "DTF_HIGH_PRESSURE_BEAM_CANNON_MEDIUM_2"
+	key = "DTF_AI_COMPATIBLE_HIGH_PRESSURE_BEAM_CANNON_MEDIUM_2"
 	size = medium
 	#entity = "medium_laser_gun_entity"
 	type = instant
 	icon = "GFX_dtf_ship_part_hp_beam_cannon_2"
 	icon_frame = 1
-	prerequisites = { "tech_dtf_weapons_2" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_2" }
 	component_set = "DTF_HIGH_PRESSURE_BEAM_CANNON_CS_2"
 	projectile_gfx = "dtf_green_laser_m"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_artillery }
-	upgrades_to = "DTF_HIGH_PRESSURE_BEAM_CANNON_MEDIUM_3"
+	upgrades_to = "DTF_AI_COMPATIBLE_HIGH_PRESSURE_BEAM_CANNON_MEDIUM_3"
 	
 	resources = {
 		category = ship_components
@@ -247,18 +247,18 @@ weapon_component_template = {
 }
 
 weapon_component_template = {
-	key = "DTF_HIGH_PRESSURE_BEAM_CANNON_LARGE_2"
+	key = "DTF_AI_COMPATIBLE_HIGH_PRESSURE_BEAM_CANNON_LARGE_2"
 	size = large
 	#entity = "large_laser_gun_entity"
 	type = instant
 	icon = "GFX_dtf_ship_part_hp_beam_cannon_2"
 	icon_frame = 1
-	prerequisites = { "tech_dtf_weapons_2" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_2" }
 	component_set = "DTF_HIGH_PRESSURE_BEAM_CANNON_CS_2"
 	projectile_gfx = "dtf_green_laser_l"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_artillery }
-	upgrades_to = "DTF_HIGH_PRESSURE_BEAM_CANNON_LARGE_3"
+	upgrades_to = "DTF_AI_COMPATIBLE_HIGH_PRESSURE_BEAM_CANNON_LARGE_3"
 	
 	resources = {
 		category = ship_components
@@ -299,18 +299,18 @@ weapon_component_template = {
 ### HIGH_PRESSURE_BEAM_CANNON_3
 ############################################
 weapon_component_template = {
-	key = "DTF_HIGH_PRESSURE_BEAM_CANNON_SMALL_3"
+	key = "DTF_AI_COMPATIBLE_HIGH_PRESSURE_BEAM_CANNON_SMALL_3"
 	size = small
 	#entity = "small_laser_gun_entity"
 	type = instant
 	icon = "GFX_dtf_ship_part_hp_beam_cannon_3"
 	icon_frame = 1
-	prerequisites = { "tech_dtf_weapons_3" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_3" }
 	component_set = "DTF_HIGH_PRESSURE_BEAM_CANNON_CS_3"
 	projectile_gfx = "dtf_green_laser_s"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_artillery }
-	upgrades_to = "DTF_HIGH_PRESSURE_BEAM_CANNON_SMALL_4"
+	upgrades_to = "DTF_AI_COMPATIBLE_HIGH_PRESSURE_BEAM_CANNON_SMALL_4"
 	
 	resources = {
 		category = ship_components
@@ -347,18 +347,18 @@ weapon_component_template = {
 }
 
 weapon_component_template = {
-	key = "DTF_HIGH_PRESSURE_BEAM_CANNON_MEDIUM_3"
+	key = "DTF_AI_COMPATIBLE_HIGH_PRESSURE_BEAM_CANNON_MEDIUM_3"
 	size = medium
 	#entity = "medium_laser_gun_entity"
 	type = instant
 	icon = "GFX_dtf_ship_part_hp_beam_cannon_3"
 	icon_frame = 1
-	prerequisites = { "tech_dtf_weapons_3" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_3" }
 	component_set = "DTF_HIGH_PRESSURE_BEAM_CANNON_CS_3"
 	projectile_gfx = "dtf_green_laser_m"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_artillery }
-	upgrades_to = "DTF_HIGH_PRESSURE_BEAM_CANNON_MEDIUM_4"
+	upgrades_to = "DTF_AI_COMPATIBLE_HIGH_PRESSURE_BEAM_CANNON_MEDIUM_4"
 	
 	resources = {
 		category = ship_components
@@ -395,18 +395,18 @@ weapon_component_template = {
 }
 
 weapon_component_template = {
-	key = "DTF_HIGH_PRESSURE_BEAM_CANNON_LARGE_3"
+	key = "DTF_AI_COMPATIBLE_HIGH_PRESSURE_BEAM_CANNON_LARGE_3"
 	size = large
 	#entity = "large_laser_gun_entity"
 	type = instant
 	icon = "GFX_dtf_ship_part_hp_beam_cannon_3"
 	icon_frame = 1
-	prerequisites = { "tech_dtf_weapons_3" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_3" }
 	component_set = "DTF_HIGH_PRESSURE_BEAM_CANNON_CS_3"
 	projectile_gfx = "dtf_green_laser_l"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_artillery }
-	upgrades_to = "DTF_HIGH_PRESSURE_BEAM_CANNON_LARGE_4"
+	upgrades_to = "DTF_AI_COMPATIBLE_HIGH_PRESSURE_BEAM_CANNON_LARGE_4"
 	
 	resources = {
 		category = ship_components
@@ -447,18 +447,18 @@ weapon_component_template = {
 ### HIGH_PRESSURE_BEAM_CANNON_4
 ############################################
 weapon_component_template = {
-	key = "DTF_HIGH_PRESSURE_BEAM_CANNON_SMALL_4"
+	key = "DTF_AI_COMPATIBLE_HIGH_PRESSURE_BEAM_CANNON_SMALL_4"
 	size = small
 	#entity = "small_laser_gun_entity"
 	type = instant
 	icon = "GFX_dtf_ship_part_hp_beam_cannon_4"
 	icon_frame = 1
-	prerequisites = { "tech_dtf_weapons_4" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_4" }
 	component_set = "DTF_HIGH_PRESSURE_BEAM_CANNON_CS_4"
 	projectile_gfx = "dtf_green_laser_s"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_artillery }
-	upgrades_to = "DTF_HIGH_PRESSURE_BEAM_CANNON_SMALL_5"
+	upgrades_to = "DTF_AI_COMPATIBLE_HIGH_PRESSURE_BEAM_CANNON_SMALL_5"
 	
 	resources = {
 		category = ship_components
@@ -495,18 +495,18 @@ weapon_component_template = {
 }
 
 weapon_component_template = {
-	key = "DTF_HIGH_PRESSURE_BEAM_CANNON_MEDIUM_4"
+	key = "DTF_AI_COMPATIBLE_HIGH_PRESSURE_BEAM_CANNON_MEDIUM_4"
 	size = medium
 	#entity = "medium_laser_gun_entity"
 	type = instant
 	icon = "GFX_dtf_ship_part_hp_beam_cannon_4"
 	icon_frame = 1
-	prerequisites = { "tech_dtf_weapons_4" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_4" }
 	component_set = "DTF_HIGH_PRESSURE_BEAM_CANNON_CS_4"
 	projectile_gfx = "dtf_green_laser_m"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_artillery }
-	upgrades_to = "DTF_HIGH_PRESSURE_BEAM_CANNON_MEDIUM_5"
+	upgrades_to = "DTF_AI_COMPATIBLE_HIGH_PRESSURE_BEAM_CANNON_MEDIUM_5"
 	
 	resources = {
 		category = ship_components
@@ -543,18 +543,18 @@ weapon_component_template = {
 }
 
 weapon_component_template = {
-	key = "DTF_HIGH_PRESSURE_BEAM_CANNON_LARGE_4"
+	key = "DTF_AI_COMPATIBLE_HIGH_PRESSURE_BEAM_CANNON_LARGE_4"
 	size = large
 	#entity = "large_laser_gun_entity"
 	type = instant
 	icon = "GFX_dtf_ship_part_hp_beam_cannon_4"
 	icon_frame = 1
-	prerequisites = { "tech_dtf_weapons_4" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_4" }
 	component_set = "DTF_HIGH_PRESSURE_BEAM_CANNON_CS_4"
 	projectile_gfx = "dtf_green_laser_l"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_artillery }
-	upgrades_to = "DTF_HIGH_PRESSURE_BEAM_CANNON_LARGE_5"
+	upgrades_to = "DTF_AI_COMPATIBLE_HIGH_PRESSURE_BEAM_CANNON_LARGE_5"
 	
 	resources = {
 		category = ship_components
@@ -594,18 +594,18 @@ weapon_component_template = {
 ### HIGH_PRESSURE_BEAM_CANNON_5
 ############################################
 weapon_component_template = {
-	key = "DTF_HIGH_PRESSURE_BEAM_CANNON_SMALL_5"
+	key = "DTF_AI_COMPATIBLE_HIGH_PRESSURE_BEAM_CANNON_SMALL_5"
 	size = small
 	#entity = "small_laser_gun_entity"
 	type = instant
 	icon = "GFX_dtf_ship_part_hp_beam_cannon_5"
 	icon_frame = 1
-	prerequisites = { "tech_dtf_weapons_5" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_5" }
 	component_set = "DTF_HIGH_PRESSURE_BEAM_CANNON_CS_5"
 	projectile_gfx = "dtf_blue_laser_s"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_artillery }
-	upgrades_to = "DTF_POSITRON_SHOCK_CANNON_SMALL_1"
+	upgrades_to = "DTF_AI_COMPATIBLE_POSITRON_SHOCK_CANNON_SMALL_1"
 	
 	resources = {
 		category = ship_components
@@ -642,18 +642,18 @@ weapon_component_template = {
 }
 
 weapon_component_template = {
-	key = "DTF_HIGH_PRESSURE_BEAM_CANNON_MEDIUM_5"
+	key = "DTF_AI_COMPATIBLE_HIGH_PRESSURE_BEAM_CANNON_MEDIUM_5"
 	size = medium
 	#entity = "medium_laser_gun_entity"
 	type = instant
 	icon = "GFX_dtf_ship_part_hp_beam_cannon_5"
 	icon_frame = 1
-	prerequisites = { "tech_dtf_weapons_5" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_5" }
 	component_set = "DTF_HIGH_PRESSURE_BEAM_CANNON_CS_5"
 	projectile_gfx = "dtf_blue_laser_m"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_artillery }
-	upgrades_to = "DTF_POSITRON_SHOCK_CANNON_MEDIUM_1"
+	upgrades_to = "DTF_AI_COMPATIBLE_POSITRON_SHOCK_CANNON_MEDIUM_1"
 	
 	resources = {
 		category = ship_components
@@ -690,18 +690,18 @@ weapon_component_template = {
 }
 
 weapon_component_template = {
-	key = "DTF_HIGH_PRESSURE_BEAM_CANNON_LARGE_5"
+	key = "DTF_AI_COMPATIBLE_HIGH_PRESSURE_BEAM_CANNON_LARGE_5"
 	size = large
 	#entity = "large_laser_gun_entity"
 	type = instant
 	icon = "GFX_dtf_ship_part_hp_beam_cannon_5"
 	icon_frame = 1
-	prerequisites = { "tech_dtf_weapons_5" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_5" }
 	component_set = "DTF_HIGH_PRESSURE_BEAM_CANNON_CS_5"
 	projectile_gfx = "dtf_blue_laser_l"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_artillery }
-	upgrades_to = "DTF_POSITRON_SHOCK_CANNON_LARGE_1"
+	upgrades_to = "DTF_AI_COMPATIBLE_POSITRON_SHOCK_CANNON_LARGE_1"
 	
 	resources = {
 		category = ship_components
@@ -748,18 +748,18 @@ weapon_component_template = {
 ### Shock_Cannon_0
 ############################################
 weapon_component_template = {
-	key = "DTF_SHOCK_CANNON_SMALL_0"
+	key = "DTF_AI_COMPATIBLE_SHOCK_CANNON_SMALL_0"
 	size = small
 	#entity = "small_laser_gun_entity"
 	type = instant
 	icon = "GFX_dtf_ship_part_shockcannon_0"
 	icon_frame = 1
-	prerequisites = { "tech_dtf_weapons_5" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_5" }
 	component_set = "DTF_SHOCK_CANNON_CS_0"
 	projectile_gfx = "dtf_blue_laser_s"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_artillery }
-	upgrades_to = "DTF_SHOCK_CANNON_SMALL_1"
+	upgrades_to = "DTF_AI_COMPATIBLE_SHOCK_CANNON_SMALL_1"
 	
 	resources = {
 		category = ship_components
@@ -796,18 +796,18 @@ weapon_component_template = {
 }
 
 weapon_component_template = {
-	key = "DTF_SHOCK_CANNON_MEDIUM_0"
+	key = "DTF_AI_COMPATIBLE_SHOCK_CANNON_MEDIUM_0"
 	size = medium
 	#entity = "medium_laser_gun_entity"
 	type = instant
 	icon = "GFX_dtf_ship_part_shockcannon_0"
 	icon_frame = 1
-	prerequisites = { "tech_dtf_weapons_5" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_5" }
 	component_set = "DTF_SHOCK_CANNON_CS_0"
 	projectile_gfx = "dtf_blue_laser_m"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_artillery }
-	upgrades_to = "DTF_SHOCK_CANNON_MEDIUM_1"
+	upgrades_to = "DTF_AI_COMPATIBLE_SHOCK_CANNON_MEDIUM_1"
 	
 	resources = {
 		category = ship_components
@@ -844,18 +844,18 @@ weapon_component_template = {
 }
 
 weapon_component_template = {
-	key = "DTF_SHOCK_CANNON_LARGE_0"
+	key = "DTF_AI_COMPATIBLE_SHOCK_CANNON_LARGE_0"
 	size = large
 	#entity = "large_laser_gun_entity"
 	type = instant
 	icon = "GFX_dtf_ship_part_shockcannon_0"
 	icon_frame = 1
-	prerequisites = { "tech_dtf_weapons_5" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_5" }
 	component_set = "DTF_SHOCK_CANNON_CS_0"
 	projectile_gfx = "dtf_blue_laser_l"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_artillery }
-	upgrades_to = "DTF_SHOCK_CANNON_LARGE_1"
+	upgrades_to = "DTF_AI_COMPATIBLE_SHOCK_CANNON_LARGE_1"
 	
 	resources = {
 		category = ship_components

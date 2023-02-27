@@ -1,20 +1,20 @@
 
 ###Missile
 weapon_component_template = {
-	key = "DTF_EDF_MISSILE_1"
+	key = "DTF_AI_COMPATIBLE_EDF_MISSILE_1"
 	size = medium
 	
 	icon = "GFX_dtf_ship_part_missile_1"
 	icon_frame = 1
 	type = missile
 	
-	prerequisites = { "tech_dtf_weapons_1" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_1" }
 	component_set = "DTF_EDF_MISSILE_CS_1"
 	projectile_gfx = "small_missile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery artillery }
 	ai_tag_weight = 0
-	upgrades_to = "DTF_EDF_MISSILE_2"
+	upgrades_to = "DTF_AI_COMPATIBLE_EDF_MISSILE_2"
 	resources = {
 		category = ship_components
 		cost = {
@@ -57,20 +57,20 @@ weapon_component_template = {
 }
 
 weapon_component_template = {
-	key = "DTF_EDF_MISSILE_2"
+	key = "DTF_AI_COMPATIBLE_EDF_MISSILE_2"
 	size = medium
 	
 	icon = "GFX_dtf_ship_part_missile_2"
 	icon_frame = 1
 	type = missile
 	
-	prerequisites = { "tech_dtf_weapons_4" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_4" }
 	component_set = "DTF_EDF_MISSILE_CS_2"
 	projectile_gfx = "small_missile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery artillery }
 	ai_tag_weight = 0
-	upgrades_to = "DTF_EDF_MISSILE_3"
+	upgrades_to = "DTF_AI_COMPATIBLE_EDF_MISSILE_3"
 	resources = {
 		category = ship_components
 		cost = {
@@ -118,20 +118,20 @@ weapon_component_template = {
 
 ###Torpedoes
 weapon_component_template = {
-	key = "DTF_EDF_TORPEDO_1"
+	key = "DTF_AI_COMPATIBLE_EDF_TORPEDO_1"
 	size = torpedo
 	
 	icon = "GFX_dtf_ship_part_missile_1"
 	icon_frame = 1
 	type = missile
 	
-	prerequisites = { "tech_dtf_weapons_1" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_1" }
 	component_set = "DTF_EDF_TORPEDO_CS_1"
 	projectile_gfx = "large_torpedo"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_shield explosive }
 	ai_tag_weight = 0
-	upgrades_to = "DTF_EDF_TORPEDO_2"
+	upgrades_to = "DTF_AI_COMPATIBLE_EDF_TORPEDO_2"
 	resources = {
 		category = ship_components
 		cost = {
@@ -178,20 +178,20 @@ weapon_component_template = {
 }
 
 weapon_component_template = {
-	key = "DTF_EDF_TORPEDO_2"
+	key = "DTF_AI_COMPATIBLE_EDF_TORPEDO_2"
 	size = torpedo
 	
 	icon = "GFX_dtf_ship_part_missile_2"
 	icon_frame = 1
 	type = missile
 	
-	prerequisites = { "tech_dtf_weapons_4" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_4" }
 	component_set = "DTF_EDF_TORPEDO_CS_2"
 	projectile_gfx = "large_torpedo"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_shield explosive }
 	ai_tag_weight = 0
-	upgrades_to = "DTF_EDF_TORPEDO_3"
+	upgrades_to = "DTF_AI_COMPATIBLE_EDF_TORPEDO_3"
 	resources = {
 		category = ship_components
 		cost = {

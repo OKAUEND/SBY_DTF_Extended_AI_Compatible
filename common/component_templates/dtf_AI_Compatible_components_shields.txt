@@ -55,7 +55,7 @@
 ### Shield 2180 ver
 ###############################################
 utility_component_template = {
-	key = "DTF_SHIELD_1_SMALL"
+	key = "DTF_AI_COMPATIBLE_SHIELD_1_SMALL"
 	size = small
 	icon = "GFX_dtf_ship_part_shield_1"
 	icon_frame = 1
@@ -77,12 +77,16 @@ utility_component_template = {
 		ship_shield_regen_add_perc = 0.01
 	}
 
-	prerequisites = { "tech_dtf_shield_1" }
+	prerequisites = { "tech_dtf_ai_compatible_shield_1" }
 	component_set = "DTF_SHIELD_CS_1"
-	upgrades_to = "DTF_SHIELD_2_SMALL"
+	upgrades_to = "DTF_AI_COMPATIBLE_SHIELD_2_SMALL"
 
 	ai_weight = {
 		weight = @dtf_ai_weight_1
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
 		modifier = {
 			factor = 0.0
 			NOT = { has_origin = origin_earth_2200 }
@@ -91,7 +95,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "DTF_SHIELD_1_MEDIUM"
+	key = "DTF_AI_COMPATIBLE_SHIELD_1_MEDIUM"
 	size = medium
 	icon = "GFX_dtf_ship_part_shield_1"
 	icon_frame = 1
@@ -113,9 +117,9 @@ utility_component_template = {
 		ship_shield_regen_add_perc = 0.01
 	}
 
-	prerequisites = { "tech_dtf_shield_1" }
+	prerequisites = { "tech_dtf_ai_compatible_shield_1" }
 	component_set = "DTF_SHIELD_CS_1"
-	upgrades_to = "DTF_SHIELD_2_MEDIUM"
+	upgrades_to = "DTF_AI_COMPATIBLE_SHIELD_2_MEDIUM"
 
 	ai_weight = {
 		weight = @dtf_ai_weight_1
@@ -127,7 +131,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "DTF_SHIELD_1_LARGE"
+	key = "DTF_AI_COMPATIBLE_SHIELD_1_LARGE"
 	size = large
 	icon = "GFX_dtf_ship_part_shield_1"
 	icon_frame = 1
@@ -149,9 +153,9 @@ utility_component_template = {
 		ship_shield_regen_add_perc = 0.01
 	}
 
-	prerequisites = { "tech_dtf_shield_1" }
+	prerequisites = { "tech_dtf_ai_compatible_shield_1" }
 	component_set = "DTF_SHIELD_CS_1"
-	upgrades_to = "DTF_SHIELD_2_LARGE"
+	upgrades_to = "DTF_AI_COMPATIBLE_SHIELD_2_LARGE"
 
 	ai_weight = {
 		weight = @dtf_ai_weight_1
@@ -166,7 +170,7 @@ utility_component_template = {
 ### Shield 2190 ver
 ###############################################
 utility_component_template = {
-	key = "DTF_SHIELD_2_SMALL"
+	key = "DTF_AI_COMPATIBLE_SHIELD_2_SMALL"
 	size = small
 	icon = "GFX_dtf_ship_part_shield_2"
 	icon_frame = 1
@@ -188,9 +192,9 @@ utility_component_template = {
 		ship_shield_regen_add_perc = 0.01
 	}
 
-	prerequisites = { "tech_dtf_shield_2" }
+	prerequisites = { "tech_dtf_ai_compatible_shield_2" }
 	component_set = "DTF_SHIELD_CS_2"
-	upgrades_to = "DTF_SHIELD_3_SMALL"
+	upgrades_to = "DTF_AI_COMPATIBLE_SHIELD_3_SMALL"
 
 	ai_weight = {
 		weight = @dtf_ai_weight_2
@@ -202,7 +206,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "DTF_SHIELD_2_MEDIUM"
+	key = "DTF_AI_COMPATIBLE_SHIELD_2_MEDIUM"
 	size = medium
 	icon = "GFX_dtf_ship_part_shield_2"
 	icon_frame = 1
@@ -224,9 +228,9 @@ utility_component_template = {
 		ship_shield_regen_add_perc = 0.01
 	}
 
-	prerequisites = { "tech_dtf_shield_2" }
+	prerequisites = { "tech_dtf_ai_compatible_shield_2" }
 	component_set = "DTF_SHIELD_CS_2"
-	upgrades_to = "DTF_SHIELD_3_MEDIUM"
+	upgrades_to = "DTF_AI_COMPATIBLE_SHIELD_3_MEDIUM"
 
 	ai_weight = {
 		weight = @dtf_ai_weight_2
@@ -238,7 +242,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "DTF_SHIELD_2_LARGE"
+	key = "DTF_AI_COMPATIBLE_SHIELD_2_LARGE"
 	size = large
 	icon = "GFX_dtf_ship_part_shield_2"
 	icon_frame = 1
@@ -260,9 +264,9 @@ utility_component_template = {
 		ship_shield_regen_add_perc = 0.01
 	}
 
-	prerequisites = { "tech_dtf_shield_2" }
+	prerequisites = { "tech_dtf_ai_compatible_shield_2" }
 	component_set = "DTF_SHIELD_CS_2"
-	upgrades_to = "DTF_SHIELD_3_LARGE"
+	upgrades_to = "DTF_AI_COMPATIBLE_SHIELD_3_LARGE"
 
 	ai_weight = {
 		weight = @dtf_ai_weight_2
@@ -277,7 +281,7 @@ utility_component_template = {
 ### Shield 3
 ###############################################
 utility_component_template = {
-	key = "DTF_SHIELD_3_SMALL"
+	key = "DTF_AI_COMPATIBLE_SHIELD_3_SMALL"
 	size = small
 	icon = "GFX_dtf_ship_part_shield_3"
 	icon_frame = 1
@@ -299,9 +303,9 @@ utility_component_template = {
 		ship_shield_regen_add_perc = 0.01
 	}
 
-	prerequisites = { "tech_dtf_shield_3" }
+	prerequisites = { "tech_dtf_ai_compatible_shield_3" }
 	component_set = "DTF_SHIELD_CS_3"
-	upgrades_to = "DTF_SHIELD_4_SMALL"
+	upgrades_to = "DTF_AI_COMPATIBLE_SHIELD_4_SMALL"
 
 	ai_weight = {
 		weight = @dtf_ai_weight_3
@@ -313,7 +317,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "DTF_SHIELD_3_MEDIUM"
+	key = "DTF_AI_COMPATIBLE_SHIELD_3_MEDIUM"
 	size = medium
 	icon = "GFX_dtf_ship_part_shield_3"
 	icon_frame = 1
@@ -335,9 +339,9 @@ utility_component_template = {
 		ship_shield_regen_add_perc = 0.01
 	}
 
-	prerequisites = { "tech_dtf_shield_3" }
+	prerequisites = { "tech_dtf_ai_compatible_shield_3" }
 	component_set = "DTF_SHIELD_CS_3"
-	upgrades_to = "DTF_SHIELD_4_MEDIUM"
+	upgrades_to = "DTF_AI_COMPATIBLE_SHIELD_4_MEDIUM"
 
 	ai_weight = {
 		weight = @dtf_ai_weight_3
@@ -349,7 +353,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "DTF_SHIELD_3_LARGE"
+	key = "DTF_AI_COMPATIBLE_SHIELD_3_LARGE"
 	size = large
 	icon = "GFX_dtf_ship_part_shield_3"
 	icon_frame = 1
@@ -371,9 +375,9 @@ utility_component_template = {
 		ship_shield_regen_add_perc = 0.01
 	}
 
-	prerequisites = { "tech_dtf_shield_3" }
+	prerequisites = { "tech_dtf_ai_compatible_shield_3" }
 	component_set = "DTF_SHIELD_CS_3"
-	upgrades_to = "DTF_SHIELD_4_LARGE"
+	upgrades_to = "DTF_AI_COMPATIBLE_SHIELD_4_LARGE"
 
 	ai_weight = {
 		weight = @dtf_ai_weight_3
@@ -388,7 +392,7 @@ utility_component_template = {
 ### Shield 4
 ###############################################
 utility_component_template = {
-	key = "DTF_SHIELD_4_SMALL"
+	key = "DTF_AI_COMPATIBLE_SHIELD_4_SMALL"
 	size = small
 	icon = "GFX_dtf_ship_part_shield_4"
 	icon_frame = 1
@@ -410,9 +414,9 @@ utility_component_template = {
 		ship_shield_regen_add_perc = 0.02
 	}
 
-	prerequisites = { "tech_dtf_shield_4" }
+	prerequisites = { "tech_dtf_ai_compatible_shield_4" }
 	component_set = "DTF_SHIELD_CS_4"
-	upgrades_to = "DTF_SHIELD_5_SMALL"
+	upgrades_to = "DTF_AI_COMPATIBLE_SHIELD_5_SMALL"
 
 	ai_weight = {
 		weight = @dtf_ai_weight_4
@@ -424,7 +428,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "DTF_SHIELD_4_MEDIUM"
+	key = "DTF_AI_COMPATIBLE_SHIELD_4_MEDIUM"
 	size = medium
 	icon = "GFX_dtf_ship_part_shield_4"
 	icon_frame = 1
@@ -446,9 +450,9 @@ utility_component_template = {
 		ship_shield_regen_add_perc = 0.02
 	}
 
-	prerequisites = { "tech_dtf_shield_4" }
+	prerequisites = { "tech_dtf_ai_compatible_shield_4" }
 	component_set = "DTF_SHIELD_CS_4"
-	upgrades_to = "DTF_SHIELD_5_MEDIUM"
+	upgrades_to = "DTF_AI_COMPATIBLE_SHIELD_5_MEDIUM"
 
 	ai_weight = {
 		weight = @dtf_ai_weight_4
@@ -460,7 +464,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "DTF_SHIELD_4_LARGE"
+	key = "DTF_AI_COMPATIBLE_SHIELD_4_LARGE"
 	size = large
 	icon = "GFX_dtf_ship_part_shield_4"
 	icon_frame = 1
@@ -482,9 +486,9 @@ utility_component_template = {
 		ship_shield_regen_add_perc = 0.02
 	}
 
-	prerequisites = { "tech_dtf_shield_4" }
+	prerequisites = { "tech_dtf_ai_compatible_shield_4" }
 	component_set = "DTF_SHIELD_CS_4"
-	upgrades_to = "DTF_SHIELD_5_LARGE"
+	upgrades_to = "DTF_AI_COMPATIBLE_SHIELD_5_LARGE"
 
 	ai_weight = {
 		weight = @dtf_ai_weight_4
@@ -499,7 +503,7 @@ utility_component_template = {
 ### Shield 5
 ###############################################
 utility_component_template = {
-	key = "DTF_SHIELD_5_SMALL"
+	key = "DTF_AI_COMPATIBLE_SHIELD_5_SMALL"
 	size = small
 	icon = "GFX_dtf_ship_part_shield_5"
 	icon_frame = 1
@@ -521,9 +525,9 @@ utility_component_template = {
 		ship_shield_regen_add_perc = 0.05
 	}
 
-	prerequisites = { "tech_dtf_shield_5" }
+	prerequisites = { "tech_dtf_ai_compatible_shield_5" }
 	component_set = "DTF_SHIELD_CS_5"
-	upgrades_to = "DTF_SHIELD_6_SMALL"
+	upgrades_to = "DTF_AI_COMPATIBLE_SHIELD_6_SMALL"
 
 	ai_weight = {
 		weight = @dtf_ai_weight_5
@@ -535,7 +539,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "DTF_SHIELD_5_MEDIUM"
+	key = "DTF_AI_COMPATIBLE_SHIELD_5_MEDIUM"
 	size = medium
 	icon = "GFX_dtf_ship_part_shield_5"
 	icon_frame = 1
@@ -557,9 +561,9 @@ utility_component_template = {
 		ship_shield_regen_add_perc = 0.05
 	}
 
-	prerequisites = { "tech_dtf_shield_5" }
+	prerequisites = { "tech_dtf_ai_compatible_shield_5" }
 	component_set = "DTF_SHIELD_CS_5"
-	upgrades_to = "DTF_SHIELD_6_MEDIUM"
+	upgrades_to = "DTF_AI_COMPATIBLE_SHIELD_6_MEDIUM"
 
 	ai_weight = {
 		weight = @dtf_ai_weight_5
@@ -571,7 +575,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "DTF_SHIELD_5_LARGE"
+	key = "DTF_AI_COMPATIBLE_SHIELD_5_LARGE"
 	size = large
 	icon = "GFX_dtf_ship_part_shield_5"
 	icon_frame = 1
@@ -593,9 +597,9 @@ utility_component_template = {
 		ship_shield_regen_add_perc = 0.05
 	}
 
-	prerequisites = { "tech_dtf_shield_5" }
+	prerequisites = { "tech_dtf_ai_compatible_shield_5" }
 	component_set = "DTF_SHIELD_CS_5"
-	upgrades_to = "DTF_SHIELD_6_LARGE"
+	upgrades_to = "DTF_AI_COMPATIBLE_SHIELD_6_LARGE"
 
 	ai_weight = {
 		weight = @dtf_ai_weight_5

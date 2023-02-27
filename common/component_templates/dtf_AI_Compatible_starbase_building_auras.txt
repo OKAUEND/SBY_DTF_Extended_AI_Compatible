@@ -1,6 +1,6 @@
 
 utility_component_template = {
-	key = "DTF_STARBASE_AURA_ABSOLUTE_DEFENSE_ZONE"
+	key = "DTF_AI_COMPATIBLE_STARBASE_AURA_ABSOLUTE_DEFENSE_ZONE"
 	size = medium
 	icon = "GFX_ship_part_aura_snare"
 	icon_frame = 1
@@ -41,7 +41,7 @@ utility_component_template = {
 
 
 utility_component_template = {
-	key = "DTF_STARBASE_AURA_EARTH_DEFENSE_SUPPLY_LINE"
+	key = "DTF_AI_COMPATIBLE_STARBASE_AURA_EARTH_DEFENSE_SUPPLY_LINE"
 	size = medium
 	icon = "GFX_ship_part_aura_snare"
 	icon_frame = 1

@@ -15,14 +15,14 @@
 ##############################
 
 strike_craft_component_template = {
-	key = "DTF_FIGHTER_HANGAR_1"
+	key = "DTF_AI_COMPATIBLE_FIGHTER_HANGAR_1"
 	size = LARGE
 	entity = "fighter_entity"
 	weapon_type = point_defence
 	projectile_gfx = "dtf_strike_craft_aa"
 	power = @dtf_sc_power1
 
-	prerequisites = { "tech_dtf_weapons_1" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_1" }
 	resources = {
 		category = ship_components
 		cost = {
@@ -60,7 +60,7 @@ strike_craft_component_template = {
 	icon = "GFX_dtf_ship_part_cosmo_falcon_1"
 	icon_frame = 1
 	component_set = "DTF_FIGHTER_HANGAR_CS_1"
-	upgrades_to = "DTF_FIGHTER_HANGAR_2"
+	upgrades_to = "DTF_AI_COMPATIBLE_FIGHTER_HANGAR_2"
 	tags = { weapon_type_strike_craft }
 	point_defence_targets = { "strike_craft" }
 
@@ -74,14 +74,14 @@ strike_craft_component_template = {
 }
 
 strike_craft_component_template = {
-	key = "DTF_FIGHTER_HANGAR_1_AS"
+	key = "DTF_AI_COMPATIBLE_FIGHTER_HANGAR_1_AS"
 	size = LARGE
 	entity = "fighter_entity"
 	weapon_type = instant
 	projectile_gfx = "dtf_strike_craft_as"
 	power = @dtf_sc_power1
 
-	prerequisites = { "tech_dtf_weapons_1" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_1" }
 	resources = {
 		category = ship_components
 		cost = {
@@ -120,7 +120,7 @@ strike_craft_component_template = {
 	icon = "GFX_dtf_ship_part_cosmo_falcon_1"
 	icon_frame = 1
 	component_set = "DTF_FIGHTER_HANGAR_CS_1_AS"
-	upgrades_to = "DTF_FIGHTER_HANGAR_2_AS"
+	upgrades_to = "DTF_AI_COMPATIBLE_FIGHTER_HANGAR_2_AS"
 	tags = { weapon_type_strike_craft }
 
 	ai_weight = {
@@ -138,14 +138,14 @@ strike_craft_component_template = {
 ##############################
 
 strike_craft_component_template = {
-	key = "DTF_FIGHTER_HANGAR_2"
+	key = "DTF_AI_COMPATIBLE_FIGHTER_HANGAR_2"
 	size = LARGE
 	entity = "fighter_entity"
 	weapon_type = point_defence
 	projectile_gfx = "dtf_strike_craft_aa"
 	power = @dtf_sc_power2
 
-	prerequisites = { "tech_dtf_weapons_3" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_3" }
 	resources = {
 		category = ship_components
 		cost = {
@@ -184,7 +184,7 @@ strike_craft_component_template = {
 	icon = "GFX_dtf_ship_part_cosmo_falcon_2"
 	icon_frame = 1
 	component_set = "DTF_FIGHTER_HANGAR_CS_2"
-	upgrades_to = "DTF_FIGHTER_HANGAR_3"
+	upgrades_to = "DTF_AI_COMPATIBLE_FIGHTER_HANGAR_3"
 	tags = { weapon_type_strike_craft }
 	point_defence_targets = { "strike_craft" }
 
@@ -198,14 +198,14 @@ strike_craft_component_template = {
 }
 
 strike_craft_component_template = {
-	key = "DTF_FIGHTER_HANGAR_2_AS"
+	key = "DTF_AI_COMPATIBLE_FIGHTER_HANGAR_2_AS"
 	size = LARGE
 	entity = "fighter_entity"
 	weapon_type = instant
 	projectile_gfx = "dtf_strike_craft_as"
 	power = @dtf_sc_power2
 
-	prerequisites = { "tech_dtf_weapons_3" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_3" }
 	resources = {
 		category = ship_components
 		cost = {
@@ -245,7 +245,7 @@ strike_craft_component_template = {
 	icon = "GFX_dtf_ship_part_cosmo_falcon_2"
 	icon_frame = 1
 	component_set = "DTF_FIGHTER_HANGAR_CS_2_AS"
-	upgrades_to = "DTF_FIGHTER_HANGAR_3_AS"
+	upgrades_to = "DTF_AI_COMPATIBLE_FIGHTER_HANGAR_3_AS"
 	tags = { weapon_type_strike_craft }
 
 	ai_weight = {
@@ -262,14 +262,14 @@ strike_craft_component_template = {
 ##############################
 
 strike_craft_component_template = {
-	key = "DTF_FIGHTER_HANGAR_3"
+	key = "DTF_AI_COMPATIBLE_FIGHTER_HANGAR_3"
 	size = LARGE
 	entity = "bomber_entity"
 	weapon_type = point_defence
 	projectile_gfx = "dtf_strike_craft_aa"
 	power = @dtf_sc_power3
 
-	prerequisites = { "tech_dtf_weapons_5" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_5" }
 	resources = {
 		category = ship_components
 		cost = {
@@ -308,7 +308,7 @@ strike_craft_component_template = {
 	icon = "GFX_dtf_ship_part_cosmo_tiger_2_1"
 	icon_frame = 1
 	component_set = "DTF_FIGHTER_HANGAR_CS_3"
-	upgrades_to = "DTF_FIGHTER_HANGAR_4"
+	upgrades_to = "DTF_AI_COMPATIBLE_FIGHTER_HANGAR_4"
 	tags = { weapon_type_strike_craft }
 	point_defence_targets = { "strike_craft" }
 
@@ -322,14 +322,14 @@ strike_craft_component_template = {
 }
 
 strike_craft_component_template = {
-	key = "DTF_FIGHTER_HANGAR_3_AS"
+	key = "DTF_AI_COMPATIBLE_FIGHTER_HANGAR_3_AS"
 	size = LARGE
 	entity = "bomber_entity"
 	weapon_type = point_defence
 	projectile_gfx = "dtf_strike_craft_as"
 	power = @dtf_sc_power3
 
-	prerequisites = { "tech_dtf_weapons_5" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_5" }
 	resources = {
 		category = ship_components
 		cost = {
@@ -369,7 +369,7 @@ strike_craft_component_template = {
 	icon = "GFX_dtf_ship_part_cosmo_tiger_2_1"
 	icon_frame = 1
 	component_set = "DTF_FIGHTER_HANGAR_CS_3_AS"
-	upgrades_to = "DTF_FIGHTER_HANGAR_4_AS"
+	upgrades_to = "DTF_AI_COMPATIBLE_FIGHTER_HANGAR_4_AS"
 	tags = { weapon_type_strike_craft }
 
 	ai_weight = {

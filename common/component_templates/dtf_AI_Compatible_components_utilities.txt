@@ -48,7 +48,7 @@ utility_component_template = {
 		}
 	}
 
-	prerequisites = { "tech_dtf_weapons_1" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_1" }
 	
 	ai_weight = {
 		weight = 0
@@ -94,7 +94,7 @@ utility_component_template = {
 		}
 	}
 
-	prerequisites = { "tech_dtf_weapons_5" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_5" }
 	
 	ai_weight = {
 		weight = 0
@@ -110,7 +110,7 @@ utility_component_template = {
 
 # Afterburners
 utility_component_template = {
-	key = "DTF_AFTERBURNER_1"
+	key = "DTF_AI_COMPATIBLE_AFTERBURNER_1"
 	size = aux
 	icon = "GFX_ship_part_afterburner_1"
 	icon_frame = 1
@@ -127,9 +127,9 @@ utility_component_template = {
 		ship_evasion_add = 2.5
 	}
 	class_restriction = { shipclass_military }
-	prerequisites = { "tech_dtf_reactor_2" }
+	prerequisites = { "tech_dtf_ai_compatible_reactor_2" }
 	component_set = "DTF_AFTERBURNER_1_CS"
-	upgrades_to = "DTF_AFTERBURNER_2"
+	upgrades_to = "DTF_AI_COMPATIBLE_AFTERBURNER_2"
 
 	ai_weight = {
 		weight = 0
@@ -144,7 +144,7 @@ utility_component_template = {
 # Reactor Booster #
 ####################
 utility_component_template = {
-	key = "DTF_REACTOR_BOOSTER_1"
+	key = "DTF_AI_COMPATIBLE_REACTOR_BOOSTER_1"
 	size = aux
 	icon = "GFX_ship_part_reactor_booster_1"
 	icon_frame = 1
@@ -156,9 +156,9 @@ utility_component_template = {
 		}
 	}
 
-	prerequisites = { "tech_dtf_reactor_1" }
+	prerequisites = { "tech_dtf_ai_compatible_reactor_1" }
 	component_set = "DTF_REACTOR_BOOSTER_1_CS"
-	upgrades_to = "DTF_REACTOR_BOOSTER_2"
+	upgrades_to = "DTF_AI_COMPATIBLE_REACTOR_BOOSTER_2"
 
 	
 	ai_weight = {
@@ -171,7 +171,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "DTF_REACTOR_BOOSTER_2"
+	key = "DTF_AI_COMPATIBLE_REACTOR_BOOSTER_2"
 	size = aux
 	icon = "GFX_ship_part_reactor_booster_2"
 	icon_frame = 1
@@ -188,9 +188,9 @@ utility_component_template = {
 		ship_shield_mult = 0.10
 	}
 
-	prerequisites = { "tech_dtf_reactor_3" }
+	prerequisites = { "tech_dtf_ai_compatible_reactor_3" }
 	component_set = "DTF_REACTOR_BOOSTER_2_CS"
-	upgrades_to = "DTF_REACTOR_BOOSTER_3"
+	upgrades_to = "DTF_AI_COMPATIBLE_REACTOR_BOOSTER_3"
 
 	
 	ai_weight = {
@@ -209,7 +209,7 @@ utility_component_template = {
 ####################
 
 utility_component_template = {
-	key = "DTF_SHIELD_HARDENER_1"
+	key = "DTF_AI_COMPATIBLE_SHIELD_HARDENER_1"
 	size = aux
 	icon = "GFX_ship_part_shield_hardener_1"
 	icon_frame = 1
@@ -222,9 +222,9 @@ utility_component_template = {
 		}
 	}
 
-	prerequisites = { "tech_shield_hardeners_1" "tech_dtf_shield_3" }
+	prerequisites = { "tech_shield_hardeners_1" "tech_dtf_ai_compatible_shield_3" }
 	component_set = "DTF_SHIELD_HARDENER_1_CS"
-	upgrades_to = "DTF_SHIELD_HARDENER_2"
+	upgrades_to = "DTF_AI_COMPATIBLE_SHIELD_HARDENER_2"
 
 	ship_modifier = {
 		ship_shield_hardening_add = 0.20
@@ -245,7 +245,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "DTF_SHIELD_HARDENER_2"
+	key = "DTF_AI_COMPATIBLE_SHIELD_HARDENER_2"
 	size = aux
 	icon = "GFX_ship_part_shield_hardener_2"
 	icon_frame = 1
@@ -258,9 +258,9 @@ utility_component_template = {
 		}
 	}
 
-	prerequisites = { "tech_shield_hardeners_2" "tech_dtf_shield_5" }
+	prerequisites = { "tech_shield_hardeners_2" "tech_dtf_ai_compatible_shield_5" }
 	component_set = "DTF_SHIELD_HARDENER_2_CS"
-	upgrades_to = "DTF_SHIELD_HARDENER_3"
+	upgrades_to = "DTF_AI_COMPATIBLE_SHIELD_HARDENER_3"
 
 	ship_modifier = {
 		ship_shield_hardening_add = 0.40

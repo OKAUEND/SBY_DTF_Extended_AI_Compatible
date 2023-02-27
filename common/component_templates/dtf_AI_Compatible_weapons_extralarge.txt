@@ -4,18 +4,18 @@
 ### Spinal Mounted Shock Cannon
 ############################################
 weapon_component_template = {
-	key = "DTF_SPINAL_MOUNTED_SHOCK_CANNON_1"
+	key = "DTF_AI_COMPATIBLE_SPINAL_MOUNTED_SHOCK_CANNON_1"
 	size = extra_large
 	#entity = "large_laser_gun_entity"
 	#entity = "invisible_turret_entity"
 	type = instant
 	icon = "GFX_dtf_ship_part_mounted_shockcannon_1"
 	icon_frame = 1
-	prerequisites = { "tech_dtf_weapons_2" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_2" }
 	component_set = "DTF_SPINAL_MOUNTED_SHOCK_CANNON_CS_1"
 	projectile_gfx = "dtf_spinal_mounted_shock_cannon"
 	tags = { weapon_type_energy }
-	upgrades_to = "DTF_SPINAL_MOUNTED_SHOCK_CANNON_2"
+	upgrades_to = "DTF_AI_COMPATIBLE_SPINAL_MOUNTED_SHOCK_CANNON_2"
 	ai_tags = { weapon_role_artillery }
 
 	resources = {
@@ -54,18 +54,18 @@ weapon_component_template = {
 }
 
 weapon_component_template = {
-	key = "DTF_SPINAL_MOUNTED_SHOCK_CANNON_2"
+	key = "DTF_AI_COMPATIBLE_SPINAL_MOUNTED_SHOCK_CANNON_2"
 	size = extra_large
 	#entity = "large_laser_gun_entity"
 	#entity = "invisible_turret_entity"
 	type = instant
 	icon = "GFX_dtf_ship_part_mounted_shockcannon_2"
 	icon_frame = 1
-	prerequisites = { "tech_dtf_weapons_4" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_4" }
 	component_set = "DTF_SPINAL_MOUNTED_SHOCK_CANNON_CS_2"
 	projectile_gfx = "dtf_spinal_mounted_shock_cannon"
 	tags = { weapon_type_energy }
-	upgrades_to = "DTF_SPINAL_MOUNTED_SHOCK_CANNON_3"
+	upgrades_to = "DTF_AI_COMPATIBLE_SPINAL_MOUNTED_SHOCK_CANNON_3"
 	ai_tags = { weapon_role_artillery }
 
 	resources = {
@@ -110,18 +110,18 @@ weapon_component_template = {
 ### Wave Motion Gun
 ############################################
 weapon_component_template = {
-	key = "DTF_WAVE_MOTION_GUN_1"
+	key = "DTF_AI_COMPATIBLE_WAVE_MOTION_GUN_1"
 	size = extra_large
 	#entity = "large_laser_gun_entity"
 	#entity = "invisible_turret_entity"
 	type = instant
 	icon = "GFX_dtf_ship_part_wm_gun_1"
 	icon_frame = 1
-	prerequisites = { "tech_dtf_wave_motion_gun_1" }
+	prerequisites = { "tech_dtf_ai_compatible_wave_motion_gun_1" }
 	component_set = "DTF_WAVE_MOTION_GUN_CS_1"
 	projectile_gfx = "dtf_wave_motion_gun"
 	tags = { weapon_type_energy }
-	upgrades_to = "DTF_WAVE_MOTION_GUN_2"
+	upgrades_to = "DTF_AI_COMPATIBLE_WAVE_MOTION_GUN_2"
 	ai_tags = { weapon_role_artillery }
 
 	size_restriction = { Flagship xl_cannon battleship Battlecruiser titan Carrier Dreadnought juggernaut asteroid_artillery giga_planet_behemoth giga_massive_planet giga_systemcraft strategic_defence_command_platform headquarters dtf_orbital_defense_system }
@@ -165,14 +165,14 @@ weapon_component_template = {
 
 
 weapon_component_template = {
-	key = "DTF_SMALL_WAVE_MOTION_GUN_1"
+	key = "DTF_AI_COMPATIBLE_SMALL_WAVE_MOTION_GUN_1"
 	size = extra_large
 	#entity = "large_laser_gun_entity"
 	#entity = "invisible_turret_entity"
 	type = instant
 	icon = "GFX_dtf_ship_part_wm_gun_1"
 	icon_frame = 1
-	prerequisites = { "tech_dtf_wave_motion_gun_1" }
+	prerequisites = { "tech_dtf_ai_compatible_wave_motion_gun_1" }
 	component_set = "DTF_SMALL_WAVE_MOTION_GUN_CS_1"
 	projectile_gfx = "dtf_small_wave_motion_gun"
 	tags = { weapon_type_energy }
@@ -216,7 +216,7 @@ weapon_component_template = {
 
 	
 
-	upgrades_to = "DTF_SMALL_WAVE_MOTION_GUN_2"
+	upgrades_to = "DTF_AI_COMPATIBLE_SMALL_WAVE_MOTION_GUN_2"
 }
 
 
@@ -224,19 +224,19 @@ weapon_component_template = {
 ###EXPANDED WAVE MOTION GUN
 ############################################
 weapon_component_template = {
-	key = "DTF_EXPANDED_WAVE_MOTION_GUN_1"
+	key = "DTF_AI_COMPATIBLE_EXPANDED_WAVE_MOTION_GUN_1"
 	size = titanic
 	#entity = "large_laser_gun_entity"
 	#entity = "invisible_turret_entity"
 	type = instant
 	icon = "GFX_dtf_ship_part_wm_gun_1"
 	icon_frame = 1
-	prerequisites = { "tech_dtf_wave_motion_gun_1" }
+	prerequisites = { "tech_dtf_ai_compatible_wave_motion_gun_1" }
 	component_set = "DTF_EXPANDED_WAVE_MOTION_GUN_CS_1"
 	projectile_gfx = "dtf_expanded_wave_motion_gun"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_artillery }
-	upgrades_to = "DTF_EXPANDED_WAVE_MOTION_GUN_2"
+	upgrades_to = "DTF_AI_COMPATIBLE_EXPANDED_WAVE_MOTION_GUN_2"
 
 	size_restriction = { Flagship titan asteroid_artillery giga_planet_behemoth giga_massive_planet giga_systemcraft strategic_defence_command_platform dtf_orbital_defense_system }
 	
@@ -280,20 +280,20 @@ weapon_component_template = {
 ###SUPER SUPER_NOVA WAVE MOTION GUN
 ############################################
 weapon_component_template = {
-	key = "DTF_SUPER_NOVA_WAVE_MOTION_GUN_1"
+	key = "DTF_AI_COMPATIBLE_SUPER_NOVA_WAVE_MOTION_GUN_1"
 	size = titanic
 	#entity = "large_laser_gun_entity"
 	entity = "invisible_turret_entity"
 	type = instant
 	icon = "GFX_dtf_ship_part_wm_gun_1"
 	icon_frame = 1
-	prerequisites = { "tech_dtf_wave_motion_gun_1" }
+	prerequisites = { "tech_dtf_ai_compatible_wave_motion_gun_1" }
 	component_set = "DTF_SUPER_NOVA_WAVE_MOTION_GUN_CS_1"
 	projectile_gfx = "dtf_super_nova_wave_motion_gun"
 	tags = { weapon_type_energy }
 	size_restriction = { Flagship asteroid_artillery giga_planet_behemoth giga_massive_planet giga_systemcraft strategic_defence_command_platform dtf_orbital_defense_system }
 	ai_tags = { weapon_role_artillery }
-	upgrades_to = "DTF_SUPER_NOVA_WAVE_MOTION_GUN_2"
+	upgrades_to = "DTF_AI_COMPATIBLE_SUPER_NOVA_WAVE_MOTION_GUN_2"
 
 	resources = {
 		category = ship_components
