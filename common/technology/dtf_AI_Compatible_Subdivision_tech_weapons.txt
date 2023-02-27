@@ -24,6 +24,29 @@ tech_dtf_ai_compatible_weapons_2_Energy = {
 		}
   	}
 }
+#Spinal Mounted Shock Cannon
+tech_dtf_ai_compatible_weapons_2_SpinalMountedShockCannon = {
+	cost = @dtf_tier2cost3
+	area = physics
+	tier = 2
+	is_rare = yes
+	category = { particles }
+	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_2" "tech_dtf_ai_compatible_weapons_2_Energy" }
+	weight = @dtf_tier2weight3
+
+	potential = {  
+		is_ai = yes  
+		has_origin = origin_earth_2200
+	} 
+	
+	ai_weight = {
+  	     factor = @dtf_techAIbaseweight
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+  	}
+}
 #Kinetic 
 tech_dtf_ai_compatible_weapons_2_Kinetic = {
 	cost = @dtf_tier2cost2
@@ -131,6 +154,29 @@ tech_dtf_ai_compatible_weapons_4_Energy = {
 	category = { particles }
 	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_4" "tech_dtf_ai_compatible_weapons_3_Energy" }
 	weight = @dtf_tier4weight2
+
+	potential = {  
+		is_ai = yes  
+		has_origin = origin_earth_2200
+	} 
+	
+	ai_weight = {
+  	     factor = @dtf_techAIbaseweight
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+  	}
+}
+#Spinal Mounted Shock Cannon
+tech_dtf_ai_compatible_weapons_4_SpinalMountedShockCannon = {
+	cost = @dtf_tier4cost3
+	area = physics
+	tier = 4
+	is_rare = yes
+	category = { particles }
+	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_4" "tech_dtf_ai_compatible_weapons_4_Energy" "tech_dtf_ai_compatible_weapons_2_SpinalMountedShockCannon" }
+	weight = @dtf_tier4weight3
 
 	potential = {  
 		is_ai = yes  
@@ -286,6 +332,29 @@ tech_dtf_ai_compatible_weapons_5_Energy = {
 		}
   	}
 }
+#Shock Canon
+tech_dtf_ai_compatible_weapons_5_Shock_Canon = {
+	cost = @dtf_tier5cost3
+	area = physics
+	tier = 5
+	is_rare = yes
+	category = { particles }
+	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_5" "tech_dtf_ai_compatible_weapons_5_Energy" }
+	weight = @dtf_tier5weight3
+
+	potential = {  
+		is_ai = yes  
+		has_origin = origin_earth_2200
+	} 
+	
+	ai_weight = {
+  	     factor = @dtf_techAIbaseweight
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+  	}
+}
 #StrikeCraft
 tech_dtf_ai_compatible_weapons_5_StrikeCraft = {
 	cost = @dtf_tier5cost2
@@ -295,6 +364,150 @@ tech_dtf_ai_compatible_weapons_5_StrikeCraft = {
 	category = { particles }
 	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_5" "tech_dtf_ai_compatible_weapons_3_StrikeCraft" }
 	weight = @dtf_tier5weight2
+
+	potential = {  
+		is_ai = yes  
+		has_origin = origin_earth_2200
+	} 
+	
+	ai_weight = {
+  	     factor = @dtf_techAIbaseweight
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+  	}
+}
+
+#Wave Motion Gun
+tech_dtf_ai_compatible_weapons_5_Wave_Motion_Gun = {
+	cost = @dtf_tier5cost3
+	area = physics
+	tier = 5
+	is_rare = yes
+	category = { particles }
+	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_5" "tech_dtf_ai_compatible_weapons_5_Energy" "tech_dtf_ai_compatible_wave_motion_gun_1" }
+	weight = @dtf_tier5weight3
+
+	potential = {  
+		is_ai = yes  
+		has_origin = origin_earth_2200
+	} 
+	
+	ai_weight = {
+  	     factor = @dtf_techAIbaseweight
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+  	}
+}
+
+#Wave Motion Gun
+tech_dtf_ai_compatible_weapons_5_Ion_Beam = {
+	cost = @dtf_tier5cost3
+	area = physics
+	tier = 5
+	is_rare = yes
+	category = { particles }
+	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_5" "tech_dtf_ai_compatible_weapons_5_Energy" "tech_dtf_ai_compatible_wave_motion_gun_1" }
+	weight = @dtf_tier5weight3
+
+	potential = {  
+		is_ai = yes  
+		has_origin = origin_earth_2200
+	} 
+	
+	ai_weight = {
+  	     factor = @dtf_techAIbaseweight
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+  	}
+}
+
+#Wave Motion CARTRIDGE SHELL
+tech_dtf_ai_compatible_weapons_5_Wave_Motion_Cartridge_Shell = {
+	cost = @dtf_tier5cost3
+	area = physics
+	tier = 5
+	is_rare = yes
+	category = { particles }
+	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_5" "tech_dtf_ai_compatible_weapons_5_Wave_Motion_Gun" }
+	weight = @dtf_tier5weight3
+
+	potential = {  
+		is_ai = yes  
+		has_origin = origin_earth_2200
+	} 
+	
+	ai_weight = {
+  	     factor = @dtf_techAIbaseweight
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+  	}
+}
+
+#Wave Motion Gun Large Ship
+tech_dtf_ai_compatible_weapons_5_Wave_Motion_Gun_Large_Ship = {
+	cost = @dtf_tier5cost3
+	area = physics
+	tier = 5
+	is_rare = yes
+	category = { particles }
+	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_5" "tech_dtf_ai_compatible_weapons_5_Wave_Motion_Gun" }
+	weight = @dtf_tier5weight3
+
+	potential = {  
+		is_ai = yes  
+		has_origin = origin_earth_2200
+	} 
+	
+	ai_weight = {
+  	     factor = @dtf_techAIbaseweight
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+  	}
+}
+
+#Wave Motion Gun EXPANDED
+tech_dtf_ai_compatible_weapons_5_Wave_Motion_Gun_EXPANDED = {
+	cost = @dtf_tier5cost3
+	area = physics
+	tier = 5
+	is_rare = yes
+	category = { particles }
+	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_5" "tech_dtf_ai_compatible_weapons_5_Wave_Motion_Gun_Large_Ship" }
+	weight = @dtf_tier5weight3
+
+	potential = {  
+		is_ai = yes  
+		has_origin = origin_earth_2200
+	} 
+	
+	ai_weight = {
+  	     factor = @dtf_techAIbaseweight
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+  	}
+}
+
+#Wave Motion Gun EXPANDED
+tech_dtf_ai_compatible_weapons_5_Wave_Motion_Gun_Super_Nova = {
+	cost = @dtf_tier5cost3
+	area = physics
+	tier = 5
+	is_rare = yes
+	category = { particles }
+	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_5" "tech_dtf_ai_compatible_weapons_5_Wave_Motion_Gun_EXPANDED" }
+	weight = @dtf_tier5weight3
 
 	potential = {  
 		is_ai = yes  
