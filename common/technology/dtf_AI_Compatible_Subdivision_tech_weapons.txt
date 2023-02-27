@@ -95,6 +95,31 @@ tech_dtf_ai_compatible_weapons_3_StrikeCraft = {
 		}
   	}
 }
+
+#Type3 - Shell
+tech_dtf_ai_compatible_weapons_3_Type3Shell = {
+	cost = @dtf_tier3cost2
+	area = physics
+	tier = 3
+	is_rare = no
+	category = { particles }
+	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_3" "tech_dtf_ai_compatible_weapons_2_Kinetic" }
+	weight = @dtf_tier3weight2
+
+	potential = {  
+		is_ai = yes  
+		has_origin = origin_earth_2200
+	} 
+	
+	ai_weight = {
+  	     factor = @dtf_techAIbaseweight
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+  	}
+}
+
 #########################################################################################
 #Tier4 Weapons
 #Energy (Laser)
@@ -128,6 +153,29 @@ tech_dtf_ai_compatible_weapons_4_Kinetic = {
 	is_rare = no
 	category = { particles }
 	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_4" "tech_dtf_ai_compatible_weapons_2_Kinetic" }
+	weight = @dtf_tier4weight2
+
+	potential = {  
+		is_ai = yes  
+		has_origin = origin_earth_2200
+	} 
+	
+	ai_weight = {
+  	     factor = @dtf_techAIbaseweight
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+  	}
+}
+#Type3 - Shell
+tech_dtf_ai_compatible_weapons_4_Type3Shell2 = {
+	cost = @dtf_tier4cost2
+	area = physics
+	tier = 4
+	is_rare = no
+	category = { particles }
+	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_4" "tech_dtf_ai_compatible_weapons_3_Type3Shell" "tech_dtf_ai_compatible_weapons_4_Kinetic" }
 	weight = @dtf_tier4weight2
 
 	potential = {  
