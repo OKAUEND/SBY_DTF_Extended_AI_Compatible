@@ -1,0 +1,39 @@
+
+component_set = {
+	key = "DTF_AI_COMPATIBLE_FIGHTER_HANGAR_CS_1"
+	
+	icon = "GFX_dtf_ship_part_cosmo_falcon_1"
+	icon_frame = 1	
+}
+component_set = {
+	key = "DTF_AI_COMPATIBLE_FIGHTER_HANGAR_CS_1_AS"
+	
+	icon = "GFX_dtf_ship_part_cosmo_falcon_1"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "DTF_AI_COMPATIBLE_FIGHTER_HANGAR_CS_2"
+	
+	icon = "GFX_dtf_ship_part_cosmo_falcon_2"
+	icon_frame = 1	
+}
+component_set = {
+	key = "DTF_AI_COMPATIBLE_FIGHTER_HANGAR_CS_2_AS"
+	
+	icon = "GFX_dtf_ship_part_cosmo_falcon_2"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "DTF_AI_COMPATIBLE_FIGHTER_HANGAR_CS_3"
+	
+	icon = "GFX_dtf_ship_part_cosmo_tiger_2_1"
+	icon_frame = 1	
+}
+component_set = {
+	key = "DTF_AI_COMPATIBLE_FIGHTER_HANGAR_CS_3_AS"
+	
+	icon = "GFX_dtf_ship_part_cosmo_tiger_2_1"
+	icon_frame = 1	
+}

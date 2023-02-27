@@ -1,0 +1,8 @@
+
+component_set = {
+	key = "DTF_AI_COMPATIBLE_ION_BEAM_CS_1"
+	
+	icon = "GFX_dtf_ship_part_wm_gun_1"
+	icon_frame = 1	
+}
+

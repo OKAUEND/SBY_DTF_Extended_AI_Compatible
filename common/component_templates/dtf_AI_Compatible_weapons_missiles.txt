@@ -9,7 +9,7 @@ weapon_component_template = {
 	type = missile
 	
 	prerequisites = { "tech_dtf_ai_compatible_weapons_1" }
-	component_set = "DTF_EDF_MISSILE_CS_1"
+	component_set = "DTF_AI_COMPATIBLE_EDF_MISSILE_CS_1"
 	projectile_gfx = "small_missile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery artillery }
@@ -65,7 +65,7 @@ weapon_component_template = {
 	type = missile
 	
 	prerequisites = { "tech_dtf_ai_compatible_weapons_4" }
-	component_set = "DTF_EDF_MISSILE_CS_2"
+	component_set = "DTF_AI_COMPATIBLE_EDF_MISSILE_CS_2"
 	projectile_gfx = "small_missile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery artillery }
@@ -126,7 +126,7 @@ weapon_component_template = {
 	type = missile
 	
 	prerequisites = { "tech_dtf_ai_compatible_weapons_1" }
-	component_set = "DTF_EDF_TORPEDO_CS_1"
+	component_set = "DTF_AI_COMPATIBLE_EDF_TORPEDO_CS_1"
 	projectile_gfx = "large_torpedo"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_shield explosive }
@@ -186,7 +186,7 @@ weapon_component_template = {
 	type = missile
 	
 	prerequisites = { "tech_dtf_ai_compatible_weapons_4" }
-	component_set = "DTF_EDF_TORPEDO_CS_2"
+	component_set = "DTF_AI_COMPATIBLE_EDF_TORPEDO_CS_2"
 	projectile_gfx = "large_torpedo"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_shield explosive }
