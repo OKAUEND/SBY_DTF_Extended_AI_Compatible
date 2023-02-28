@@ -1,0 +1,6 @@
+@dtf_ai_compatible_weapon_range_100 = 100
+@dtf_ai_compatible_weapon_range_110 = 110
+@dtf_ai_compatible_weapon_range_120 = 120
+@dtf_ai_compatible_weapon_range_130 = 130
+@dtf_ai_compatible_weapon_range_140 = 140
+@dtf_ai_compatible_weapon_range_150 = 150
