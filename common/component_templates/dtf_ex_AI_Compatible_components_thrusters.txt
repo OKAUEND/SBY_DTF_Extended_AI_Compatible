@@ -1,0 +1,157 @@
+
+@dtf_thruster_smallship_power_1 = -15
+@dtf_thruster_smallship_power_2 = -30
+@dtf_thruster_smallship_power_3 = -45
+@dtf_thruster_smallship_power_4 = -60
+@dtf_thruster_smallship_power_5 = -75
+
+@dtf_thruster_mediumship_power_1 = -30
+@dtf_thruster_mediumship_power_2 = -60
+@dtf_thruster_mediumship_power_3 = -90
+@dtf_thruster_mediumship_power_4 = -120
+@dtf_thruster_mediumship_power_5 = -150
+
+@dtf_thruster_largeship_power_1 = -60
+@dtf_thruster_largeship_power_2 = -120
+@dtf_thruster_largeship_power_3 = -180
+@dtf_thruster_largeship_power_4 = -240
+@dtf_thruster_largeship_power_5 = -300
+
+
+@dtf_shipspeed_base_mult_1 = 0.00
+@dtf_shipspeed_base_mult_2 = 0.75
+@dtf_shipspeed_base_mult_3 = 1.25
+@dtf_shipspeed_base_mult_4 = 1.50
+@dtf_shipspeed_base_mult_5 = 2.00
+
+@dtf_ship_evasion_add_1 = 2
+@dtf_ship_evasion_add_2 = 4
+@dtf_ship_evasion_add_3 = 6
+@dtf_ship_evasion_add_4 = 8
+@dtf_ship_evasion_add_5 = 10
+
+
+
+
+
+
+
+@juggernaut_dtff_power_1 = -500
+@juggernaut_dtff_power_2 = -3000
+@juggernaut_dtff_power_3 = -6000
+@juggernaut_dtff_power_4 = -10000
+
+@juggernaut_dtff_cost1 = 100
+@juggernaut_dtff_cost2 = 200
+@juggernaut_dtff_cost3 = 400
+@juggernaut_dtff_cost4 = 800
+
+
+
+
+
+
+
+
+
+
+###################################
+### MILITARY SHIPS
+###################################
+
+##############################################
+### Thruster 4
+##############################################
+utility_component_template = {
+	key = "DTF_THRUSTER_SMALLSHIP_4"
+	size = small
+	icon = "GFX_dtf_ship_part_thruster_4"
+	icon_frame = 1
+	power = @dtf_thruster_smallship_power_4
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_dtf_t8_com_cost
+		}
+	}
+
+	modifier = {
+		ship_base_speed_mult = @dtf_shipspeed_base_mult_4
+		ship_evasion_add = @dtf_ship_evasion_add_4
+	}
+
+	prerequisites = { "tech_dtf_reactor_4" }
+	component_set = "thruster_components"
+	size_restriction = { corvette frigate colonizer lithoid_colonizer lithoid_colonizer sponsored_colonizer constructor science transport destroyer }
+	
+	ai_weight = {
+		weight = @dtf_ai_weight_8
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+	}
+}
+
+utility_component_template = {
+	key = "DTF_THRUSTER_MEDIUMSHIP_4"
+	size = small
+	icon = "GFX_dtf_ship_part_thruster_4"
+	icon_frame = 1
+	power = @dtf_thruster_mediumship_power_4
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_dtf_t8_com_cost
+		}
+	}
+
+	modifier = {
+		ship_base_speed_mult = @dtf_shipspeed_base_mult_4
+		ship_evasion_add = @dtf_ship_evasion_add_4
+	}
+
+	prerequisites = { "tech_dtf_reactor_4" }
+	component_set = "thruster_components"
+	size_restriction = { Battlecruiser escortcarrier explorationship StrikeCruiser cruiser }
+	
+	ai_weight = {
+		weight = @dtf_ai_weight_8
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+	}
+}
+
+utility_component_template = {
+	key = "DTF_THRUSTER_LARGESHIP_4"
+	size = small
+	icon = "GFX_dtf_ship_part_thruster_4"
+	icon_frame = 1
+	power = @dtf_thruster_largeship_power_4
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_dtf_t8_com_cost
+		}
+	}
+
+	modifier = {
+		ship_base_speed_mult = @dtf_shipspeed_base_mult_4
+		ship_evasion_add = @dtf_ship_evasion_add_4
+	}
+
+	prerequisites = { "tech_dtf_reactor_4" }
+	component_set = "thruster_components"
+	size_restriction = { battleship titan Carrier Dreadnought Flagship }
+	
+	ai_weight = {
+		weight = @dtf_ai_weight_8
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+	}
+}
+

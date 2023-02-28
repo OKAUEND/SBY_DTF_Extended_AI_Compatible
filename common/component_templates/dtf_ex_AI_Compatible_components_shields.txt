@@ -1,0 +1,281 @@
+
+@dtf_shiled_power_1_s = -35
+@dtf_shiled_power_1_m = -70
+@dtf_shiled_power_1_l = -140
+
+@dtf_shiled_power_2_s = -38
+@dtf_shiled_power_2_m = -77
+@dtf_shiled_power_2_l = -155
+
+@dtf_shiled_power_3_s = -42
+@dtf_shiled_power_3_m = -85
+@dtf_shiled_power_3_l = -170
+
+@dtf_shiled_power_4_s = -46
+@dtf_shiled_power_4_m = -92
+@dtf_shiled_power_4_l = -185
+
+@dtf_shiled_power_5_s = -50
+@dtf_shiled_power_5_m = -100
+@dtf_shiled_power_5_l = -200
+
+@dtf_shiled_power_6_s = -180
+@dtf_shiled_power_6_m = -360
+@dtf_shiled_power_6_l = -720
+
+@dtf_shiled_power_7_s = -202
+@dtf_shiled_power_7_m = -405
+@dtf_shiled_power_7_l = -790
+
+@dtf_shiled_power_8_s = -225
+@dtf_shiled_power_8_m = -450
+@dtf_shiled_power_8_l = -860
+
+@dtf_shiled_power_9_s = -248
+@dtf_shiled_power_9_m = -495
+@dtf_shiled_power_9_l = -930
+
+@dtf_shiled_power_10_s = -270
+@dtf_shiled_power_10_m = -540
+@dtf_shiled_power_10_l = -1000
+
+@dtf_shiled_power_11_s = -270
+@dtf_shiled_power_11_m = -540
+@dtf_shiled_power_11_l = -1000
+
+@dtf_shiled_power_12_s = -270
+@dtf_shiled_power_12_m = -540
+@dtf_shiled_power_12_l = -1000
+
+
+@dtf_ship_shield_mult = 0.05
+
+
+##############################################################################################
+### Wave Motion Shield 1
+##############################################################################################
+utility_component_template = {
+	key = "DTF_SHIELD_6_SMALL"
+	size = small
+	icon = "GFX_dtf_ship_part_wm_shield_1"
+	icon_frame = 1
+	power = @dtf_shiled_power_6_s
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_dtf_t6_com_cost
+		}	
+		upkeep = {
+			energy = @s_dtf_t6_com_uk_energy
+			alloys = @s_dtf_t6_com_uk_alloys
+		}
+	}
+
+	modifier = {
+		ship_shield_add = 1000
+		ship_shield_mult = @dtf_ship_shield_mult
+		ship_shield_regen_add_perc = 0.05
+	}
+
+	prerequisites = { "tech_dtf_shield_6" }
+	component_set = "DTF_SHIELD_CS_6"
+	upgrades_to = "DTF_SHIELD_7_SMALL"
+
+	ai_weight = {
+		weight = @dtf_ai_weight_6
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+	}
+}
+
+utility_component_template = {
+	key = "DTF_SHIELD_6_MEDIUM"
+	size = medium
+	icon = "GFX_dtf_ship_part_wm_shield_1"
+	icon_frame = 1
+	power = @dtf_shiled_power_6_m
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_dtf_t6_com_cost
+		}
+		upkeep = {
+			energy = @m_dtf_t6_com_uk_energy
+			alloys = @m_dtf_t6_com_uk_alloys
+		}
+	}
+
+	modifier = {
+		ship_shield_add = 1400
+		ship_shield_mult = @dtf_ship_shield_mult
+		ship_shield_regen_add_perc = 0.05
+	}
+
+	prerequisites = { "tech_dtf_shield_6" }
+	component_set = "DTF_SHIELD_CS_6"
+	upgrades_to = "DTF_SHIELD_7_MEDIUM"
+
+	ai_weight = {
+		weight = @dtf_ai_weight_6
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+	}
+}
+
+utility_component_template = {
+	key = "DTF_SHIELD_6_LARGE"
+	size = large
+	icon = "GFX_dtf_ship_part_wm_shield_1"
+	icon_frame = 1
+	power = @dtf_shiled_power_6_l
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_dtf_t6_com_cost
+		}
+		upkeep = {
+			energy = @l_dtf_t6_com_uk_energy
+			alloys = @l_dtf_t6_com_uk_alloys
+		}
+	}
+
+	modifier = {
+		ship_shield_add = 1800
+		ship_shield_mult = @dtf_ship_shield_mult
+		ship_shield_regen_add_perc = 0.05
+	}
+
+	prerequisites = { "tech_dtf_shield_6" }
+	component_set = "DTF_SHIELD_CS_6"
+	upgrades_to = "DTF_SHIELD_7_LARGE"
+
+	ai_weight = {
+		weight = @dtf_ai_weight_6
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+	}
+}
+
+###############################################
+### Wave Motion Shield 2
+###############################################
+utility_component_template = {
+	key = "DTF_SHIELD_7_SMALL"
+	size = small
+	icon = "GFX_dtf_ship_part_wm_shield_2"
+	icon_frame = 1
+	power = @dtf_shiled_power_7_s
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_dtf_t7_com_cost
+		}	
+		upkeep = {
+			energy = @s_dtf_t7_com_uk_energy
+			alloys = @s_dtf_t7_com_uk_alloys
+		}
+	}
+
+	modifier = {
+		ship_shield_add = 1800
+		ship_shield_mult = @dtf_ship_shield_mult
+		ship_shield_regen_add_perc = 0.10
+	}
+
+	prerequisites = { "tech_dtf_shield_7" }
+	component_set = "DTF_SHIELD_CS_7"
+	upgrades_to = "DTF_SHIELD_8_SMALL"
+
+	ai_weight = {
+		weight = @dtf_ai_weight_7
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+	}
+}
+
+utility_component_template = {
+	key = "DTF_SHIELD_7_MEDIUM"
+	size = medium
+	icon = "GFX_dtf_ship_part_wm_shield_2"
+	icon_frame = 1
+	power = @dtf_shiled_power_7_m
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_dtf_t7_com_cost
+		}
+		upkeep = {
+			energy = @m_dtf_t7_com_uk_energy
+			alloys = @m_dtf_t7_com_uk_alloys
+		}
+	}
+
+	modifier = {
+		ship_shield_add = 2200
+		ship_shield_mult = @dtf_ship_shield_mult
+		ship_shield_regen_add_perc = 0.10
+	}
+
+	prerequisites = { "tech_dtf_shield_7" }
+	component_set = "DTF_SHIELD_CS_7"
+	upgrades_to = "DTF_SHIELD_8_MEDIUM"
+
+	ai_weight = {
+		weight = @dtf_ai_weight_7
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+	}
+}
+
+utility_component_template = {
+	key = "DTF_SHIELD_7_LARGE"
+	size = large
+	icon = "GFX_dtf_ship_part_wm_shield_2"
+	icon_frame = 1
+	power = @dtf_shiled_power_7_l
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_dtf_t7_com_cost
+		}
+		upkeep = {
+			energy = @l_dtf_t7_com_uk_energy
+			alloys = @l_dtf_t7_com_uk_alloys
+		}
+	}
+
+	modifier = {
+		ship_shield_add = 2600
+		ship_shield_mult = @dtf_ship_shield_mult
+		ship_shield_regen_add_perc = 0.10
+	}
+
+	prerequisites = { "tech_dtf_shield_7" }
+	component_set = "DTF_SHIELD_CS_7"
+	upgrades_to = "DTF_SHIELD_8_LARGE"
+
+	ai_weight = {
+		weight = @dtf_ai_weight_7
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+	}
+}
+

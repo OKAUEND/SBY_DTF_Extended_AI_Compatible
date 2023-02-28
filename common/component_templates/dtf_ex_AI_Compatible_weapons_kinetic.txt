@@ -1,0 +1,212 @@
+
+
+############################################
+### High-density Energy Neutralization Cannon
+############################################
+
+### Advanced 3
+
+weapon_component_template = {
+	type = instant
+	
+	key = "DTF_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_SMALL_3"
+	size = small
+	
+	icon = "GFX_dtf_ship_part_anti_shield_gun_3"
+	icon_frame = 1
+	
+	prerequisites = { "tech_dtf_weapons_6" }
+	component_set = "DTF_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_CS_3"
+	projectile_gfx = "dtf_blue_kinetic_shell_s"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_artillery }
+	resources = {
+		category = ship_components
+		
+		cost = {
+			alloys = @s_dtf_t6_cost
+		}
+		upkeep = {
+			energy = @s_dtf_t6_uk_energy
+			alloys = @s_dtf_t6_uk_alloys
+		}
+	}
+
+	power = -22.00
+	damage = { min = 24.00 max = 58.00 }
+	shield_damage = 4.00
+	armor_damage = 0.05
+	hull_damage = 0.05
+	windup = { min = 24.0 max = 40.0 }
+	total_fire_time = 10.0
+	range = @dtf_weapon_range_100
+	accuracy = 0.90
+	tracking = 0.10
+	
+	ai_weight = {
+		weight = @dtf_ai_weight_6
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+	}
+
+	upgrades_to = "DTF_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_SMALL_4"
+}
+
+weapon_component_template = {
+	type = instant
+	
+	key = "DTF_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_MEDIUM_3"
+	size = medium
+	
+	icon = "GFX_dtf_ship_part_anti_shield_gun_3"
+	icon_frame = 1
+	
+	prerequisites = { "tech_dtf_weapons_6" }
+	component_set = "DTF_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_CS_3"
+	projectile_gfx = "dtf_blue_kinetic_shell_m"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_artillery }
+	resources = {
+		category = ship_components
+		
+		cost = {
+			alloys = @m_dtf_t6_cost
+		}
+		upkeep = {
+			energy = @m_dtf_t6_uk_energy
+			alloys = @m_dtf_t6_uk_alloys
+		}
+	}
+
+	power = -39.00
+	damage = { min = 55.00 max = 135.00 }
+	shield_damage = 4.00
+	armor_damage = 0.05
+	hull_damage = 0.05
+	windup = { min = 24.0 max = 40.0 }
+	total_fire_time = 10.0
+	range = @dtf_weapon_range_100
+	accuracy = 0.90
+	tracking = 0.10
+
+	ai_weight = {
+		weight = @dtf_ai_weight_6
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+	}
+
+	upgrades_to = "DTF_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_MEDIUM_4"
+}
+
+weapon_component_template = {
+	type = instant
+	
+	key = "DTF_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_LARGE_3"
+	size = large
+	
+	icon = "GFX_dtf_ship_part_anti_shield_gun_3"
+	icon_frame = 1
+	
+	prerequisites = { "tech_dtf_weapons_6" }
+	component_set = "DTF_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_CS_3"
+	projectile_gfx = "dtf_blue_kinetic_shell_l"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_artillery }
+	resources = {
+		category = ship_components
+		
+		cost = {
+			alloys = @l_dtf_t6_cost
+		}
+		upkeep = {
+			energy = @l_dtf_t6_uk_energy
+			alloys = @l_dtf_t6_uk_alloys
+		}
+	}
+
+	power = -97.00
+	damage = { min = 132.00 max = 290.00 }
+	shield_damage = 4.00
+	armor_damage = 0.05
+	hull_damage = 0.05
+	windup = { min = 24.0 max = 40.0 }
+	total_fire_time = 10.0
+	range = @dtf_weapon_range_110
+	accuracy = 0.90
+	tracking = 0.10
+
+	ai_weight = {
+		weight = @dtf_ai_weight_6
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+	}
+
+	upgrades_to = "DTF_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_LARGE_4"
+}
+
+
+
+
+
+
+
+############################################
+### Wave Motion Cartridge Shell
+############################################
+
+weapon_component_template = {
+	type = instant
+	
+	key = "DTF_WAVE_MOTION_CARTRIDGE_SHELL_2"
+	size = large
+	
+	icon = "GFX_dtf_ship_part_wave_motion_cartridge_shell_4"
+	icon_frame = 1
+	
+	prerequisites = { "tech_dtf_wave_motion_gun_2" }
+	component_set = "DTF_WAVE_MOTION_CARTRIDGE_SHELL_CS_2"
+	projectile_gfx = "dtf_blue_laser_cannon_l"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_artillery }
+	ai_tag_weight = 0
+	
+	resources = {
+		category = ship_components
+		
+		cost = {
+			alloys = @l_dtf_t7_cost
+		}
+		upkeep = {
+			energy = @l_dtf_t7_uk_energy
+			alloys = @l_dtf_t7_uk_alloys
+		}
+	}
+
+	power = -210.00
+	damage = { min = 500.00 max = 1120.00 }
+	shield_damage = 1.50
+	armor_penetration = 0.25
+	armor_damage = 0.75
+	hull_damage = 1.75
+	windup = { min = 60.0 max = 90.0 }
+	total_fire_time = 15.0
+	range = @dtf_weapon_range_120
+	accuracy = 0.90
+	tracking = 0.10
+	
+	ai_weight = {
+		weight = @dtf_ai_weight_7
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+	}
+
+	upgrades_to = "DTF_WAVE_MOTION_CARTRIDGE_SHELL_3"
+}

@@ -1,0 +1,295 @@
+
+####################################################################################################################################
+### POSITRON_SHOCK_CANNON_1
+####################################################################################################################################
+weapon_component_template = {
+	key = "DTF_POSITRON_SHOCK_CANNON_SMALL_1"
+	size = small
+	#entity = "small_laser_gun_entity"
+	type = instant
+	icon = "GFX_dtf_ship_part_positron_shockcannon_1"
+	icon_frame = 1
+	prerequisites = { "tech_dtf_weapons_6" }
+	component_set = "DTF_POSITRON_SHOCK_CANNON_CS_1"
+	projectile_gfx = "dtf_blue_laser_s"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_artillery }
+	upgrades_to = "DTF_POSITRON_SHOCK_CANNON_SMALL_2"
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_dtf_t6_cost
+		}		
+		upkeep = {
+			energy = @s_dtf_t6_uk_energy
+			alloys = @s_dtf_t6_uk_alloys
+		}
+	}
+
+	power = -20.00
+	damage = { min = 45.00 max = 85.00 }
+	shield_damage = 0.50
+	armor_damage = 1.75
+	#hull_damage = 1.50
+	windup = { min = 40.0 max = 50.0 }
+	total_fire_time = 18.0
+	range = @dtf_weapon_range_100
+	accuracy = 0.95
+	tracking = 0.30
+	
+	ai_weight = {
+		weight = @dtf_ai_weight_6
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+	}
+
+	
+	
+}
+
+weapon_component_template = {
+	key = "DTF_POSITRON_SHOCK_CANNON_MEDIUM_1"
+	size = medium
+	#entity = "medium_laser_gun_entity"
+	type = instant
+	icon = "GFX_dtf_ship_part_positron_shockcannon_1"
+	icon_frame = 1
+	prerequisites = { "tech_dtf_weapons_6" }
+	component_set = "DTF_POSITRON_SHOCK_CANNON_CS_1"
+	projectile_gfx = "dtf_blue_laser_m"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_artillery }
+	upgrades_to = "DTF_POSITRON_SHOCK_CANNON_MEDIUM_2"
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_dtf_t6_cost
+		}		
+		upkeep = {
+			energy = @m_dtf_t6_uk_energy
+			alloys = @m_dtf_t6_uk_alloys
+		}
+	}
+
+	power = -40.00
+	damage = { min = 115.00 max = 195.00 }
+	shield_damage = 0.50
+	armor_damage = 1.75
+	#hull_damage = 1.50
+	windup = { min = 40.0 max = 50.0 }
+	total_fire_time = 18.0
+	range = @dtf_weapon_range_110
+	accuracy = 0.95
+	tracking = 0.20
+	
+	ai_weight = {
+		weight = @dtf_ai_weight_6
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+	}
+
+	
+	
+}
+
+weapon_component_template = {
+	key = "DTF_POSITRON_SHOCK_CANNON_LARGE_1"
+	size = large
+	#entity = "large_laser_gun_entity"
+	type = instant
+	icon = "GFX_dtf_ship_part_positron_shockcannon_1"
+	icon_frame = 1
+	prerequisites = { "tech_dtf_weapons_6" }
+	component_set = "DTF_POSITRON_SHOCK_CANNON_CS_1"
+	projectile_gfx = "dtf_blue_laser_l"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_artillery }
+	upgrades_to = "DTF_POSITRON_SHOCK_CANNON_LARGE_2"
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_dtf_t6_cost
+		}		
+		upkeep = {
+			energy = @l_dtf_t6_uk_energy
+			alloys = @l_dtf_t6_uk_alloys
+		}
+	}
+
+	power = -80.00
+	damage = { min = 240.00 max = 400.00 }
+	shield_damage = 0.50
+	armor_damage = 1.75
+	#hull_damage = 1.50
+	windup = { min = 40.0 max = 50.0 }
+	total_fire_time = 18.0
+	range = @dtf_weapon_range_120
+	accuracy = 0.95
+	tracking = 0.15
+	
+	ai_weight = {
+		weight = @dtf_ai_weight_6
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+	}
+
+	
+	
+}
+
+####################################################################################################################################
+### POSITRON_SHOCK_CANNON_2
+####################################################################################################################################
+weapon_component_template = {
+	key = "DTF_POSITRON_SHOCK_CANNON_SMALL_2"
+	size = small
+	#entity = "small_laser_gun_entity"
+	type = instant
+	icon = "GFX_dtf_ship_part_positron_shockcannon_2"
+	icon_frame = 1
+	prerequisites = { "tech_dtf_weapons_7" }
+	component_set = "DTF_POSITRON_SHOCK_CANNON_CS_2"
+	projectile_gfx = "dtf_blue_laser_s"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_artillery }
+	upgrades_to = "DTF_POSITRON_SHOCK_CANNON_SMALL_3"
+	
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_dtf_t7_cost
+		}		
+		upkeep = {
+			energy = @s_dtf_t7_uk_energy
+			alloys = @s_dtf_t7_uk_alloys
+		}
+	}
+
+	power = -27.00
+	damage = { min = 62.00 max = 110.00 }
+	shield_damage = 0.50
+	armor_damage = 1.75
+	#hull_damage = 1.50
+	windup = { min = 40.0 max = 50.0 }
+	total_fire_time = 18.0
+	range = @dtf_weapon_range_100
+	accuracy = 0.95
+	tracking = 0.30
+	
+	ai_weight = {
+		weight = @dtf_ai_weight_7
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+	}
+
+	
+	
+}
+
+weapon_component_template = {
+	key = "DTF_POSITRON_SHOCK_CANNON_MEDIUM_2"
+	size = medium
+	#entity = "medium_laser_gun_entity"
+	type = instant
+	icon = "GFX_dtf_ship_part_positron_shockcannon_2"
+	icon_frame = 1
+	prerequisites = { "tech_dtf_weapons_7" }
+	component_set = "DTF_POSITRON_SHOCK_CANNON_CS_2"
+	projectile_gfx = "dtf_blue_laser_m"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_artillery }
+	upgrades_to = "DTF_POSITRON_SHOCK_CANNON_MEDIUM_3"
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_dtf_t7_cost
+		}		
+		upkeep = {
+			energy = @m_dtf_t7_uk_energy
+			alloys = @m_dtf_t7_uk_alloys
+		}
+	}
+
+	power = -55.00
+	damage = { min = 160.00 max = 250.00 }
+	shield_damage = 0.50
+	armor_damage = 1.75
+	#hull_damage = 1.50
+	windup = { min = 40.0 max = 50.0 }
+	total_fire_time = 18.0
+	range = @dtf_weapon_range_110
+	accuracy = 0.95
+	tracking = 0.20
+	
+	ai_weight = {
+		weight = @dtf_ai_weight_7
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+	}
+
+	
+	
+}
+
+weapon_component_template = {
+	key = "DTF_POSITRON_SHOCK_CANNON_LARGE_2"
+	size = large
+	#entity = "large_laser_gun_entity"
+	type = instant
+	icon = "GFX_dtf_ship_part_positron_shockcannon_2"
+	icon_frame = 1
+	prerequisites = { "tech_dtf_weapons_7" }
+	component_set = "DTF_POSITRON_SHOCK_CANNON_CS_2"
+	projectile_gfx = "dtf_blue_laser_l"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_artillery }
+	upgrades_to = "DTF_POSITRON_SHOCK_CANNON_LARGE_3"
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_dtf_t7_cost
+		}		
+		upkeep = {
+			energy = @l_dtf_t7_uk_energy
+			alloys = @l_dtf_t7_uk_alloys
+		}
+	}
+
+	power = -110.00
+	damage = { min = 350.00 max = 525.00 }
+	shield_damage = 0.50
+	armor_damage = 1.75
+	#hull_damage = 1.50
+	windup = { min = 40.0 max = 50.0 }
+	total_fire_time = 18.0
+	range = @dtf_weapon_range_120
+	accuracy = 0.95
+	tracking = 0.15
+	
+	ai_weight = {
+		weight = @dtf_ai_weight_7
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+	}
+
+	
+	
+}
+
