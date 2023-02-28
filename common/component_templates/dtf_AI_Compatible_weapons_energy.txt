@@ -28,7 +28,8 @@ weapon_component_template = {
 	}
 
 	power = -5.00
-	damage = { min = 10.30 max = 31.00 }
+	#-1.5 / 2.0
+	damage = { min = 8.5 max = 29.00 }
 	shield_damage = 0.50
 	armor_damage = 1.50
 	hull_damage = 1.00
@@ -76,7 +77,8 @@ weapon_component_template = {
 	}
 
 	power = -10.00
-	damage = { min = 20.60 max = 62.00 }
+	# -1.0 / 3.0
+	damage = { min = 19.50 max = 59.00 }
 	shield_damage = 0.50
 	armor_damage = 1.50
 	hull_damage = 1.00
@@ -124,7 +126,8 @@ weapon_component_template = {
 	}
 
 	power = -20.00
-	damage = { min = 41.30 max = 124.00 }
+	# -2.3 / 6.0
+	damage = { min = 39.00 max = 118.0 }
 	shield_damage = 0.50
 	armor_damage = 1.50
 	hull_damage = 1.00
@@ -176,7 +179,7 @@ weapon_component_template = {
 	}
 
 	power = -8.00
-	damage = { min = 13.80 max = 41.50 }
+	damage = { min = 12.30 max = 39.50 }
 	shield_damage = 0.50
 	armor_damage = 1.50
 	hull_damage = 1.00
@@ -224,7 +227,7 @@ weapon_component_template = {
 	}
 
 	power = -15.00
-	damage = { min = 27.60 max = 83.00 }
+	damage = { min = 26.60 max = 80.00 }
 	shield_damage = 0.50
 	armor_damage = 1.50
 	hull_damage = 1.00
@@ -272,7 +275,7 @@ weapon_component_template = {
 	}
 
 	power = -30.00
-	damage = { min = 55.00 max = 166.00 }
+	damage = { min = 52.70 max = 160.00 }
 	shield_damage = 0.50
 	armor_damage = 1.50
 	hull_damage = 1.00
@@ -324,7 +327,7 @@ weapon_component_template = {
 	}
 
 	power = -11.00
-	damage = { min = 17.60 max = 53.00 }
+	damage = { min = 16.10 max = 51.00 }
 	shield_damage = 0.50
 	armor_damage = 1.50
 	hull_damage = 1.00
@@ -372,7 +375,7 @@ weapon_component_template = {
 	}
 
 	power = -20.00
-	damage = { min = 35.00 max = 106.00 }
+	damage = { min = 33.50 max = 104.00 }
 	shield_damage = 0.50
 	armor_damage = 1.50
 	hull_damage = 1.00
@@ -420,7 +423,7 @@ weapon_component_template = {
 	}
 
 	power = -40.00
-	damage = { min = 71.00 max = 212.00 }
+	damage = { min = 68.50 max = 208.00 }
 	shield_damage = 0.50
 	armor_damage = 1.50
 	hull_damage = 1.00
@@ -472,7 +475,7 @@ weapon_component_template = {
 	}
 
 	power = -13.00
-	damage = { min = 21.00 max = 62.50 }
+	damage = { min = 19.50 max = 60.50 }
 	shield_damage = 0.50
 	armor_damage = 1.50
 	hull_damage = 1.00
@@ -520,7 +523,7 @@ weapon_component_template = {
 	}
 
 	power = -25.00
-	damage = { min = 42.00 max = 125.00 }
+	damage = { min = 40.70 max = 121.50 }
 	shield_damage = 0.50
 	armor_damage = 1.50
 	hull_damage = 1.00
@@ -568,7 +571,7 @@ weapon_component_template = {
 	}
 
 	power = -49.00
-	damage = { min = 83.00 max = 250.00 }
+	damage = { min = 80.70 max = 244.00 }
 	shield_damage = 0.50
 	armor_damage = 1.50
 	hull_damage = 1.00
@@ -619,7 +622,7 @@ weapon_component_template = {
 	}
 
 	power = -16.00
-	damage = { min = 22.00 max = 56.00 }
+	damage = { min = 21.00 max = 55.00 }
 	shield_damage = 0.50
 	armor_damage = 1.50
 	hull_damage = 1.00
@@ -667,7 +670,7 @@ weapon_component_template = {
 	}
 
 	power = -30.00
-	damage = { min = 58.00 max = 150.00 }
+	damage = { min = 57.50 max = 148.00 }
 	shield_damage = 0.50
 	armor_damage = 1.50
 	hull_damage = 1.00
@@ -715,7 +718,7 @@ weapon_component_template = {
 	}
 
 	power = -59.00
-	damage = { min = 145.00 max = 350.00 }
+	damage = { min = 143.00 max = 345.00 }
 	shield_damage = 0.50
 	armor_damage = 1.50
 	hull_damage = 1.00
@@ -821,7 +824,7 @@ weapon_component_template = {
 	}
 
 	power = -30.00
-	damage = { min = 38.00 max = 92.00 }
+	damage = { min = 35.00 max = 89.00 }
 	shield_damage = 0.75
 	armor_damage = 1.25
 	hull_damage = 1.25
@@ -869,7 +872,7 @@ weapon_component_template = {
 	}
 
 	power = -59.00
-	damage = { min = 80.00 max = 195.00 }
+	damage = { min = 77.50 max = 192.50 }
 	shield_damage = 0.75
 	armor_damage = 1.25
 	hull_damage = 1.25
@@ -886,9 +889,6 @@ weapon_component_template = {
 			NOT = { has_origin = origin_earth_2200 }
 		}
 	}
-
-	
-	
 }
 
 

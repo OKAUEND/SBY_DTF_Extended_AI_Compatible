@@ -39,7 +39,7 @@ weapon_component_template = {
 	hull_damage = 0.25
 	windup = { min = 120.0 max = 160.0 }
 	total_fire_time = 600
-	range = @dtf_weapon_range_200
+	range = @dtf_ai_compatible_weapon_range_120
 	accuracy = 0.80
 	tracking = 0.10
 

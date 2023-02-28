@@ -36,7 +36,7 @@ weapon_component_template = {
 	armor_damage = 1.75
 	windup = { min = 160.0 max = 200.0 }
 	total_fire_time = 360.0
-	range = @dtf_weapon_range_150
+	range = @dtf_ai_compatible_weapon_range_100 
 	accuracy = 0.80
 	tracking = 0.10
 	
@@ -86,7 +86,7 @@ weapon_component_template = {
 	armor_damage = 1.75
 	windup = { min = 160.0 max = 200.0 }
 	total_fire_time = 360.0
-	range = @dtf_weapon_range_150
+	range = @dtf_ai_compatible_weapon_range_100 
 	accuracy = 0.85
 	tracking = 0.10
 	
@@ -146,7 +146,7 @@ weapon_component_template = {
 	hull_damage = 2.00
 	windup = { min = 240.0 max = 320.0 }
 	total_fire_time = 600
-	range = @dtf_weapon_range_200
+	range = @dtf_ai_compatible_weapon_range_140
 	accuracy = 0.90
 	tracking = 0.10
 	
@@ -200,7 +200,7 @@ weapon_component_template = {
 	hull_damage = 2.00
 	windup = { min = 240.0 max = 320.0 }
 	total_fire_time = 480
-	range = @dtf_weapon_range_200
+	range = @dtf_ai_compatible_weapon_range_140
 	accuracy = 0.90
 	tracking = 0.10
 	
@@ -259,7 +259,7 @@ weapon_component_template = {
 	hull_damage = 2.00
 	windup = { min = 280.0 max = 360.0 }
 	total_fire_time = 720
-	range = @dtf_weapon_range_250
+	range = @dtf_ai_compatible_weapon_range_150
 	accuracy = 0.90
 	tracking = 0.10
 	
@@ -314,7 +314,7 @@ weapon_component_template = {
 	hull_damage = 2.00
 	windup = { min = 280.0 max = 360.0 }
 	total_fire_time = 720
-	range = @dtf_weapon_range_250
+	range = @dtf_ai_compatible_weapon_range_150
 	accuracy = 0.90
 	tracking = 0.10
 	
