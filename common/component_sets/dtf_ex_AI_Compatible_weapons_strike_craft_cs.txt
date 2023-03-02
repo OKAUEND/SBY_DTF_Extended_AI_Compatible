@@ -1,26 +1,26 @@
 
 
 component_set = {
-	key = "DTF_FIGHTER_HANGAR_CS_4"
+	key = "DTF_AI_COMPATIBLE_FIGHTER_HANGAR_CS_4"
 	
 	icon = "GFX_dtf_ship_part_cosmo_tiger_2_2"
 	icon_frame = 1	
 }
 component_set = {
-	key = "DTF_FIGHTER_HANGAR_CS_4_AS"
+	key = "DTF_AI_COMPATIBLE_FIGHTER_HANGAR_CS_4_AS"
 	
 	icon = "GFX_dtf_ship_part_cosmo_tiger_2_2"
 	icon_frame = 1	
 }
 
 component_set = {
-	key = "DTF_FIGHTER_HANGAR_CS_5"
+	key = "DTF_AI_COMPATIBLE_FIGHTER_HANGAR_CS_5"
 	
 	icon = "GFX_dtf_ship_part_cosmo_tiger_2_3"
 	icon_frame = 1	
 }
 component_set = {
-	key = "DTF_FIGHTER_HANGAR_CS_5_AS"
+	key = "DTF_AI_COMPATIBLE_FIGHTER_HANGAR_CS_5_AS"
 	
 	icon = "GFX_dtf_ship_part_cosmo_tiger_2_3"
 	icon_frame = 1	

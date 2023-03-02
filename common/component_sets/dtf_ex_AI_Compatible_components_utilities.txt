@@ -12,7 +12,7 @@ component_set = {
 
 
 component_set = {
-	key = "DTF_AFTERBURNER_2_CS"
+	key = "DTF_AI_COMPATIBLE_AFTERBURNER_2_CS"
 
 	icon = "GFX_ship_part_afterburner_2"
 	icon_frame = 1
@@ -21,7 +21,7 @@ component_set = {
 
 
 component_set = {
-	key = "DTF_REACTOR_BOOSTER_3_CS"
+	key = "DTF_AI_COMPATIBLE_REACTOR_BOOSTER_3_CS"
 
 	icon = "GFX_ship_part_reactor_booster_3"
 	icon_frame = 1

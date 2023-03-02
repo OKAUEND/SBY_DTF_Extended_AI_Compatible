@@ -1,21 +1,21 @@
 
 
 component_set = {
-	key = "DTF_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_CS_3"
+	key = "DTF_AI_COMPATIBLE_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_CS_3"
 	
 	icon = "GFX_dtf_ship_part_anti_shield_gun_3"
 	icon_frame = 1	
 }
 
 component_set = {
-	key = "DTF_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_CS_4"
+	key = "DTF_AI_COMPATIBLE_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_CS_4"
 	
 	icon = "GFX_dtf_ship_part_anti_shield_gun_4"
 	icon_frame = 1	
 }
 
 component_set = {
-	key = "DTF_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_CS_5"
+	key = "DTF_AI_COMPATIBLE_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_CS_5"
 	
 	icon = "GFX_dtf_ship_part_anti_shield_gun_5"
 	icon_frame = 1	
@@ -26,14 +26,14 @@ component_set = {
 
 
 component_set = {
-	key = "DTF_WAVE_MOTION_CARTRIDGE_SHELL_CS_2"
+	key = "DTF_AI_COMPATIBLE_WAVE_MOTION_CARTRIDGE_SHELL_CS_2"
 	
 	icon = "GFX_dtf_ship_part_wave_motion_cartridge_shell_4"
 	icon_frame = 1	
 }
 
 component_set = {
-	key = "DTF_WAVE_MOTION_CARTRIDGE_SHELL_CS_3"
+	key = "DTF_AI_COMPATIBLE_WAVE_MOTION_CARTRIDGE_SHELL_CS_3"
 	
 	icon = "GFX_dtf_ship_part_wave_motion_cartridge_shell_5"
 	icon_frame = 1	

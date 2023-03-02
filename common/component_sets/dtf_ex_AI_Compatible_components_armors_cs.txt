@@ -1,35 +1,35 @@
 
 
 component_set = {
-	key = "DTF_ARMOR_PLATING_CS_6"
+	key = "DTF_AI_COMPATIBLE_ARMOR_PLATING_CS_6"
 	
 	icon = "GFX_dtf_ship_part_wm_armor_1"
 	icon_frame = 1	
 }
 
 component_set = {
-	key = "DTF_ARMOR_PLATING_CS_7"
+	key = "DTF_AI_COMPATIBLE_ARMOR_PLATING_CS_7"
 	
 	icon = "GFX_dtf_ship_part_wm_armor_2"
 	icon_frame = 1	
 }
 
 component_set = {
-	key = "DTF_ARMOR_PLATING_CS_8"
+	key = "DTF_AI_COMPATIBLE_ARMOR_PLATING_CS_8"
 	
 	icon = "GFX_dtf_ship_part_wm_armor_3"
 	icon_frame = 1	
 }
 
 component_set = {
-	key = "DTF_ARMOR_PLATING_CS_9"
+	key = "DTF_AI_COMPATIBLE_ARMOR_PLATING_CS_9"
 	
 	icon = "GFX_dtf_ship_part_wm_armor_4"
 	icon_frame = 1	
 }
 
 component_set = {
-	key = "DTF_ARMOR_PLATING_CS_10"
+	key = "DTF_AI_COMPATIBLE_ARMOR_PLATING_CS_10"
 	
 	icon = "GFX_dtf_ship_part_wm_armor_5"
 	icon_frame = 1	
