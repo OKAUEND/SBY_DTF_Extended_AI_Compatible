@@ -23,7 +23,7 @@ strike_craft_component_template = {
 	projectile_gfx = "dtf_strike_craft_aa"
 	power = @dtf_sc_power4
 
-	prerequisites = { "tech_dtf_weapons_7" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_7_StrikeCraft" }
 	resources = {
 		category = ship_components
 		cost = {
@@ -84,7 +84,7 @@ strike_craft_component_template = {
 	projectile_gfx = "dtf_strike_craft_as"
 	power = @dtf_sc_power4
 
-	prerequisites = { "tech_dtf_weapons_7" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_7_StrikeCraft" }
 	resources = {
 		category = ship_components
 		cost = {

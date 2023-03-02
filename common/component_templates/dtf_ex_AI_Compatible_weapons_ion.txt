@@ -18,7 +18,7 @@ weapon_component_template = {
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_artillery }
 
-	prerequisites = { "tech_dtf_wave_motion_gun_2" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_7_Wave_Motion_Gun" }
 	component_set = "DTF_AI_COMPATIBLE_ION_BEAM_CS_2"
 	projectile_gfx = "dtf_ion_beam"
 	size_restriction = { ion_cannon }

@@ -7,7 +7,7 @@ weapon_component_template = {
 	icon = "GFX_dtf_ship_part_pulse_laser_turret_3"
 	icon_frame = 1
 	
-	prerequisites = { "tech_dtf_weapons_6" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_6_PointDefence" }
 	component_set = "DTF_AI_COMPATIBLE_EDF_POINT_DEFENCE_CS_3"
 	type = point_defence
 	projectile_gfx = "dtf_red_laser_pd"

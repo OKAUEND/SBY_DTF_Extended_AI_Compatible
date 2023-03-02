@@ -9,7 +9,7 @@ weapon_component_template = {
 	icon_frame = 1
 	type = missile
 	
-	prerequisites = { "tech_dtf_weapons_6" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_6_Missile" }
 	component_set = "DTF_AI_COMPATIBLE_EDF_MISSILE_CS_3"
 	projectile_gfx = "small_missile"
 	tags = { weapon_type_explosive }
@@ -69,7 +69,7 @@ weapon_component_template = {
 	icon_frame = 1
 	type = missile
 	
-	prerequisites = { "tech_dtf_weapons_6" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_6_Missile" }
 	component_set = "DTF_AI_COMPATIBLE_EDF_TORPEDO_CS_3"
 	projectile_gfx = "large_torpedo"
 	tags = { weapon_type_explosive }
