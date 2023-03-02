@@ -2,7 +2,7 @@
 ###Missile
 
 weapon_component_template = {
-	key = "DTF_EDF_MISSILE_3"
+	key = "DTF_AI_COMPATIBLE_EDF_MISSILE_3"
 	size = medium
 	
 	icon = "GFX_dtf_ship_part_missile_3"
@@ -15,7 +15,7 @@ weapon_component_template = {
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery artillery }
 	ai_tag_weight = 0
-	upgrades_to = "DTF_EDF_MISSILE_4"
+	upgrades_to = "DTF_AI_COMPATIBLE_EDF_MISSILE_4"
 	resources = {
 		category = ship_components
 		cost = {
@@ -62,7 +62,7 @@ weapon_component_template = {
 ###Missile
 
 weapon_component_template = {
-	key = "DTF_EDF_TORPEDO_3"
+	key = "DTF_AI_COMPATIBLE_EDF_TORPEDO_3"
 	size = torpedo
 	
 	icon = "GFX_dtf_ship_part_missile_3"
@@ -75,7 +75,7 @@ weapon_component_template = {
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_shield explosive }
 	ai_tag_weight = 0
-	upgrades_to = "DTF_EDF_TORPEDO_4"
+	upgrades_to = "DTF_AI_COMPATIBLE_EDF_TORPEDO_4"
 	resources = {
 		category = ship_components
 		cost = {

@@ -63,7 +63,7 @@
 ### Thruster 4
 ##############################################
 utility_component_template = {
-	key = "DTF_THRUSTER_SMALLSHIP_4"
+	key = "DTF_AI_COMPATIBLE_THRUSTER_SMALLSHIP_4"
 	size = small
 	icon = "GFX_dtf_ship_part_thruster_4"
 	icon_frame = 1
@@ -80,7 +80,7 @@ utility_component_template = {
 		ship_evasion_add = @dtf_ship_evasion_add_4
 	}
 
-	prerequisites = { "tech_dtf_reactor_4" }
+	prerequisites = { "tech_dtf_ai_compatible_reactor_4" }
 	component_set = "thruster_components"
 	size_restriction = { corvette frigate colonizer lithoid_colonizer lithoid_colonizer sponsored_colonizer constructor science transport destroyer }
 	
@@ -94,7 +94,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "DTF_THRUSTER_MEDIUMSHIP_4"
+	key = "DTF_AI_COMPATIBLE_THRUSTER_MEDIUMSHIP_4"
 	size = small
 	icon = "GFX_dtf_ship_part_thruster_4"
 	icon_frame = 1
@@ -111,7 +111,7 @@ utility_component_template = {
 		ship_evasion_add = @dtf_ship_evasion_add_4
 	}
 
-	prerequisites = { "tech_dtf_reactor_4" }
+	prerequisites = { "tech_dtf_ai_compatible_reactor_4" }
 	component_set = "thruster_components"
 	size_restriction = { Battlecruiser escortcarrier explorationship StrikeCruiser cruiser }
 	
@@ -125,7 +125,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "DTF_THRUSTER_LARGESHIP_4"
+	key = "DTF_AI_COMPATIBLE_THRUSTER_LARGESHIP_4"
 	size = small
 	icon = "GFX_dtf_ship_part_thruster_4"
 	icon_frame = 1
@@ -142,7 +142,7 @@ utility_component_template = {
 		ship_evasion_add = @dtf_ship_evasion_add_4
 	}
 
-	prerequisites = { "tech_dtf_reactor_4" }
+	prerequisites = { "tech_dtf_ai_compatible_reactor_4" }
 	component_set = "thruster_components"
 	size_restriction = { battleship titan Carrier Dreadnought Flagship }
 	

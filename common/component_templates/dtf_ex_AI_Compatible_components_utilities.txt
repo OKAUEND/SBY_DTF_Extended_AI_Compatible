@@ -46,7 +46,7 @@ utility_component_template = {
 	}
 	component_set = "SPECIAL_SLOT_DTF_FLEET_CONTROL_T3_CS"
 
-	prerequisites = { "tech_dtf_weapons_7" }
+	prerequisites = { "tech_dtf_ai_compatible_weapons_7" }
 	
 	ai_weight = {
 		weight = 0
@@ -64,7 +64,7 @@ utility_component_template = {
 
 # Afterburners
 utility_component_template = {
-	key = "DTF_AFTERBURNER_2"
+	key = "DTF_AI_COMPATIBLE_AFTERBURNER_2"
 	size = aux
 	icon = "GFX_ship_part_afterburner_2"
 	icon_frame = 1
@@ -81,7 +81,7 @@ utility_component_template = {
 		ship_evasion_add = 5.0
 	}
 	class_restriction = { shipclass_military }
-	prerequisites = { "tech_dtf_reactor_4" }
+	prerequisites = { "tech_dtf_ai_compatible_reactor_4" }
 	component_set = "DTF_AFTERBURNER_2_CS"
 
 	ai_weight = {
@@ -98,7 +98,7 @@ utility_component_template = {
 ####################
 
 utility_component_template = {
-	key = "DTF_REACTOR_BOOSTER_3"
+	key = "DTF_AI_COMPATIBLE_REACTOR_BOOSTER_3"
 	size = aux
 	icon = "GFX_ship_part_reactor_booster_3"
 	icon_frame = 1
@@ -115,7 +115,7 @@ utility_component_template = {
 		ship_shield_mult = 0.20
 	}
 
-	prerequisites = { "tech_dtf_reactor_4" }
+	prerequisites = { "tech_dtf_ai_compatible_reactor_4" }
 	component_set = "DTF_REACTOR_BOOSTER_3_CS"
 
 	

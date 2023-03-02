@@ -5,7 +5,7 @@
 ### SHOCK_CANNON_1
 ####################################################################################################################################
 weapon_component_template = {
-	key = "DTF_SHOCK_CANNON_SMALL_1"
+	key = "DTF_AI_COMPATIBLE_SHOCK_CANNON_SMALL_1"
 	size = small
 	#entity = "small_laser_gun_entity"
 	type = instant
@@ -16,7 +16,7 @@ weapon_component_template = {
 	projectile_gfx = "dtf_blue_laser_s"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_artillery }
-	upgrades_to = "DTF_SHOCK_CANNON_SMALL_2"
+	upgrades_to = "DTF_AI_COMPATIBLE_SHOCK_CANNON_SMALL_2"
 	
 	resources = {
 		category = ship_components
@@ -53,7 +53,7 @@ weapon_component_template = {
 }
 
 weapon_component_template = {
-	key = "DTF_SHOCK_CANNON_MEDIUM_1"
+	key = "DTF_AI_COMPATIBLE_SHOCK_CANNON_MEDIUM_1"
 	size = medium
 	#entity = "medium_laser_gun_entity"
 	type = instant
@@ -64,7 +64,7 @@ weapon_component_template = {
 	projectile_gfx = "dtf_blue_laser_m"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_artillery }
-	upgrades_to = "DTF_SHOCK_CANNON_MEDIUM_2"
+	upgrades_to = "DTF_AI_COMPATIBLE_SHOCK_CANNON_MEDIUM_2"
 
 	resources = {
 		category = ship_components
@@ -101,7 +101,7 @@ weapon_component_template = {
 }
 
 weapon_component_template = {
-	key = "DTF_SHOCK_CANNON_LARGE_1"
+	key = "DTF_AI_COMPATIBLE_SHOCK_CANNON_LARGE_1"
 	size = large
 	#entity = "large_laser_gun_entity"
 	type = instant
@@ -112,7 +112,7 @@ weapon_component_template = {
 	projectile_gfx = "dtf_blue_laser_l"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_artillery }
-	upgrades_to = "DTF_SHOCK_CANNON_LARGE_2"
+	upgrades_to = "DTF_AI_COMPATIBLE_SHOCK_CANNON_LARGE_2"
 
 	resources = {
 		category = ship_components
@@ -152,7 +152,7 @@ weapon_component_template = {
 ### SHOCK_CANNON_2
 ############################################
 weapon_component_template = {
-	key = "DTF_SHOCK_CANNON_SMALL_2"
+	key = "DTF_AI_COMPATIBLE_SHOCK_CANNON_SMALL_2"
 	size = small
 	#entity = "small_laser_gun_entity"
 	type = instant
@@ -194,14 +194,14 @@ weapon_component_template = {
 		}
 	}
 
-	upgrades_to = "DTF_SHOCK_CANNON_SMALL_3"
+	upgrades_to = "DTF_AI_COMPATIBLE_SHOCK_CANNON_SMALL_3"
 
 	
 	
 }
 
 weapon_component_template = {
-	key = "DTF_SHOCK_CANNON_MEDIUM_2"
+	key = "DTF_AI_COMPATIBLE_SHOCK_CANNON_MEDIUM_2"
 	size = medium
 	#entity = "medium_laser_gun_entity"
 	type = instant
@@ -243,14 +243,14 @@ weapon_component_template = {
 		}
 	}
 
-	upgrades_to = "DTF_SHOCK_CANNON_MEDIUM_3"
+	upgrades_to = "DTF_AI_COMPATIBLE_SHOCK_CANNON_MEDIUM_3"
 
 	
 	
 }
 
 weapon_component_template = {
-	key = "DTF_SHOCK_CANNON_LARGE_2"
+	key = "DTF_AI_COMPATIBLE_SHOCK_CANNON_LARGE_2"
 	size = large
 	#entity = "large_laser_gun_entity"
 	type = instant
@@ -293,7 +293,7 @@ weapon_component_template = {
 		}
 	}
 
-	upgrades_to = "DTF_SHOCK_CANNON_LARGE_3"
+	upgrades_to = "DTF_AI_COMPATIBLE_SHOCK_CANNON_LARGE_3"
 
 	
 	

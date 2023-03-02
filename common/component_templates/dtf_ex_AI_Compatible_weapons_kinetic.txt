@@ -9,7 +9,7 @@
 weapon_component_template = {
 	type = instant
 	
-	key = "DTF_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_SMALL_3"
+	key = "DTF_AI_COMPATIBLE_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_SMALL_3"
 	size = small
 	
 	icon = "GFX_dtf_ship_part_anti_shield_gun_3"
@@ -51,13 +51,13 @@ weapon_component_template = {
 		}
 	}
 
-	upgrades_to = "DTF_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_SMALL_4"
+	upgrades_to = "DTF_AI_COMPATIBLE_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_SMALL_4"
 }
 
 weapon_component_template = {
 	type = instant
 	
-	key = "DTF_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_MEDIUM_3"
+	key = "DTF_AI_COMPATIBLE_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_MEDIUM_3"
 	size = medium
 	
 	icon = "GFX_dtf_ship_part_anti_shield_gun_3"
@@ -99,13 +99,13 @@ weapon_component_template = {
 		}
 	}
 
-	upgrades_to = "DTF_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_MEDIUM_4"
+	upgrades_to = "DTF_AI_COMPATIBLE_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_MEDIUM_4"
 }
 
 weapon_component_template = {
 	type = instant
 	
-	key = "DTF_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_LARGE_3"
+	key = "DTF_AI_COMPATIBLE_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_LARGE_3"
 	size = large
 	
 	icon = "GFX_dtf_ship_part_anti_shield_gun_3"
@@ -147,7 +147,7 @@ weapon_component_template = {
 		}
 	}
 
-	upgrades_to = "DTF_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_LARGE_4"
+	upgrades_to = "DTF_AI_COMPATIBLE_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_LARGE_4"
 }
 
 
@@ -163,7 +163,7 @@ weapon_component_template = {
 weapon_component_template = {
 	type = instant
 	
-	key = "DTF_WAVE_MOTION_CARTRIDGE_SHELL_2"
+	key = "DTF_AI_COMPATIBLE_WAVE_MOTION_CARTRIDGE_SHELL_2"
 	size = large
 	
 	icon = "GFX_dtf_ship_part_wave_motion_cartridge_shell_4"
@@ -208,5 +208,5 @@ weapon_component_template = {
 		}
 	}
 
-	upgrades_to = "DTF_WAVE_MOTION_CARTRIDGE_SHELL_3"
+	upgrades_to = "DTF_AI_COMPATIBLE_WAVE_MOTION_CARTRIDGE_SHELL_3"
 }

@@ -4,7 +4,7 @@
 ### Wave Motion Engine 2
 ##############################################
 utility_component_template = {
-	key = "DTF_REACTOR_SMALLSHIP_4"
+	key = "DTF_AI_COMPATIBLE_REACTOR_SMALLSHIP_4"
 	size = small
 	icon = "GFX_dtf_ship_part_wm_engine_4"
 	icon_frame = 1
@@ -28,11 +28,11 @@ utility_component_template = {
 		ship_speed_mult = 0.10
 	}
 
-	prerequisites = { "tech_dtf_reactor_4" }
+	prerequisites = { "tech_dtf_ai_compatible_reactor_4" }
 	component_set = "power_core"
 	size_restriction = { corvette frigate colonizer lithoid_colonizer lithoid_colonizer sponsored_colonizer constructor science transport destroyer }
 	
-	upgrades_to = "DTF_REACTOR_SMALLSHIP_5"
+	upgrades_to = "DTF_AI_COMPATIBLE_REACTOR_SMALLSHIP_5"
 
 	ai_weight = {
 		weight = @dtf_ai_weight_8
@@ -44,7 +44,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "DTF_REACTOR_MEDIUMSHIP_4"
+	key = "DTF_AI_COMPATIBLE_REACTOR_MEDIUMSHIP_4"
 	size = small
 	icon = "GFX_dtf_ship_part_wm_engine_4"
 	icon_frame = 1
@@ -68,11 +68,11 @@ utility_component_template = {
 		ship_speed_mult = 0.10
 	}
 
-	prerequisites = { "tech_dtf_reactor_4" }
+	prerequisites = { "tech_dtf_ai_compatible_reactor_4" }
 	component_set = "power_core"
 	size_restriction = { cruiser escortcarrier explorationship StrikeCruiser }
 	
-	upgrades_to = "DTF_REACTOR_MEDIUMSHIP_5"
+	upgrades_to = "DTF_AI_COMPATIBLE_REACTOR_MEDIUMSHIP_5"
 
 	ai_weight = {
 		weight = @dtf_ai_weight_8
@@ -84,7 +84,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "DTF_REACTOR_LARGESHIP_4"
+	key = "DTF_AI_COMPATIBLE_REACTOR_LARGESHIP_4"
 	size = small
 	icon = "GFX_dtf_ship_part_wm_engine_4"
 	icon_frame = 1
@@ -108,11 +108,11 @@ utility_component_template = {
 		ship_speed_mult = 0.10
 	}
 
-	prerequisites = { "tech_dtf_reactor_4" }
+	prerequisites = { "tech_dtf_ai_compatible_reactor_4" }
 	component_set = "power_core"
 	size_restriction = { Battlecruiser battleship Carrier Dreadnought asteroid_artillery }
 	
-	upgrades_to = "DTF_REACTOR_LARGESHIP_5"
+	upgrades_to = "DTF_AI_COMPATIBLE_REACTOR_LARGESHIP_5"
 
 	ai_weight = {
 		weight = @dtf_ai_weight_8
@@ -124,7 +124,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "DTF_REACTOR_FLAGSHIP_4"
+	key = "DTF_AI_COMPATIBLE_REACTOR_FLAGSHIP_4"
 	size = small
 	icon = "GFX_dtf_ship_part_wm_engine_4"
 	icon_frame = 1
@@ -148,9 +148,9 @@ utility_component_template = {
 		ship_speed_mult = 0.10
 	}
 
-	upgrades_to = "DTF_REACTOR_FLAGSHIP_5"
+	upgrades_to = "DTF_AI_COMPATIBLE_REACTOR_FLAGSHIP_5"
 
-	prerequisites = { "tech_dtf_reactor_4" }
+	prerequisites = { "tech_dtf_ai_compatible_reactor_4" }
 	component_set = "power_core"
 	class_restriction = { shipclass_military shipclass_starbase shipclass_military_station }
 	size_restriction = { titan  Flagship juggernaut strategic_defence_command_platform dtf_orbital_defense_system }
@@ -165,7 +165,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "DTF_REACTOR_PLATFORM_4"
+	key = "DTF_AI_COMPATIBLE_REACTOR_PLATFORM_4"
 	size = small
 	icon = "GFX_dtf_ship_part_wm_engine_4"
 	icon_frame = 1
@@ -188,7 +188,7 @@ utility_component_template = {
 		ship_shield_regen_add_perc = 0.10
 	}
 
-	prerequisites = { "tech_dtf_reactor_4" }
+	prerequisites = { "tech_dtf_ai_compatible_reactor_4" }
 	component_set = "power_core"
 	class_restriction = { shipclass_military_station }
 	size_restriction = {
@@ -197,7 +197,7 @@ utility_component_template = {
 		military_station_large
 	}
 
-	upgrades_to = "DTF_REACTOR_PLATFORM_5"
+	upgrades_to = "DTF_AI_COMPATIBLE_REACTOR_PLATFORM_5"
 
 	ai_weight = {
 		weight = @dtf_ai_weight_8
@@ -219,7 +219,7 @@ utility_component_template = {
 
 
 utility_component_template = {
-	key = "DTF_REACTOR_STARBASE_4"
+	key = "DTF_AI_COMPATIBLE_REACTOR_STARBASE_4"
 	size = small
 	icon = "GFX_dtf_ship_part_wm_engine_4"
 	icon_frame = 1
@@ -235,7 +235,7 @@ utility_component_template = {
 		}
 	}
 
-	prerequisites = { "tech_dtf_reactor_4" }
+	prerequisites = { "tech_dtf_ai_compatible_reactor_4" }
 	component_set = "power_core"
 	class_restriction = { shipclass_starbase }
 	size_restriction = {
@@ -249,7 +249,7 @@ utility_component_template = {
 		headquarters
 	}
 
-	upgrades_to = "DTF_REACTOR_STARBASE_5"
+	upgrades_to = "DTF_AI_COMPATIBLE_REACTOR_STARBASE_5"
 
 	ai_weight = {
 		weight = @dtf_ai_weight_8
@@ -267,7 +267,7 @@ utility_component_template = {
 ##############################################
 
 utility_component_template = {
-	key = "DTF_REACTOR_ION_GUN_2"
+	key = "DTF_AI_COMPATIBLE_REACTOR_ION_GUN_2"
 	size = small
 	icon = "GFX_dtf_ship_part_wm_engine_2"
 	icon_frame = 1
@@ -287,7 +287,7 @@ utility_component_template = {
 		
 	}
 
-	prerequisites = { "tech_dtf_reactor_4" }
+	prerequisites = { "tech_dtf_ai_compatible_reactor_4" }
 	component_set = "power_core"
 	size_restriction = { ion_cannon xl_cannon }
 

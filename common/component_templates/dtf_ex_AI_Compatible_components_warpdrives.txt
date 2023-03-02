@@ -19,7 +19,7 @@
 ### Warpdrive 4
 ##############################################
 utility_component_template = {
-	key = "DTF_WARPDRIVE_4"
+	key = "DTF_AI_COMPATIBLE_WARPDRIVE_4"
 	size = small
 	icon = "GFX_dtf_ship_part_warpdrive_4"
 	icon_frame = 1
@@ -39,10 +39,10 @@ utility_component_template = {
 		ship_disengage_opportunities_add = 2
 	}
 
-	prerequisites = { "tech_dtf_reactor_4" }
+	prerequisites = { "tech_dtf_ai_compatible_reactor_4" }
 	component_set = "ftl_components"
 	
-	upgrades_to = "DTF_WARPDRIVE_5"
+	upgrades_to = "DTF_AI_COMPATIBLE_WARPDRIVE_5"
 
 	ai_weight = {
 		weight = @dtf_ai_weight_8

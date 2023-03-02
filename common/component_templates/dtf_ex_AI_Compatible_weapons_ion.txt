@@ -3,7 +3,7 @@
 # ## Perdition Beam
 
 weapon_component_template = {
-	key = "DTF_ION_BEAM_2"
+	key = "DTF_AI_COMPATIBLE_ION_BEAM_2"
 	size = titanic
 	type = instant
 	prio_projectile = yes

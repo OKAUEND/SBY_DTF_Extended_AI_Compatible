@@ -4,7 +4,7 @@
 #####################
 
 utility_component_template = {
-	key = "DTF_SHIP_AURA_ADVANCED_WAVE_MOTION_RESONANCE"
+	key = "DTF_AI_COMPATIBLE_SHIP_AURA_ADVANCED_WAVE_MOTION_RESONANCE"
 	size = medium
 	icon = "GFX_ship_part_science_lab_1"
 	icon_frame = 1
@@ -48,7 +48,7 @@ utility_component_template = {
 		}
 	}
 
-	prerequisites = { "tech_dtf_reactor_4" }
+	prerequisites = { "tech_dtf_ai_compatible_reactor_4" }
 	
 	ai_weight = {
 		weight = @dtf_ai_weight_2
@@ -60,7 +60,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "DTF_SHIP_AURA_ADVANCED_WAVE_MOTION_RESONANCE_NSC"
+	key = "DTF_AI_COMPATIBLE_SHIP_AURA_ADVANCED_WAVE_MOTION_RESONANCE_NSC"
 	size = medium
 	icon = "GFX_ship_part_science_lab_1"
 	icon_frame = 1
@@ -104,7 +104,7 @@ utility_component_template = {
 		}
 	}
 
-	prerequisites = { "tech_dtf_reactor_4" }
+	prerequisites = { "tech_dtf_ai_compatible_reactor_4" }
 	
 	ai_weight = {
 		weight = @dtf_ai_weight_2

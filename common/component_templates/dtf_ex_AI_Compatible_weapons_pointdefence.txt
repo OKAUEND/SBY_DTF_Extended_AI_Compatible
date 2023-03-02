@@ -1,7 +1,7 @@
 
 ### Point Defence 3
 weapon_component_template = {
-	key = "DTF_EDF_POINT_DEFENCE_3"
+	key = "DTF_AI_COMPATIBLE_EDF_POINT_DEFENCE_3"
 	size = point_defence
 	
 	icon = "GFX_dtf_ship_part_pulse_laser_turret_3"
@@ -14,7 +14,7 @@ weapon_component_template = {
 	tags = { weapon_type_point_defense weapon_type_energy }
 	ai_tags = { weapon_role_point_defense }
 
-	upgrades_to = "DTF_EDF_POINT_DEFENCE_4"
+	upgrades_to = "DTF_AI_COMPATIBLE_EDF_POINT_DEFENCE_4"
 
 	resources = {
 		category = ship_components

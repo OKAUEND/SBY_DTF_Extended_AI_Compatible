@@ -16,7 +16,7 @@
 ##############################
 
 strike_craft_component_template = {
-	key = "DTF_FIGHTER_HANGAR_4"
+	key = "DTF_AI_COMPATIBLE_FIGHTER_HANGAR_4"
 	size = LARGE
 	entity = "bomber_entity"
 	weapon_type = point_defence
@@ -63,7 +63,7 @@ strike_craft_component_template = {
 	icon = "GFX_dtf_ship_part_cosmo_tiger_2_2"
 	icon_frame = 1
 	component_set = "DTF_FIGHTER_HANGAR_CS_4"
-	upgrades_to = "DTF_FIGHTER_HANGAR_5"
+	upgrades_to = "DTF_AI_COMPATIBLE_FIGHTER_HANGAR_5"
 	tags = { weapon_type_strike_craft }
 	point_defence_targets = { "strike_craft" }
 
@@ -77,7 +77,7 @@ strike_craft_component_template = {
 }
 
 strike_craft_component_template = {
-	key = "DTF_FIGHTER_HANGAR_4_AS"
+	key = "DTF_AI_COMPATIBLE_FIGHTER_HANGAR_4_AS"
 	size = LARGE
 	entity = "bomber_entity"
 	weapon_type = instant
@@ -125,7 +125,7 @@ strike_craft_component_template = {
 	icon = "GFX_dtf_ship_part_cosmo_tiger_2_2"
 	icon_frame = 1
 	component_set = "DTF_FIGHTER_HANGAR_CS_4_AS"
-	upgrades_to = "DTF_FIGHTER_HANGAR_5_AS"
+	upgrades_to = "DTF_AI_COMPATIBLE_FIGHTER_HANGAR_5_AS"
 	tags = { weapon_type_strike_craft }
 
 	ai_weight = {

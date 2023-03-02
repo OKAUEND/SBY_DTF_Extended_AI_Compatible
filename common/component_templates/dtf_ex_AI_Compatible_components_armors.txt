@@ -39,7 +39,7 @@
 ### Armor Plating DTF_6
 ##########################################################################################
 utility_component_template = {
-	key = "DTF_ARMOR_PLATING_6_SMALL"
+	key = "DTF_AI_COMPATIBLE_ARMOR_PLATING_6_SMALL"
 	size = small
 	icon = "GFX_dtf_ship_part_wm_armor_1"
 	icon_frame = 1
@@ -64,9 +64,9 @@ utility_component_template = {
 		ship_armor_regen_add_perc = 0.01
 	}
 	
-	prerequisites = { "tech_dtf_armor_6" }
+	prerequisites = { "tech_dtf_ai_compatible_armor_6" }
 	component_set = "DTF_ARMOR_PLATING_CS_6"
-	upgrades_to = "DTF_ARMOR_PLATING_7_SMALL"
+		upgrades_to = "DTF_AI_COMPATIBLE_ARMOR_PLATING_7_SMALL"
 
 	ai_weight = {
 		weight = @dtf_ai_weight_6
@@ -78,7 +78,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "DTF_ARMOR_PLATING_6_MEDIUM"
+	key = "DTF_AI_COMPATIBLE_ARMOR_PLATING_6_MEDIUM"
 	size = medium
 	icon = "GFX_dtf_ship_part_wm_armor_1"
 	icon_frame = 1
@@ -103,9 +103,9 @@ utility_component_template = {
 		ship_armor_regen_add_perc = 0.01
 	}
 	
-	prerequisites = { "tech_dtf_armor_6" }
+	prerequisites = { "tech_dtf_ai_compatible_armor_6" }
 	component_set = "DTF_ARMOR_PLATING_CS_6"
-	upgrades_to = "DTF_ARMOR_PLATING_7_MEDIUM"
+		upgrades_to = "DTF_AI_COMPATIBLE_ARMOR_PLATING_7_MEDIUM"
 
 	ai_weight = {
 		weight = @dtf_ai_weight_6
@@ -117,7 +117,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "DTF_ARMOR_PLATING_6_LARGE"
+	key = "DTF_AI_COMPATIBLE_ARMOR_PLATING_6_LARGE"
 	size = large
 	icon = "GFX_dtf_ship_part_wm_armor_1"
 	icon_frame = 1
@@ -142,9 +142,9 @@ utility_component_template = {
 		ship_armor_regen_add_perc = 0.01
 	}
 	
-	prerequisites = { "tech_dtf_armor_6" }
+	prerequisites = { "tech_dtf_ai_compatible_armor_6" }
 	component_set = "DTF_ARMOR_PLATING_CS_6"
-	upgrades_to = "DTF_ARMOR_PLATING_7_LARGE"
+		upgrades_to = "DTF_AI_COMPATIBLE_ARMOR_PLATING_7_LARGE"
 
 	ai_weight = {
 		weight = @dtf_ai_weight_6
@@ -162,7 +162,7 @@ utility_component_template = {
 #############################################
 
 utility_component_template = {
-	key = "DTF_ARMOR_PLATING_7_SMALL"
+	key = "DTF_AI_COMPATIBLE_ARMOR_PLATING_7_SMALL"
 	size = small
 	icon = "GFX_dtf_ship_part_wm_armor_2"
 	icon_frame = 1
@@ -187,9 +187,9 @@ utility_component_template = {
 		ship_armor_regen_add_perc = 0.01
 	}
 	
-	prerequisites = { "tech_dtf_armor_7" }
+	prerequisites = { "tech_dtf_ai_compatible_armor_7" }
 	component_set = "DTF_ARMOR_PLATING_CS_7"
-	upgrades_to = "DTF_ARMOR_PLATING_8_SMALL"
+		upgrades_to = "DTF_AI_COMPATIBLE_ARMOR_PLATING_8_SMALL"
 
 	ai_weight = {
 		weight = @dtf_ai_weight_7
@@ -201,7 +201,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "DTF_ARMOR_PLATING_7_MEDIUM"
+	key = "DTF_AI_COMPATIBLE_ARMOR_PLATING_7_MEDIUM"
 	size = medium
 	icon = "GFX_dtf_ship_part_wm_armor_2"
 	icon_frame = 1
@@ -226,9 +226,9 @@ utility_component_template = {
 		ship_armor_regen_add_perc = 0.01
 	}
 	
-	prerequisites = { "tech_dtf_armor_7" }
+	prerequisites = { "tech_dtf_ai_compatible_armor_7" }
 	component_set = "DTF_ARMOR_PLATING_CS_7"
-	upgrades_to = "DTF_ARMOR_PLATING_8_MEDIUM"
+		upgrades_to = "DTF_AI_COMPATIBLE_ARMOR_PLATING_8_MEDIUM"
 
 	ai_weight = {
 		weight = @dtf_ai_weight_7
@@ -240,7 +240,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "DTF_ARMOR_PLATING_7_LARGE"
+	key = "DTF_AI_COMPATIBLE_ARMOR_PLATING_7_LARGE"
 	size = large
 	icon = "GFX_dtf_ship_part_wm_armor_2"
 	icon_frame = 1
@@ -265,9 +265,9 @@ utility_component_template = {
 		ship_armor_regen_add_perc = 0.01
 	}
 	
-	prerequisites = { "tech_dtf_armor_7" }
+	prerequisites = { "tech_dtf_ai_compatible_armor_7" }
 	component_set = "DTF_ARMOR_PLATING_CS_7"
-	upgrades_to = "DTF_ARMOR_PLATING_8_LARGE"
+		upgrades_to = "DTF_AI_COMPATIBLE_ARMOR_PLATING_8_LARGE"
 
 	ai_weight = {
 		weight = @dtf_ai_weight_7
