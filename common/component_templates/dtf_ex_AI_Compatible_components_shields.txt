@@ -79,7 +79,7 @@ utility_component_template = {
 	}
 
 	prerequisites = { "tech_dtf_ai_compatible_shield_6" }
-	component_set = "DTF_SHIELD_CS_6"
+	component_set = "DTF_AI_COMPATIBLE_SHIELD_CS_6"
 	upgrades_to = "DTF_AI_COMPATIBLE_SHIELD_7_SMALL"
 
 	ai_weight = {
@@ -116,7 +116,7 @@ utility_component_template = {
 	}
 
 	prerequisites = { "tech_dtf_ai_compatible_shield_6" }
-	component_set = "DTF_SHIELD_CS_6"
+	component_set = "DTF_AI_COMPATIBLE_SHIELD_CS_6"
 	upgrades_to = "DTF_AI_COMPATIBLE_SHIELD_7_MEDIUM"
 
 	ai_weight = {
@@ -153,7 +153,7 @@ utility_component_template = {
 	}
 
 	prerequisites = { "tech_dtf_ai_compatible_shield_6" }
-	component_set = "DTF_SHIELD_CS_6"
+	component_set = "DTF_AI_COMPATIBLE_SHIELD_CS_6"
 	upgrades_to = "DTF_AI_COMPATIBLE_SHIELD_7_LARGE"
 
 	ai_weight = {
@@ -193,7 +193,7 @@ utility_component_template = {
 	}
 
 	prerequisites = { "tech_dtf_ai_compatible_shield_7" }
-	component_set = "DTF_SHIELD_CS_7"
+	component_set = "DTF_AI_COMPATIBLE_SHIELD_CS_7"
 	upgrades_to = "DTF_AI_COMPATIBLE_SHIELD_8_SMALL"
 
 	ai_weight = {
@@ -230,7 +230,7 @@ utility_component_template = {
 	}
 
 	prerequisites = { "tech_dtf_ai_compatible_shield_7" }
-	component_set = "DTF_SHIELD_CS_7"
+	component_set = "DTF_AI_COMPATIBLE_SHIELD_CS_7"
 	upgrades_to = "DTF_AI_COMPATIBLE_SHIELD_8_MEDIUM"
 
 	ai_weight = {
@@ -267,7 +267,7 @@ utility_component_template = {
 	}
 
 	prerequisites = { "tech_dtf_ai_compatible_shield_7" }
-	component_set = "DTF_SHIELD_CS_7"
+	component_set = "DTF_AI_COMPATIBLE_SHIELD_CS_7"
 	upgrades_to = "DTF_AI_COMPATIBLE_SHIELD_8_LARGE"
 
 	ai_weight = {

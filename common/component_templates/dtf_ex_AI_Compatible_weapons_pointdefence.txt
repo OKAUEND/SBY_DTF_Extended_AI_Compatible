@@ -8,7 +8,7 @@ weapon_component_template = {
 	icon_frame = 1
 	
 	prerequisites = { "tech_dtf_weapons_6" }
-	component_set = "DTF_EDF_POINT_DEFENCE_CS_3"
+	component_set = "DTF_AI_COMPATIBLE_EDF_POINT_DEFENCE_CS_3"
 	type = point_defence
 	projectile_gfx = "dtf_red_laser_pd"
 	tags = { weapon_type_point_defense weapon_type_energy }

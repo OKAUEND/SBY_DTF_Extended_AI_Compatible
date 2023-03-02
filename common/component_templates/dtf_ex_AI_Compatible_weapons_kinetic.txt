@@ -16,7 +16,7 @@ weapon_component_template = {
 	icon_frame = 1
 	
 	prerequisites = { "tech_dtf_weapons_6" }
-	component_set = "DTF_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_CS_3"
+	component_set = "DTF_AI_COMPATIBLE_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_CS_3"
 	projectile_gfx = "dtf_blue_kinetic_shell_s"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_artillery }
@@ -64,7 +64,7 @@ weapon_component_template = {
 	icon_frame = 1
 	
 	prerequisites = { "tech_dtf_weapons_6" }
-	component_set = "DTF_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_CS_3"
+	component_set = "DTF_AI_COMPATIBLE_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_CS_3"
 	projectile_gfx = "dtf_blue_kinetic_shell_m"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_artillery }
@@ -112,7 +112,7 @@ weapon_component_template = {
 	icon_frame = 1
 	
 	prerequisites = { "tech_dtf_weapons_6" }
-	component_set = "DTF_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_CS_3"
+	component_set = "DTF_AI_COMPATIBLE_HIGH_DENSITY_ENERGY_NEUTRALIZATION_CANNON_CS_3"
 	projectile_gfx = "dtf_blue_kinetic_shell_l"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_artillery }
@@ -170,7 +170,7 @@ weapon_component_template = {
 	icon_frame = 1
 	
 	prerequisites = { "tech_dtf_wave_motion_gun_2" }
-	component_set = "DTF_WAVE_MOTION_CARTRIDGE_SHELL_CS_2"
+	component_set = "DTF_AI_COMPATIBLE_WAVE_MOTION_CARTRIDGE_SHELL_CS_2"
 	projectile_gfx = "dtf_blue_laser_cannon_l"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_artillery }

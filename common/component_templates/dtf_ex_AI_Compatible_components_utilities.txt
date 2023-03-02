@@ -82,7 +82,7 @@ utility_component_template = {
 	}
 	class_restriction = { shipclass_military }
 	prerequisites = { "tech_dtf_ai_compatible_reactor_4" }
-	component_set = "DTF_AFTERBURNER_2_CS"
+	component_set = "DTF_AI_COMPATIBLE_AFTERBURNER_2_CS"
 
 	ai_weight = {
 		weight = 0
@@ -116,7 +116,7 @@ utility_component_template = {
 	}
 
 	prerequisites = { "tech_dtf_ai_compatible_reactor_4" }
-	component_set = "DTF_REACTOR_BOOSTER_3_CS"
+	component_set = "DTF_AI_COMPATIBLE_REACTOR_BOOSTER_3_CS"
 
 	
 	ai_weight = {

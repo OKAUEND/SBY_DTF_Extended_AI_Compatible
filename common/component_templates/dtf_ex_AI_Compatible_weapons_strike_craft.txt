@@ -62,7 +62,7 @@ strike_craft_component_template = {
 	ship_behavior = "fighters_behavior"
 	icon = "GFX_dtf_ship_part_cosmo_tiger_2_2"
 	icon_frame = 1
-	component_set = "DTF_FIGHTER_HANGAR_CS_4"
+	component_set = "DTF_AI_COMPATIBLE_FIGHTER_HANGAR_CS_4"
 	upgrades_to = "DTF_AI_COMPATIBLE_FIGHTER_HANGAR_5"
 	tags = { weapon_type_strike_craft }
 	point_defence_targets = { "strike_craft" }
@@ -124,7 +124,7 @@ strike_craft_component_template = {
 	ship_behavior = "fighters_behavior"
 	icon = "GFX_dtf_ship_part_cosmo_tiger_2_2"
 	icon_frame = 1
-	component_set = "DTF_FIGHTER_HANGAR_CS_4_AS"
+	component_set = "DTF_AI_COMPATIBLE_FIGHTER_HANGAR_CS_4_AS"
 	upgrades_to = "DTF_AI_COMPATIBLE_FIGHTER_HANGAR_5_AS"
 	tags = { weapon_type_strike_craft }
 
