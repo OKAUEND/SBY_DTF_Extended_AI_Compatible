@@ -1,0 +1,131 @@
+
+
+### SHOCK_CANNON ###
+
+component_set = {
+	key = "DTF_SHOCK_CANNON_CS_1"
+	
+	icon = "GFX_dtf_ship_part_shockcannon_1"
+	icon_frame = 1	
+}
+component_set = {
+	key = "DTF_SHOCK_CANNON_CS_2"
+	
+	icon = "GFX_dtf_ship_part_shockcannon_2"
+	icon_frame = 1	
+}
+component_set = {
+	key = "DTF_SHOCK_CANNON_CS_3"
+	
+	icon = "GFX_dtf_ship_part_shockcannon_3"
+	icon_frame = 1	
+}
+component_set = {
+	key = "DTF_SHOCK_CANNON_CS_4"
+	
+	icon = "GFX_dtf_ship_part_shockcannon_4"
+	icon_frame = 1	
+}
+component_set = {
+	key = "DTF_SHOCK_CANNON_CS_5"
+	
+	icon = "GFX_dtf_ship_part_shockcannon_5"
+	icon_frame = 1	
+}
+
+
+component_set = {
+	key = "DTF_POSITRON_SHOCK_CANNON_CS_1"
+	
+	icon = "GFX_dtf_ship_part_positron_shockcannon_1"
+	icon_frame = 1	
+}
+component_set = {
+	key = "DTF_POSITRON_SHOCK_CANNON_CS_2"
+	
+	icon = "GFX_dtf_ship_part_positron_shockcannon_2"
+	icon_frame = 1	
+}
+component_set = {
+	key = "DTF_POSITRON_SHOCK_CANNON_CS_3"
+	
+	icon = "GFX_dtf_ship_part_positron_shockcannon_3"
+	icon_frame = 1	
+}
+component_set = {
+	key = "DTF_POSITRON_SHOCK_CANNON_CS_4"
+	
+	icon = "GFX_dtf_ship_part_positron_shockcannon_4"
+	icon_frame = 1	
+}
+component_set = {
+	key = "DTF_POSITRON_SHOCK_CANNON_CS_5"
+	
+	icon = "GFX_dtf_ship_part_positron_shockcannon_5"
+	icon_frame = 1	
+}
+
+
+### SHOCK_CANNON ###
+
+component_set = {
+	key = "DTF_SPINAL_MOUNTED_SHOCK_CANNON_CS_3"
+	
+	icon = "GFX_dtf_ship_part_mounted_shockcannon_3"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "DTF_SPINAL_MOUNTED_SHOCK_CANNON_CS_4"
+	
+	icon = "GFX_dtf_ship_part_mounted_shockcannon_4"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "DTF_SPINAL_MOUNTED_SHOCK_CANNON_CS_5"
+	
+	icon = "GFX_dtf_ship_part_mounted_shockcannon_5"
+	icon_frame = 1	
+}
+
+### SHOCK_CANNON ###
+
+component_set = {
+	key = "DTF_WAVE_MOTION_GUN_CS_2"
+	
+	icon = "GFX_dtf_ship_part_twin_wm_gun_2"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "DTF_WAVE_MOTION_GUN_CS_3"
+	
+	icon = "GFX_dtf_ship_part_twin_wm_gun_3"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "DTF_SMALL_WAVE_MOTION_GUN_CS_2"
+	
+	icon = "GFX_dtf_ship_part_wm_gun_2"
+	icon_frame = 1	
+}
+
+
+
+component_set = {
+	key = "DTF_EXPANDED_WAVE_MOTION_GUN_CS_2"
+	
+	icon = "GFX_dtf_ship_part_wm_gun_2"
+	icon_frame = 1	
+}
+
+
+
+component_set = {
+	key = "DTF_SUPER_NOVA_WAVE_MOTION_GUN_CS_2"
+	
+	icon = "GFX_dtf_ship_part_wm_gun_2"
+	icon_frame = 1	
+}

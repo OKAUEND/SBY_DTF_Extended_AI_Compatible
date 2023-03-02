@@ -1,0 +1,19 @@
+
+
+component_set = {
+	key = "DTF_EDF_POINT_DEFENCE_CS_3"
+	icon = "GFX_dtf_ship_part_pulse_laser_turret_3"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "DTF_EDF_POINT_DEFENCE_CS_4"
+	icon = "GFX_dtf_ship_part_pulse_laser_turret_4"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "DTF_EDF_POINT_DEFENCE_CS_5"
+	icon = "GFX_dtf_ship_part_pulse_laser_turret_5"
+	icon_frame = 1
+}
