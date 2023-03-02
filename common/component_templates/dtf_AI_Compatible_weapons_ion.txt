@@ -44,7 +44,7 @@ weapon_component_template = {
 	tracking = 0.10
 
 	ai_weight = {
-		weight = @dtf_ai_weight_8
+		weight = 0
 		modifier = {
 			factor = 0.0
 			NOT = { has_origin = origin_earth_2200 }
