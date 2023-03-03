@@ -1,176 +1,176 @@
 ﻿l_japanese:
 
-building_dtf_factory_1:0 "DTF 実験的時間断層内施設"
-building_dtf_factory_1_desc:0 "時間断層を活用した、その外縁部に建設された試験運用中の工場や研究所などの中枢施設。\n合金工業区画と研究区画の効率を上げる。"
+building_dtf_ai_compatible_factory_1:0 "実験的時間断層内施設(DTF - AI)"
+building_dtf_ai_compatible_factory_1_desc:0 "時間断層を活用した、その外縁部に建設された試験運用中の工場や研究所などの中枢施設。\n合金工業区画と研究区画の効率を上げる。"
 
-building_dtf_factory_2:0 "DTF 実験的時間断層内工場兼研究所"
-building_dtf_factory_2_desc:0 "時間断層を活用した工場に併設された研究所の中枢施設。断層内は生身では耐えられないため、影響の少ない実空間との狭間に設置される。\n合金工業区画と研究区画の効率を上げる。"
+building_dtf_ai_compatible_factory_2:0 "実験的時間断層内工場兼研究所(DTF - AI)"
+building_dtf_ai_compatible_factory_2_desc:0 "時間断層を活用した工場に併設された研究所の中枢施設。断層内は生身では耐えられないため、影響の少ない実空間との狭間に設置される。\n合金工業区画と研究区画の効率を上げる。"
 
-building_dtf_factory_3:0 "DTF 時間断層内工場"
-building_dtf_factory_3_desc:0 "時間断層を活用した工場の中枢施設。\n合金工業区画と研究区画の効率を上げる。"
+building_dtf_ai_compatible_factory_3:0 "時間断層内工場(DTF - AI)"
+building_dtf_ai_compatible_factory_3_desc:0 "時間断層を活用した工場の中枢施設。\n合金工業区画と研究区画の効率を上げる。"
 
-building_dtf_factory_4:0 "DTF 時間断層工場"
-building_dtf_factory_4_desc:0 "時間断層全体を活用した工場の中枢施設。内部では約10倍の時間が経過する。\n合金工業区画と研究区画の効率を上げる。"
+building_dtf_ai_compatible_factory_4:0 "時間断層工場(DTF - AI)"
+building_dtf_ai_compatible_factory_4_desc:0 "時間断層全体を活用した工場の中枢施設。内部では約10倍の時間が経過する。\n合金工業区画と研究区画の効率を上げる。"
 
 #-ex-
 
-building_dtf_factory_5:0 "DTF 大規模時間断層工場"
-building_dtf_factory_5_desc:0 "時間断層全体を活用した大規模工場の中枢施設。内部では約10倍の時間が経過する。\n合金工業区画と研究区画の効率を上げる。"
+building_dtf_ai_compatible_factory_5:0 "大規模時間断層工場(DTF - AI)"
+building_dtf_ai_compatible_factory_5_desc:0 "時間断層全体を活用した大規模工場の中枢施設。内部では約10倍の時間が経過する。\n合金工業区画と研究区画の効率を上げる。"
 
-building_dtf_factory_6:0 "DTF 惑星時間断層工場"
-building_dtf_factory_6_desc:0 "時間断層全体を活用した惑星規模の工場の中枢施設。内部では約10倍の時間が経過する。\n合金工業区画と研究区画の効率を上げる。"
+building_dtf_ai_compatible_factory_6:0 "惑星時間断層工場(DTF - AI)"
+building_dtf_ai_compatible_factory_6_desc:0 "時間断層全体を活用した惑星規模の工場の中枢施設。内部では約10倍の時間が経過する。\n合金工業区画と研究区画の効率を上げる。"
 
 
 #----------------------------------
 
-building_dtf_defense_command_1:0 "DTF 極東管区防衛司令部"
-building_dtf_defense_command_1_desc:0 "極東管区所属艦隊の司令部。"
+building_dtf_ai_compatible_defense_command_1:0 "極東管区防衛司令部(DTF - AI)"
+building_dtf_ai_compatible_defense_command_1_desc:0 "極東管区所属艦隊の司令部。"
 
-building_dtf_defense_command_2:0 "DTF 地球防衛軍司令部"
-building_dtf_defense_command_2_desc:0 "地球絶対防衛圏の中枢。"
+building_dtf_ai_compatible_defense_command_2:0 "地球防衛軍司令部(DTF - AI)"
+building_dtf_ai_compatible_defense_command_2_desc:0 "地球絶対防衛圏の中枢。"
 
 #-ex-
 
-building_dtf_defense_command_3:0 "DTF 地球防衛軍太陽系司令部"
-building_dtf_defense_command_3_desc:0 "地球防衛軍の太陽系艦隊の中枢。"
+building_dtf_ai_compatible_defense_command_3:0 "地球防衛軍太陽系司令部(DTF - AI)"
+building_dtf_ai_compatible_defense_command_3_desc:0 "地球防衛軍の太陽系艦隊の中枢。"
 
-building_dtf_defense_command_4:0 "DTF 地球防衛軍総司令部"
-building_dtf_defense_command_4_desc:0 "地球防衛軍の銀河防衛機関の中枢であり、防衛軍内において命令系統の最上位。"
+building_dtf_ai_compatible_defense_command_4:0 "地球防衛軍総司令部(DTF - AI)"
+building_dtf_ai_compatible_defense_command_4_desc:0 "地球防衛軍の銀河防衛機関の中枢であり、防衛軍内において命令系統の最上位。"
 
 
 #----------------------------------
 
-building_dtf_underground_city_1:0 "DTF 戦時避難用地下都市"
-building_dtf_underground_city_1_desc:0 "内惑星戦争時に作られたシェルターを改装した都市。"
+building_dtf_ai_compatible_underground_city_1:0 "戦時避難用地下都市(DTF - AI)"
+building_dtf_ai_compatible_underground_city_1_desc:0 "内惑星戦争時に作られたシェルターを改装した都市。"
 
-building_dtf_underground_city_2:0 "DTF 緊急時避難用地下都市"
-building_dtf_underground_city_2_desc:0 "人口増加に合わせて拡張された地下都市。"
+building_dtf_ai_compatible_underground_city_2:0 "緊急時避難用地下都市(DTF - AI)"
+building_dtf_ai_compatible_underground_city_2_desc:0 "人口増加に合わせて拡張された地下都市。"
 
 #-ex-
 
-building_dtf_underground_city_3:0 "DTF 地下都市"
-building_dtf_underground_city_3_desc:0 "有事の際のシェルターとしても活用可能な大規模な地下都市。"
+building_dtf_ai_compatible_underground_city_3:0 "地下都市(DTF - AI)"
+building_dtf_ai_compatible_underground_city_3_desc:0 "有事の際のシェルターとしても活用可能な大規模な地下都市。"
 
-building_dtf_underground_city_4:0 "DTF 地下大都市"
-building_dtf_underground_city_4_desc:0 "有事の際のシェルターとしても活用可能な超大規模な地下都市。"
+building_dtf_ai_compatible_underground_city_4:0 "地下大都市(DTF - AI)"
+building_dtf_ai_compatible_underground_city_4_desc:0 "有事の際のシェルターとしても活用可能な超大規模な地下都市。"
 
 
 #----------------------------------
 
-building_dtf_robot_factory_1:0 "DTF ロボット製造工場 T1"
-building_dtf_robot_factory_1_desc:0 "単一作業型や自律型ロボットの製造工場。"
+building_dtf_ai_compatible_robot_factory_1:0 "ロボット製造工場(DTF - AI)"
+building_dtf_ai_compatible_robot_factory_1_desc:0 "単一作業型や自律型ロボットの製造工場。"
 
-building_dtf_robot_factory_2:0 "DTF ロボット製造工場 T2"
-building_dtf_robot_factory_2_desc:0 "単一作業型や自律型ロボットの製造工場。"
+building_dtf_ai_compatible_robot_factory_2:0 "大規模ロボット製造工場(DTF - AI)"
+building_dtf_ai_compatible_robot_factory_2_desc:0 "単一作業型や自律型ロボットの製造工場。"
 
 #-ex-
 
-building_dtf_robot_factory_3:0 "DTF ロボット製造工場 T3"
-building_dtf_robot_factory_3_desc:0 "単一作業型や自律型ロボットの製造工場。"
+building_dtf_ai_compatible_robot_factory_3:0 "改良ロボット製造工場(DTF - AI)"
+building_dtf_ai_compatible_robot_factory_3_desc:0 "単一作業型や自律型ロボットの製造工場。"
 
-building_dtf_robot_factory_4:0 "DTF ロボット製造工場 T4"
-building_dtf_robot_factory_4_desc:0 "単一作業型や自律型ロボットの製造工場。"
+building_dtf_ai_compatible_robot_factory_4:0 "最先端ロボット製造工場(DTF - AI)"
+building_dtf_ai_compatible_robot_factory_4_desc:0 "単一作業型や自律型ロボットの製造工場。"
 
 
 #----------------------------------
 
-building_dtf_weapon_factory_1:0 "DTF 武器工場 T1"
-building_dtf_weapon_factory_1_desc:0 "地上軍や艦船用の兵器を製造する時間断層内工場。"
+building_dtf_ai_compatible_weapon_factory_1:0 "武器工廠(DTF - AI)"
+building_dtf_ai_compatible_weapon_factory_1_desc:0 "地上軍や艦船用の兵器を製造する時間断層内工場。"
 
-building_dtf_weapon_factory_2:0 "DTF 武器工場 T2"
-building_dtf_weapon_factory_2_desc:0 "地上軍や艦船用の兵器を製造する時間断層内工場。"
+building_dtf_ai_compatible_weapon_factory_2:0 "大規模武器工廠(DTF - AI)"
+building_dtf_ai_compatible_weapon_factory_2_desc:0 "地上軍や艦船用の兵器を製造する時間断層内工場。"
 
 #-ex-
 
-building_dtf_weapon_factory_3:0 "DTF 武器工場 T3"
-building_dtf_weapon_factory_3_desc:0 "地上軍や艦船用の兵器を製造する時間断層内工場。"
+building_dtf_ai_compatible_weapon_factory_3:0 "改良武器工廠(DTF - AI)"
+building_dtf_ai_compatible_weapon_factory_3_desc:0 "地上軍や艦船用の兵器を製造する時間断層内工場。"
 
-building_dtf_weapon_factory_4:0 "DTF 武器工場 T4"
-building_dtf_weapon_factory_4_desc:0 "地上軍や艦船用の兵器を製造する時間断層内工場。"
+building_dtf_ai_compatible_weapon_factory_4:0 "最先端武器工廠(DTF - AI)"
+building_dtf_ai_compatible_weapon_factory_4_desc:0 "地上軍や艦船用の兵器を製造する時間断層内工場。"
 
 
 #----------------------------------
 
-building_dtf_component_factory_1:0 "DTF 艦船部品工場 T1"
-building_dtf_component_factory_1_desc:0 "艦船用の部品を製造する時間断層内工場。"
+building_dtf_ai_compatible_component_factory_1:0 "艦船部品工場(DTF - AI)"
+building_dtf_ai_compatible_component_factory_1_desc:0 "艦船用の部品を製造する時間断層内工場。"
 
-building_dtf_component_factory_2:0 "DTF 艦船部品工場 T2"
-building_dtf_component_factory_2_desc:0 "艦船用の部品を製造する時間断層内工場。"
+building_dtf_ai_compatible_component_factory_2:0 "大規模艦船部品工場(DTF - AI)"
+building_dtf_ai_compatible_component_factory_2_desc:0 "艦船用の部品を製造する時間断層内工場。"
 
 #-ex-
 
-building_dtf_component_factory_3:0 "DTF 艦船部品工場 T3"
-building_dtf_component_factory_3_desc:0 "艦船用の部品を製造する時間断層内工場。"
+building_dtf_ai_compatible_component_factory_3:0 "改良艦船部品工場(DTF - AI)"
+building_dtf_ai_compatible_component_factory_3_desc:0 "艦船用の部品を製造する時間断層内工場。"
 
-building_dtf_component_factory_4:0 "DTF 艦船部品工場 T4"
-building_dtf_component_factory_4_desc:0 "艦船用の部品を製造する時間断層内工場。"
+building_dtf_ai_compatible_component_factory_4:0 "最先端艦船部品工場(DTF - AI)"
+building_dtf_ai_compatible_component_factory_4_desc:0 "艦船用の部品を製造する時間断層内工場。"
 
 
 #----------------------------------
 
-building_dtf_energy_plant_1:0 "DTF IV型核融合発電所"
-building_dtf_energy_plant_1_desc:0 "大出力の発電所の中枢施設。\n発電区画の効率を上げる。"
+building_dtf_ai_compatible_energy_plant_1:0 "IV型核融合発電所(DTF - AI)"
+building_dtf_ai_compatible_energy_plant_1_desc:0 "大出力の発電所の中枢施設。\n発電区画の効率を上げる。"
 
-building_dtf_energy_plant_2:0 "DTF 次元波動爆縮実験炉"
-building_dtf_energy_plant_2_desc:0 "波動エネルギーを活用した実験的な発電所の中枢施設。\n発電区画の効率を上げる。"
+building_dtf_ai_compatible_energy_plant_2:0 "次元波動爆縮実験炉(DTF - AI)"
+building_dtf_ai_compatible_energy_plant_2_desc:0 "波動エネルギーを活用した実験的な発電所の中枢施設。\n発電区画の効率を上げる。"
 
-building_dtf_energy_plant_3:0 "DTF 次元波動爆縮発電所"
-building_dtf_energy_plant_3_desc:0 "波動エネルギーを活用した発電所の中枢施設。\n発電区画の効率を上げる。"
+building_dtf_ai_compatible_energy_plant_3:0 "次元波動爆縮発電所(DTF - AI)"
+building_dtf_ai_compatible_energy_plant_3_desc:0 "波動エネルギーを活用した発電所の中枢施設。\n発電区画の効率を上げる。"
 
 #-ex-
 
-building_dtf_energy_plant_4:0 "DTF 次元波動爆縮発電所中央制御センター T1"
-building_dtf_energy_plant_4_desc:0 "波動エネルギーを活用した発電所の中枢施設。\n発電区画の効率を上げる。"
+building_dtf_ai_compatible_energy_plant_4:0 "次元波動爆縮発電所中央制御センター(DTF - AI)"
+building_dtf_ai_compatible_energy_plant_4_desc:0 "波動エネルギーを活用した発電所の中枢施設。\n発電区画の効率を上げる。"
 
-building_dtf_energy_plant_5:0 "DTF 次元波動爆縮発電所中央制御センター T2"
-building_dtf_energy_plant_5_desc:0 "波動エネルギーを活用した発電所の中枢施設。\n発電区画の効率を上げる。"
+building_dtf_ai_compatible_energy_plant_5:0 "次元波動爆縮改良発電所中央制御センター(DTF - AI)"
+building_dtf_ai_compatible_energy_plant_5_desc:0 "波動エネルギーを活用した発電所の中枢施設。\n発電区画の効率を上げる。"
 
-building_dtf_energy_plant_6:0 "DTF 次元波動爆縮発電所中央制御センター T3"
-building_dtf_energy_plant_6_desc:0 "波動エネルギーを活用した発電所の中枢施設。\n発電区画の効率を上げる。"
+building_dtf_ai_compatible_energy_plant_6:0 "次元波動爆縮最先端発電所中央制御センター(DTF - AI)"
+building_dtf_ai_compatible_energy_plant_6_desc:0 "波動エネルギーを活用した発電所の中枢施設。\n発電区画の効率を上げる。"
 
 
 #----------------------------------
 
-building_dtf_mining_plant_1:0 "DTF 地殻採掘施設"
-building_dtf_mining_plant_1_desc:0 "採掘施設の中枢施設。\n採掘区画の効率を上げる。"
+building_dtf_ai_compatible_mining_plant_1:0 "地殻採掘施設(DTF - AI)"
+building_dtf_ai_compatible_mining_plant_1_desc:0 "採掘施設の中枢施設。\n採掘区画の効率を上げる。"
 
-building_dtf_mining_plant_2:0 "DTF 波動採掘実験施設"
-building_dtf_mining_plant_2_desc:0 "波動エネルギーを活用した実験的な採掘施設の中枢施設。\n採掘区画の効率を上げる。"
+building_dtf_ai_compatible_mining_plant_2:0 "波動採掘実験施設(DTF - AI)"
+building_dtf_ai_compatible_mining_plant_2_desc:0 "波動エネルギーを活用した実験的な採掘施設の中枢施設。\n採掘区画の効率を上げる。"
 
-building_dtf_mining_plant_3:0 "DTF 波動採掘施設"
-building_dtf_mining_plant_3_desc:0 "波動テクノロジーを応用した採掘施設の中枢施設。\n採掘区画の効率を上げる。"
+building_dtf_ai_compatible_mining_plant_3:0 "波動採掘施設(DTF - AI)"
+building_dtf_ai_compatible_mining_plant_3_desc:0 "波動テクノロジーを応用した採掘施設の中枢施設。\n採掘区画の効率を上げる。"
 
 #-ex-
 
-building_dtf_mining_plant_4:0 "DTF 波動採掘施設中央制御センター T1"
-building_dtf_mining_plant_4_desc:0 "波動テクノロジーを応用した採掘施設の中枢施設。\n採掘区画の効率を上げる。"
+building_dtf_ai_compatible_mining_plant_4:0 "波動採掘施設中央制御センター(DTF - AI)"
+building_dtf_ai_compatible_mining_plant_4_desc:0 "波動テクノロジーを応用した採掘施設の中枢施設。\n採掘区画の効率を上げる。"
 
-building_dtf_mining_plant_5:0 "DTF 波動採掘施設中央制御センター T2"
-building_dtf_mining_plant_5_desc:0 "波動テクノロジーを応用した採掘施設の中枢施設。\n採掘区画の効率を上げる。"
+building_dtf_ai_compatible_mining_plant_5:0 "大規模波動採掘施設中央制御センター(DTF - AI)"
+building_dtf_ai_compatible_mining_plant_5_desc:0 "波動テクノロジーを応用した採掘施設の中枢施設。\n採掘区画の効率を上げる。"
 
-building_dtf_mining_plant_6:0 "DTF 波動採掘施設中央制御センター T3"
-building_dtf_mining_plant_6_desc:0 "波動テクノロジーを応用した採掘施設の中枢施設。\n採掘区画の効率を上げる。"
+building_dtf_ai_compatible_mining_plant_6:0 "最先端波動採掘施設中央制御センター(DTF - AI)"
+building_dtf_ai_compatible_mining_plant_6_desc:0 "波動テクノロジーを応用した採掘施設の中枢施設。\n採掘区画の効率を上げる。"
 
 
 #----------------------------------
 
-building_dtf_memorial_monument_1:0 "DTF 慰霊碑"
-building_dtf_memorial_monument_1_desc:0 "隕石による大災害によって亡くなった人々の霊を\n慰めるために建てられた石碑。"
-building_dtf_heroes_hill_1:0 "DTF 英雄の丘"
-building_dtf_heroes_hill_1_desc:0 "首都を見下ろす高台にある、地球を救うための大航海で\n戦死した乗組員たちを慰霊・顕彰するための記念施設。"
-building_dtf_industrial_waste_disposal_facility_1:0 "DTF 産業廃棄物処理施設"
-building_dtf_industrial_waste_disposal_facility_1_desc:0 "復興や急激な経済成長などによって生じた廃棄物を処理する施設。\n表向きには。"
+building_dtf_ai_compatible_memorial_monument_1:0 "慰霊碑(DTF - AI)"
+building_dtf_ai_compatible_memorial_monument_1_desc:0 "隕石による大災害によって亡くなった人々の霊を\n慰めるために建てられた石碑。"
+building_dtf_ai_compatible_heroes_hill_1:0 "英雄の丘(DTF - AI)"
+building_dtf_ai_compatible_heroes_hill_1_desc:0 "首都を見下ろす高台にある、地球を救うための大航海で\n戦死した乗組員たちを慰霊・顕彰するための記念施設。"
+building_dtf_ai_compatible_industrial_waste_disposal_facility_1:0 "産業廃棄物処理施設"
+building_dtf_ai_compatible_industrial_waste_disposal_facility_1_desc:0 "復興や急激な経済成長などによって生じた廃棄物を処理する施設。\n表向きには。"
 
-building_dtf_secret_laboratory_1:0 "DTF 極秘研究所"
-building_dtf_secret_laboratory_1_desc:0 "地上にある産業廃棄物処理施設によって隠蔽された極秘の地下施設。\n非合法的な研究を行っているため、大統領ですらその存在を知らない。\n\n大航海によって異星人の存在が確認されたが、そのすべてが友好的とは限らない。\nいつかくるであろう地球の危機に備えるために..."
-building_dtf_secret_laboratory_2:0 "DTF 極秘複合研究施設"
-building_dtf_secret_laboratory_2_desc:0 "地上にある産業廃棄物処理施設によって隠蔽された極秘の地下施設。\n非合法的な研究を行っているため、大統領ですらその存在を知らない。\n\n大航海によって異星人の存在が確認されたが、そのすべてが友好的とは限らない。\nいつかくるであろう地球の危機に備えるために..."
-building_dtf_secret_laboratory_3:0 "DTF 極秘科学省"
-building_dtf_secret_laboratory_3_desc:0 "地上にある産業廃棄物処理施設によって隠蔽された極秘の地下施設。\n非合法的な研究を行っているため、大統領ですらその存在を知らない。\n\n大航海によって異星人の存在が確認されたが、そのすべてが友好的とは限らない。\nいつかくるであろう地球の危機に備えるために..."
+building_dtf_ai_compatible_secret_laboratory_1:0 "極秘研究所(DTF - AI)"
+building_dtf_ai_compatible_secret_laboratory_1_desc:0 "地上にある産業廃棄物処理施設によって隠蔽された極秘の地下施設。\n非合法的な研究を行っているため、大統領ですらその存在を知らない。\n\n大航海によって異星人の存在が確認されたが、そのすべてが友好的とは限らない。\nいつかくるであろう地球の危機に備えるために..."
+building_dtf_ai_compatible_secret_laboratory_2:0 "極秘複合研究施設(DTF - AI)"
+building_dtf_ai_compatible_secret_laboratory_2_desc:0 "地上にある産業廃棄物処理施設によって隠蔽された極秘の地下施設。\n非合法的な研究を行っているため、大統領ですらその存在を知らない。\n\n大航海によって異星人の存在が確認されたが、そのすべてが友好的とは限らない。\nいつかくるであろう地球の危機に備えるために..."
+building_dtf_ai_compatible_secret_laboratory_3:0 "極秘科学省(DTF - AI)"
+building_dtf_ai_compatible_secret_laboratory_3_desc:0 "地上にある産業廃棄物処理施設によって隠蔽された極秘の地下施設。\n非合法的な研究を行っているため、大統領ですらその存在を知らない。\n\n大航海によって異星人の存在が確認されたが、そのすべてが友好的とは限らない。\nいつかくるであろう地球の危機に備えるために..."
 
-building_dtf_biomineral_farm_1:0 "DTF 生体鉱物農場"
-building_dtf_biomineral_farm_1_desc:0 "極秘研究所によって開発された生体鉱物を生育・収穫する全自動施設。\n時間断層内にある。\n\n生体鉱物を見た者は■■■■【削除済み】。"
-building_dtf_biomineral_casting_facility_1:0 "DTF 生体鉱物鋳造施設"
-building_dtf_biomineral_casting_facility_1_desc:0 "生体鉱物から合金へと加工する全自動施設。\nその強度は地球で使用される合金と大差はない。\n時間断層内にある。\n"
+building_dtf_ai_compatible_biomineral_farm_1:0 "生体鉱物農場(DTF - AI)"
+building_dtf_ai_compatible_biomineral_farm_1_desc:0 "極秘研究所によって開発された生体鉱物を生育・収穫する全自動施設。\n時間断層内にある。\n\n生体鉱物を見た者は■■■■【削除済み】。"
+building_dtf_ai_compatible_biomineral_casting_facility_1:0 "生体鉱物鋳造施設(DTF - AI)"
+building_dtf_ai_compatible_biomineral_casting_facility_1_desc:0 "生体鉱物から合金へと加工する全自動施設。\nその強度は地球で使用される合金と大差はない。\n時間断層内にある。\n"
 
 
