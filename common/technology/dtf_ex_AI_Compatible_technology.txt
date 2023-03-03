@@ -47,10 +47,10 @@ tech_dtf_ai_compatible_mass_production_1 = {
 		has_origin = origin_earth_2200
 	} 
 	
-	allow = { 
-		is_ai = no 
-		has_origin = origin_earth_2200
-	}
+	# allow = { 
+	# 	is_ai = no 
+	# 	has_origin = origin_earth_2200
+	# }
 
 	ai_weight = {
         	factor = @dtf_techAIbaseweight
