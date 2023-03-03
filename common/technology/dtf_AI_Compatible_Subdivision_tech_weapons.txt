@@ -50,10 +50,10 @@ tech_dtf_ai_compatible_weapons_2_SpinalMountedShockCannon = {
 #Kinetic 
 tech_dtf_ai_compatible_weapons_2_Kinetic = {
 	cost = @dtf_tier2cost2
-	area = physics
+	area = engineering
 	tier = 2
 	is_rare = no
-	category = { particles }
+	category = { propulsion }
 	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_2" }
 	weight = @dtf_tier2weight2
 
@@ -98,10 +98,10 @@ tech_dtf_ai_compatible_weapons_3_Energy = {
 #StrikeCraft
 tech_dtf_ai_compatible_weapons_3_StrikeCraft = {
 	cost = @dtf_tier3cost2
-	area = physics
+	area = engineering
 	tier = 3
 	is_rare = no
-	category = { particles }
+	category = { voidcraft }
 	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_3" }
 	weight = @dtf_tier3weight2
 
@@ -122,10 +122,10 @@ tech_dtf_ai_compatible_weapons_3_StrikeCraft = {
 #Type3 - Shell
 tech_dtf_ai_compatible_weapons_3_Type3Shell = {
 	cost = @dtf_tier3cost2
-	area = physics
+	area = engineering
 	tier = 3
 	is_rare = no
-	category = { particles }
+	category = { propulsion }
 	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_3" "tech_dtf_ai_compatible_weapons_2_Kinetic" }
 	weight = @dtf_tier3weight2
 
@@ -194,10 +194,10 @@ tech_dtf_ai_compatible_weapons_4_SpinalMountedShockCannon = {
 #Kinetic 
 tech_dtf_ai_compatible_weapons_4_Kinetic = {
 	cost = @dtf_tier4cost2
-	area = physics
+	area = engineering
 	tier = 4
 	is_rare = no
-	category = { particles }
+	category = { propulsion }
 	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_4" "tech_dtf_ai_compatible_weapons_2_Kinetic" }
 	weight = @dtf_tier4weight2
 
@@ -217,10 +217,10 @@ tech_dtf_ai_compatible_weapons_4_Kinetic = {
 #Type3 - Shell
 tech_dtf_ai_compatible_weapons_4_Type3Shell2 = {
 	cost = @dtf_tier4cost2
-	area = physics
+	area = engineering
 	tier = 4
 	is_rare = no
-	category = { particles }
+	category = { propulsion }
 	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_4" "tech_dtf_ai_compatible_weapons_3_Type3Shell" "tech_dtf_ai_compatible_weapons_4_Kinetic" }
 	weight = @dtf_tier4weight2
 
@@ -240,10 +240,10 @@ tech_dtf_ai_compatible_weapons_4_Type3Shell2 = {
 #Missile
 tech_dtf_ai_compatible_weapons_4_Missile = {
 	cost = @dtf_tier4cost2
-	area = physics
+	area = engineering
 	tier = 4
 	is_rare = no
-	category = { particles }
+	category = { propulsion }
 	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_4" }
 	weight = @dtf_tier4weight2
 
@@ -263,10 +263,10 @@ tech_dtf_ai_compatible_weapons_4_Missile = {
 #Torpedoes
 tech_dtf_ai_compatible_weapons_4_Torpedoes = {
 	cost = @dtf_tier4cost2
-	area = physics
+	area = engineering
 	tier = 4
 	is_rare = no
-	category = { particles }
+	category = { propulsion }
 	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_4" }
 	weight = @dtf_tier4weight2
 
@@ -358,10 +358,10 @@ tech_dtf_ai_compatible_weapons_5_Shock_Canon = {
 #StrikeCraft
 tech_dtf_ai_compatible_weapons_5_StrikeCraft = {
 	cost = @dtf_tier5cost2
-	area = physics
+	area = engineering
 	tier = 5
 	is_rare = no
-	category = { particles }
+	category = { voidcraft }
 	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_5" "tech_dtf_ai_compatible_weapons_3_StrikeCraft" }
 	weight = @dtf_tier5weight2
 
@@ -430,10 +430,10 @@ tech_dtf_ai_compatible_weapons_5_Ion_Beam = {
 #Wave Motion CARTRIDGE SHELL
 tech_dtf_ai_compatible_weapons_5_Wave_Motion_Cartridge_Shell = {
 	cost = @dtf_tier5cost3
-	area = physics
+	area = engineering
 	tier = 5
 	is_rare = yes
-	category = { particles }
+	category = { propulsion }
 	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_weapons_5" "tech_dtf_ai_compatible_weapons_5_Wave_Motion_Gun" }
 	weight = @dtf_tier5weight3
 
