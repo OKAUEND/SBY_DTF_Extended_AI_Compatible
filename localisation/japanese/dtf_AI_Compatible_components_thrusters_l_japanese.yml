@@ -1,0 +1,24 @@
+﻿l_japanese:
+
+DTF_THRUSTER_SMALLSHIP_1:0 "イオンスラスター"
+DTF_THRUSTER_MEDIUMSHIP_1:0 "イオンスラスター"
+DTF_THRUSTER_LARGESHIP_1:0 "イオンスラスター"
+
+DTF_THRUSTER_SMALLSHIP_2:0 "インパルススラスター"
+DTF_THRUSTER_MEDIUMSHIP_2:0 "インパルススラスター"
+DTF_THRUSTER_LARGESHIP_2:0 "インパルススラスター"
+
+DTF_THRUSTER_SMALLSHIP_3:0 "新型インパルススラスター"
+DTF_THRUSTER_MEDIUMSHIP_3:0 "新型インパルススラスター"
+DTF_THRUSTER_LARGESHIP_3:0 "新型インパルススラスター"
+
+#-ex-
+
+DTF_THRUSTER_SMALLSHIP_4:0 "第2世代インパルススラスター"
+DTF_THRUSTER_MEDIUMSHIP_4:0 "第2世代インパルススラスター"
+DTF_THRUSTER_LARGESHIP_4:0 "第2世代インパルススラスター"
+
+DTF_THRUSTER_SMALLSHIP_5:0 "圧縮波動粒子スラスター"
+DTF_THRUSTER_MEDIUMSHIP_5:0 "圧縮波動粒子スラスター"
+DTF_THRUSTER_LARGESHIP_5:0 "圧縮波動粒子スラスター"
+

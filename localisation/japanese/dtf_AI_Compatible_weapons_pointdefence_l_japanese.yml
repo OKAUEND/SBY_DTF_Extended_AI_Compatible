@@ -1,0 +1,32 @@
+﻿l_japanese:
+
+DTF_EDF_POINT_DEFENCE_CS_1:0 "対空連射砲"
+DTF_EDF_POINT_DEFENCE_CS_1_DESC:0 "対航空機用の小型砲塔。"
+
+DTF_EDF_POINT_DEFENCE_CS_2:0 "パルスレーザー砲"
+DTF_EDF_POINT_DEFENCE_CS_2_DESC:0 "リアクターの出力の向上に伴って開発された強力な対空砲。"
+
+#-ex-
+
+DTF_EDF_POINT_DEFENCE_CS_3:0 "スーパーパルスレーザー砲"
+DTF_EDF_POINT_DEFENCE_CS_3_DESC:0 "パルスレーザー砲の改良型。"
+
+DTF_EDF_POINT_DEFENCE_CS_4:0 "ハイパーパルスレーザー砲"
+DTF_EDF_POINT_DEFENCE_CS_4_DESC:0 "パルスレーザー砲の改良型。"
+
+DTF_EDF_POINT_DEFENCE_CS_5:0 "ショックパルスレーザー砲"
+DTF_EDF_POINT_DEFENCE_CS_5_DESC:0 "新型のパルスレーザー砲。"
+
+
+#------------------------------------
+#------------------------------------
+
+
+DTF_EDF_POINT_DEFENCE_1:0 "対空連射砲"
+DTF_EDF_POINT_DEFENCE_2:0 "パルスレーザー砲"
+
+#-ex-
+
+DTF_EDF_POINT_DEFENCE_3:0 "スーパーパルスレーザー砲"
+DTF_EDF_POINT_DEFENCE_4:0 "ハイパーパルスレーザー砲"
+DTF_EDF_POINT_DEFENCE_5:0 "ショックパルスレーザー砲"

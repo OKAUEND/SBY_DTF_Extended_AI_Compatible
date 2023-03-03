@@ -1,0 +1,79 @@
+﻿l_japanese:
+
+DTF_ARMOR_PLATING_CS_1:0 "第1世代特殊合金装甲板"
+DTF_ARMOR_PLATING_CS_1_DESC:0 "地球防衛艦隊で採用されている装甲板。"
+
+DTF_ARMOR_PLATING_CS_2:0 "第2世代特殊合金装甲板"
+DTF_ARMOR_PLATING_CS_2_DESC:0 "特殊合金装甲板の改良型。"
+
+DTF_ARMOR_PLATING_CS_3:0 "第1世代圧縮合金装甲板"
+DTF_ARMOR_PLATING_CS_3_DESC:0 "特殊合金装甲板の改良型。"
+
+DTF_ARMOR_PLATING_CS_4:0 "第2世代圧縮合金装甲板"
+DTF_ARMOR_PLATING_CS_4_DESC:0 "特殊合金装甲板の改良型。"
+
+DTF_ARMOR_PLATING_CS_5:0 "波動合金特殊装甲板"
+DTF_ARMOR_PLATING_CS_5_DESC:0 "表層に波動粒子を微量散布加工された特殊合金を使用した装甲板。"
+
+#-ex-
+
+DTF_ARMOR_PLATING_CS_6:0 "第2世代波動合金装甲板"
+DTF_ARMOR_PLATING_CS_6_DESC:0 "表層に波動粒子を散布加工された特殊合金を使用した装甲板。"
+
+DTF_ARMOR_PLATING_CS_7:0 "第3世代波動合金装甲板"
+DTF_ARMOR_PLATING_CS_7_DESC:0 "波動合金装甲板の改良型。"
+
+DTF_ARMOR_PLATING_CS_8:0 "第4世代波動合金装甲板"
+DTF_ARMOR_PLATING_CS_8_DESC:0 "波動合金装甲板の改良型。"
+
+DTF_ARMOR_PLATING_CS_9:0 "第5世代波動合金装甲板"
+DTF_ARMOR_PLATING_CS_9_DESC:0 "波動合金装甲板の改良型。"
+
+DTF_ARMOR_PLATING_CS_10:0 "多重波動合金装甲板"
+DTF_ARMOR_PLATING_CS_10_DESC:0 "波動合金装甲板の最新型。"
+
+
+#-------------------------------------
+#-------------------------------------
+
+DTF_ARMOR_PLATING_1_SMALL:0 "第1世代特殊合金軽装甲板"
+DTF_ARMOR_PLATING_1_MEDIUM:0 "第1世代特殊合金装甲板"
+DTF_ARMOR_PLATING_1_LARGE:0 "第1世代特殊合金重装甲板"
+
+DTF_ARMOR_PLATING_2_SMALL:0 "第2世代特殊合金軽装甲板"
+DTF_ARMOR_PLATING_2_MEDIUM:0 "第2世代特殊合金装甲板"
+DTF_ARMOR_PLATING_2_LARGE:0 "第2世代特殊合金重装甲板"
+
+DTF_ARMOR_PLATING_3_SMALL:0 "第1世代圧縮合金軽装甲板"
+DTF_ARMOR_PLATING_3_MEDIUM:0 "第1世代圧縮合金装甲板"
+DTF_ARMOR_PLATING_3_LARGE:0 "第1世代圧縮合金重装甲板"
+
+DTF_ARMOR_PLATING_4_SMALL:0 "第2世代圧縮合金軽装甲板"
+DTF_ARMOR_PLATING_4_MEDIUM:0 "第2世代圧縮合金装甲板"
+DTF_ARMOR_PLATING_4_LARGE:0 "第2世代圧縮合金重装甲板"
+
+DTF_ARMOR_PLATING_5_SMALL:0 "波動合金特殊装甲板"
+DTF_ARMOR_PLATING_5_MEDIUM:0 "波動合金特殊装甲板"
+DTF_ARMOR_PLATING_5_LARGE:0 "波動合金特殊装甲板"
+
+#-ex-
+
+DTF_ARMOR_PLATING_6_SMALL:0 "第2世代波動合金軽装甲板"
+DTF_ARMOR_PLATING_6_MEDIUM:0 "第2世代波動合金装甲板"
+DTF_ARMOR_PLATING_6_LARGE:0 "第2世代波動合金重装甲板"
+
+DTF_ARMOR_PLATING_7_SMALL:0 "第3世代波動合金軽装甲板"
+DTF_ARMOR_PLATING_7_MEDIUM:0 "第3世代波動合金装甲板"
+DTF_ARMOR_PLATING_7_LARGE:0 "第3世代波動合金重装甲板"
+
+DTF_ARMOR_PLATING_8_SMALL:0 "第4世代波動合金軽装甲板"
+DTF_ARMOR_PLATING_8_MEDIUM:0 "第4世代波動合金装甲板"
+DTF_ARMOR_PLATING_8_LARGE:0 "第4世代波動合金重装甲板"
+
+DTF_ARMOR_PLATING_9_SMALL:0 "第5世代波動合金軽装甲板"
+DTF_ARMOR_PLATING_9_MEDIUM:0 "第5世代波動合金装甲板"
+DTF_ARMOR_PLATING_9_LARGE:0 "第5世代波動合金重装甲板"
+
+DTF_ARMOR_PLATING_10_SMALL:0 "多重波動合金軽装甲板"
+DTF_ARMOR_PLATING_10_MEDIUM:0 "多重波動合金装甲板"
+DTF_ARMOR_PLATING_10_LARGE:0 "多重波動合金重装甲板"

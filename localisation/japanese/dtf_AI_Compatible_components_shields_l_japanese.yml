@@ -1,0 +1,80 @@
+﻿l_japanese:
+
+
+DTF_SHIELD_CS_1:0 "第1世代偏向防壁"
+DTF_SHIELD_CS_1_DESC:0 "エネルギー系の攻撃をはじくことができる防壁を展開する。"
+
+DTF_SHIELD_CS_2:0 "第2世代偏向防壁"
+DTF_SHIELD_CS_2_DESC:0 "偏向防壁の改良型。"
+
+DTF_SHIELD_CS_3:0 "第3世代偏向防壁"
+DTF_SHIELD_CS_3_DESC:0 "偏向防壁の改良型。"
+
+DTF_SHIELD_CS_4:0 "第4世代偏向防壁"
+DTF_SHIELD_CS_4_DESC:0 "偏向防壁の改良型。"
+
+DTF_SHIELD_CS_5:0 "波動防壁"
+DTF_SHIELD_CS_5_DESC:0 "新型の偏向防壁。"
+
+#-ex-
+
+DTF_SHIELD_CS_6:0 "第2世代波動防壁"
+DTF_SHIELD_CS_6_DESC:0 "波動エネルギーを使用した強力な偏向防壁を展開する。"
+
+DTF_SHIELD_CS_7:0 "第3世代波動防壁"
+DTF_SHIELD_CS_7_DESC:0 "波動防壁の改良型。"
+
+DTF_SHIELD_CS_8:0 "第4世代波動防壁"
+DTF_SHIELD_CS_8_DESC:0 "波動防壁の改良型。"
+
+DTF_SHIELD_CS_9:0 "第5世代並列波動防壁"
+DTF_SHIELD_CS_9_DESC:0 "波動防壁の改良型。"
+
+DTF_SHIELD_CS_10:0 "超波動防壁"
+DTF_SHIELD_CS_10_DESC:0 "次世代型の波動防壁。"
+
+
+#-----------------------------------------
+#-----------------------------------------
+
+DTF_SHIELD_1_SMALL:0 "第1世代偏向防壁"
+DTF_SHIELD_1_MEDIUM:0 "第1世代偏向防壁"
+DTF_SHIELD_1_LARGE:0 "第1世代偏向防壁"
+
+DTF_SHIELD_2_SMALL:0 "第1世代偏向防壁"
+DTF_SHIELD_2_MEDIUM:0 "第2世代偏向防壁"
+DTF_SHIELD_2_LARGE:0 "第2世代偏向防壁"
+
+DTF_SHIELD_3_SMALL:0 "第3世代偏向防壁"
+DTF_SHIELD_3_MEDIUM:0 "第3世代偏向防壁"
+DTF_SHIELD_3_LARGE:0 "第3世代偏向防壁"
+
+DTF_SHIELD_4_SMALL:0 "第4世代偏向防壁"
+DTF_SHIELD_4_MEDIUM:0 "第4世代偏向防壁"
+DTF_SHIELD_4_LARGE:0 "第4世代偏向防壁"
+
+DTF_SHIELD_5_SMALL:0 "波動防壁"
+DTF_SHIELD_5_MEDIUM:0 "波動防壁"
+DTF_SHIELD_5_LARGE:0 "波動防壁"
+
+#-ex-
+
+DTF_SHIELD_6_SMALL:0 "第2世代波動防壁"
+DTF_SHIELD_6_MEDIUM:0 "第2世代波動防壁"
+DTF_SHIELD_6_LARGE:0 "第2世代波動防壁"
+
+DTF_SHIELD_7_SMALL:0 "第3世代波動防壁"
+DTF_SHIELD_7_MEDIUM:0 "第3世代波動防壁"
+DTF_SHIELD_7_LARGE:0 "第3世代波動防壁"
+
+DTF_SHIELD_8_SMALL:0 "第4世代波動防壁"
+DTF_SHIELD_8_MEDIUM:0 "第4世代波動防壁"
+DTF_SHIELD_8_LARGE:0 "第4世代波動防壁"
+
+DTF_SHIELD_9_SMALL:0 "第5世代波動防壁"
+DTF_SHIELD_9_MEDIUM:0 "第5世代波動防壁"
+DTF_SHIELD_9_LARGE:0 "第5世代波動防壁"
+
+DTF_SHIELD_10_SMALL:0 "超波動防壁"
+DTF_SHIELD_10_MEDIUM:0 "超波動防壁"
+DTF_SHIELD_10_LARGE:0 "超波動防壁"

@@ -1,0 +1,61 @@
+﻿l_japanese:
+
+
+SPECIAL_SLOT_DTF_FLEET_CONTROL_T1_CS:0 "戦術データリンク T1"
+SPECIAL_SLOT_DTF_FLEET_CONTROL_T1_CS_DESC:0 "艦隊旗艦が各艦との戦術データリンクを行うことで、艦隊の指揮を円滑に行うことが可能になる（効果は重複しない）"
+
+SPECIAL_SLOT_DTF_FLEET_CONTROL_T2_CS:0 "戦術データリンク T2"
+SPECIAL_SLOT_DTF_FLEET_CONTROL_T2_CS_DESC:0 "艦隊旗艦が各艦との戦術データリンクを行うことで、艦隊の指揮を円滑に行うことが可能になる（効果は重複しない）"
+
+SPECIAL_SLOT_DTF_FLEET_CONTROL_T3_CS:0 "戦術データリンク T3"
+SPECIAL_SLOT_DTF_FLEET_CONTROL_T3_CS_DESC:0 "艦隊旗艦が各艦との戦術データリンクを行うことで、艦隊の指揮を円滑に行うことが可能になる（効果は重複しない）"
+
+
+dtf_ship_aura_fleet_control_t1:0 "戦術データリンク"
+dtf_ship_aura_fleet_control_t2:0 "戦術データリンク"
+dtf_ship_aura_fleet_control_t3:0 "戦術データリンク"
+
+friendly_dtf_fleet_control:0 "戦術データリンク"
+
+SPECIAL_SLOT_DTF_FLEET_CONTROL_T1:0 "戦術データリンク T1"
+SPECIAL_SLOT_DTF_FLEET_CONTROL_T2:0 "戦術データリンク T2"
+SPECIAL_SLOT_DTF_FLEET_CONTROL_T3:0 "戦術データリンク T3"
+
+
+
+
+
+
+DTF_AFTERBURNER_1_CS:0 "補助スラスター T1"
+DTF_AFTERBURNER_1_CS_DESC:0 "副推進装置。"
+DTF_AFTERBURNER_2_CS:0 "補助スラスター T2"
+DTF_AFTERBURNER_2_CS_DESC:0 "副推進装置。"
+
+DTF_REACTOR_BOOSTER_1_CS:0 "補助リアクター T1"
+DTF_REACTOR_BOOSTER_1_CS_DESC:0 ""
+DTF_REACTOR_BOOSTER_2_CS:0 "補助リアクター T2"
+DTF_REACTOR_BOOSTER_2_CS_DESC:0 ""
+DTF_REACTOR_BOOSTER_3_CS:0 "補助リアクター T3"
+DTF_REACTOR_BOOSTER_3_CS_DESC:0 ""
+
+
+DTF_SHIELD_HARDENER_1_CS:0 "偏向防壁強化装置"
+DTF_SHIELD_HARDENER_1_CS_DESC:0 "偏向防壁を強度を上げる。"
+DTF_SHIELD_HARDENER_2_CS:0 "波動エネルギー増幅装置"
+DTF_SHIELD_HARDENER_2_CS_DESC:0 "波動防壁の強度を上げる。"
+
+
+
+DTF_AFTERBURNER_1:0 "補助スラスター T1"
+DTF_AFTERBURNER_2:0 "補助スラスター T2"
+
+DTF_REACTOR_BOOSTER_1:0 "補助リアクター T1"
+DTF_REACTOR_BOOSTER_2:0 "補助リアクター T2"
+DTF_REACTOR_BOOSTER_3:0 "補助リアクター T3"
+
+
+DTF_SHIELD_HARDENER_1:0 "偏向防壁強化装置"
+DTF_SHIELD_HARDENER_2:0 "波動エネルギー増幅装置"
+
+
+
