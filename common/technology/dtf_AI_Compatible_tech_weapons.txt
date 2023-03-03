@@ -14,7 +14,7 @@ tech_dtf_ai_compatible_weapons_1 = {
 	} 
 	
 	ai_weight = {
-  	      factor = @dtf_techAIbaseweight
+  	    factor = @dtf_techAIbaseweight
 		modifier = {
 			factor = 0.0
 			NOT = { has_origin = origin_earth_2200 }
@@ -37,6 +37,10 @@ tech_dtf_ai_compatible_weapons_2 = {
 	
 	ai_weight = {
   	     factor = @dtf_techAIbaseweight
+		modifier = {
+			factor = 0
+			NOT = { years_passed > 20 }
+		}
 		modifier = {
 			factor = 0.0
 			NOT = { has_origin = origin_earth_2200 }
@@ -61,6 +65,10 @@ tech_dtf_ai_compatible_weapons_3 = {
 	ai_weight = {
   	     factor = @dtf_techAIbaseweight
 		modifier = {
+			factor = 0
+			NOT = { years_passed > 40 }
+		}
+		modifier = {
 			factor = 0.0
 			NOT = { has_origin = origin_earth_2200 }
 		}
@@ -84,6 +92,10 @@ tech_dtf_ai_compatible_weapons_4 = {
 	ai_weight = {
   	     factor = @dtf_techAIbaseweight
 		modifier = {
+			factor = 0
+			NOT = { years_passed > 60 }
+		}
+		modifier = {
 			factor = 0.0
 			NOT = { has_origin = origin_earth_2200 }
 		}
@@ -106,6 +118,10 @@ tech_dtf_ai_compatible_weapons_5 = {
 	
 	ai_weight = {
   	     factor = @dtf_techAIbaseweight
+		modifier = {
+			factor = 0
+			NOT = { years_passed > 80 }
+		}
 		modifier = {
 			factor = 0.0
 			NOT = { has_origin = origin_earth_2200 }
