@@ -10,14 +10,14 @@ tech_dtf_ai_compatible_shield_6 = {
 
 	potential = {  
 		is_ai = yes  
-		has_origin = origin_earth_2200
+		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 	
 	ai_weight = {
   	      factor = @dtf_techAIbaseweight
 		modifier = {
 			factor = 0.0
-			NOT = { has_origin = origin_earth_2200 }
+			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
 		}
   	}
 }
@@ -33,14 +33,14 @@ tech_dtf_ai_compatible_shield_7 = {
 
 	potential = {  
 		is_ai = yes  
-		has_origin = origin_earth_2200
+		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 	
 	ai_weight = {
   	      factor = @dtf_techAIbaseweight
 		modifier = {
 			factor = 0.0
-			NOT = { has_origin = origin_earth_2200 }
+			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
 		}
   	}
 }

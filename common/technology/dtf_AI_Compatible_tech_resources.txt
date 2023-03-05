@@ -12,7 +12,7 @@ tech_dtf_ai_compatible_industry_1 = {
 
 	potential = {  
 		is_ai = yes  
-		has_origin = origin_earth_2200
+		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 
 	modifier = {
@@ -23,7 +23,7 @@ tech_dtf_ai_compatible_industry_1 = {
 		factor = @dtf_techAIbaseweight
 		modifier = {
 			factor = 0.0
-			NOT = { has_origin = origin_earth_2200 }
+			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
 		}
   	}
 }
@@ -39,7 +39,7 @@ tech_dtf_ai_compatible_industry_2 = {
 
 	potential = {  
 		is_ai = yes  
-		has_origin = origin_earth_2200
+		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 
 	modifier = {
@@ -50,7 +50,7 @@ tech_dtf_ai_compatible_industry_2 = {
 		factor = @dtf_techAIbaseweight
 		modifier = {
 			factor = 0.0
-			NOT = { has_origin = origin_earth_2200 }
+			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
 		}
   	}
 }
@@ -65,7 +65,7 @@ tech_dtf_ai_compatible_industry_3 = {
 
 	potential = {  
 		is_ai = yes  
-		has_origin = origin_earth_2200
+		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 
 	modifier = {
@@ -76,7 +76,7 @@ tech_dtf_ai_compatible_industry_3 = {
 		factor = @dtf_techAIbaseweight
 		modifier = {
 			factor = 0.0
-			NOT = { has_origin = origin_earth_2200 }
+			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
 		}
   	}
 }
@@ -91,7 +91,7 @@ tech_dtf_ai_compatible_industry_4 = {
 
 	potential = {  
 		is_ai = yes  
-		has_origin = origin_earth_2200
+		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 
 	modifier = {
@@ -102,7 +102,7 @@ tech_dtf_ai_compatible_industry_4 = {
 		factor = @dtf_techAIbaseweight
 		modifier = {
 			factor = 0.0
-			NOT = { has_origin = origin_earth_2200 }
+			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
 		}
   	}
 }
@@ -117,7 +117,7 @@ tech_dtf_ai_compatible_industry_5 = {
 
 	potential = {  
 		is_ai = yes  
-		has_origin = origin_earth_2200
+		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 
 	modifier = {
@@ -128,7 +128,7 @@ tech_dtf_ai_compatible_industry_5 = {
 		factor = @dtf_techAIbaseweight
 		modifier = {
 			factor = 0.0
-			NOT = { has_origin = origin_earth_2200 }
+			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
 		}
   	}
 }

@@ -13,14 +13,14 @@ tech_dtf_ai_compatible_weapons_6_Energy = {
 
 	potential = {  
 		is_ai = yes  
-		has_origin = origin_earth_2200
+		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 	
 	ai_weight = {
   	      factor = @dtf_techAIbaseweight
 		modifier = {
 			factor = 0.0
-			NOT = { has_origin = origin_earth_2200 }
+			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
 		}
   	}
 }
@@ -37,14 +37,14 @@ tech_dtf_ai_compatible_weapons_6_Shock_Canon = {
 
 	potential = {  
 		is_ai = yes  
-		has_origin = origin_earth_2200
+		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 	
 	ai_weight = {
   	      factor = @dtf_techAIbaseweight
 		modifier = {
 			factor = 0.0
-			NOT = { has_origin = origin_earth_2200 }
+			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
 		}
   	}
 }
@@ -61,14 +61,14 @@ tech_dtf_ai_compatible_weapons_6_SpinalMountedShockCannon = {
 
 	potential = {  
 		is_ai = yes  
-		has_origin = origin_earth_2200
+		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 	
 	ai_weight = {
   	      factor = @dtf_techAIbaseweight
 		modifier = {
 			factor = 0.0
-			NOT = { has_origin = origin_earth_2200 }
+			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
 		}
   	}
 }
@@ -85,14 +85,14 @@ tech_dtf_ai_compatible_weapons_6_Kinetic = {
 
 	potential = {  
 		is_ai = yes  
-		has_origin = origin_earth_2200
+		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 	
 	ai_weight = {
   	      factor = @dtf_techAIbaseweight
 		modifier = {
 			factor = 0.0
-			NOT = { has_origin = origin_earth_2200 }
+			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
 		}
   	}
 }
@@ -108,14 +108,14 @@ tech_dtf_ai_compatible_weapons_6_Missile = {
 
 	potential = {  
 		is_ai = yes  
-		has_origin = origin_earth_2200
+		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 	
 	ai_weight = {
   	      factor = @dtf_techAIbaseweight
 		modifier = {
 			factor = 0.0
-			NOT = { has_origin = origin_earth_2200 }
+			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
 		}
   	}
 }
@@ -131,14 +131,14 @@ tech_dtf_ai_compatible_weapons_6_PointDefence = {
 
 	potential = {  
 		is_ai = yes  
-		has_origin = origin_earth_2200
+		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 	
 	ai_weight = {
   	      factor = @dtf_techAIbaseweight
 		modifier = {
 			factor = 0.0
-			NOT = { has_origin = origin_earth_2200 }
+			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
 		}
   	}
 }
@@ -156,14 +156,14 @@ tech_dtf_ai_compatible_weapons_7_Energy = {
 
 	potential = {  
 		is_ai = yes  
-		has_origin = origin_earth_2200
+		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 	
 	ai_weight = {
   	      factor = @dtf_techAIbaseweight
 		modifier = {
 			factor = 0.0
-			NOT = { has_origin = origin_earth_2200 }
+			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
 		}
   	}
 }
@@ -179,14 +179,14 @@ tech_dtf_ai_compatible_weapons_7_Shock_Canon = {
 
 	potential = {  
 		is_ai = yes  
-		has_origin = origin_earth_2200
+		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 	
 	ai_weight = {
   	      factor = @dtf_techAIbaseweight
 		modifier = {
 			factor = 0.0
-			NOT = { has_origin = origin_earth_2200 }
+			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
 		}
   	}
 }
@@ -202,14 +202,14 @@ tech_dtf_ai_compatible_weapons_7_StrikeCraft = {
 
 	potential = {  
 		is_ai = yes  
-		has_origin = origin_earth_2200
+		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 	
 	ai_weight = {
   	      factor = @dtf_techAIbaseweight
 		modifier = {
 			factor = 0.0
-			NOT = { has_origin = origin_earth_2200 }
+			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
 		}
   	}
 }
@@ -225,14 +225,14 @@ tech_dtf_ai_compatible_wave_motion_gun_2 = {
 
 	potential = {  
 		is_ai = yes  
-		has_origin = origin_earth_2200
+		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 	
 	ai_weight = {
   	     factor = @dtf_techAIbaseweight
 		modifier = {
 			factor = 0.0
-			NOT = { has_origin = origin_earth_2200 }
+			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
 		}
   	}
 }
@@ -248,14 +248,14 @@ tech_dtf_ai_compatible_weapons_7_Wave_Motion_Cartridge_Shell = {
 
 	potential = {  
 		is_ai = yes  
-		has_origin = origin_earth_2200
+		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 	
 	ai_weight = {
   	     factor = @dtf_techAIbaseweight
 		modifier = {
 			factor = 0.0
-			NOT = { has_origin = origin_earth_2200 }
+			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
 		}
   	}
 }
@@ -271,14 +271,14 @@ tech_dtf_ai_compatible_weapons_7_Wave_Motion_Gun = {
 
 	potential = {  
 		is_ai = yes  
-		has_origin = origin_earth_2200
+		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 	
 	ai_weight = {
   	     factor = @dtf_techAIbaseweight
 		modifier = {
 			factor = 0.0
-			NOT = { has_origin = origin_earth_2200 }
+			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
 		}
   	}
 }
@@ -295,14 +295,14 @@ tech_dtf_ai_compatible_weapons_7_Wave_Motion_Gun_Expended = {
 
 	potential = {  
 		is_ai = yes  
-		has_origin = origin_earth_2200
+		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 	
 	ai_weight = {
   	     factor = @dtf_techAIbaseweight
 		modifier = {
 			factor = 0.0
-			NOT = { has_origin = origin_earth_2200 }
+			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
 		}
   	}
 }
@@ -318,14 +318,14 @@ tech_dtf_ai_compatible_weapons_7_Wave_Motion_Gun_Super_Nova = {
 
 	potential = {  
 		is_ai = yes  
-		has_origin = origin_earth_2200
+		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 	
 	ai_weight = {
   	     factor = @dtf_techAIbaseweight
 		modifier = {
 			factor = 0.0
-			NOT = { has_origin = origin_earth_2200 }
+			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
 		}
   	}
 }

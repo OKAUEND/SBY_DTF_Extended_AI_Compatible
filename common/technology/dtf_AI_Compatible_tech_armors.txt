@@ -10,14 +10,14 @@ tech_dtf_ai_compatible_armor_1 = {
 
 	potential = {  
 		is_ai = yes  
-		has_origin = origin_earth_2200
+		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 	
 	ai_weight = {
   	      factor = @dtf_techAIbaseweight
 		modifier = {
 			factor = 0.0
-			NOT = { has_origin = origin_earth_2200 }
+			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
 		}
   	}
 }
@@ -33,14 +33,14 @@ tech_dtf_ai_compatible_armor_2 = {
 
 	potential = {  
 		is_ai = yes  
-		has_origin = origin_earth_2200
+		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 	
 	ai_weight = {
   	     factor = @dtf_techAIbaseweight
 		modifier = {
 			factor = 0.0
-			NOT = { has_origin = origin_earth_2200 }
+			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
 		}
   	}
 }
@@ -56,14 +56,14 @@ tech_dtf_ai_compatible_armor_3 = {
 
 	potential = {  
 		is_ai = yes  
-		has_origin = origin_earth_2200
+		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 	
 	ai_weight = {
   	     factor = @dtf_techAIbaseweight
 		modifier = {
 			factor = 0.0
-			NOT = { has_origin = origin_earth_2200 }
+			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
 		}
   	}
 }
@@ -79,14 +79,14 @@ tech_dtf_ai_compatible_armor_4 = {
 
 	potential = {  
 		is_ai = yes  
-		has_origin = origin_earth_2200
+		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 	
 	ai_weight = {
   	     factor = @dtf_techAIbaseweight
 		modifier = {
 			factor = 0.0
-			NOT = { has_origin = origin_earth_2200 }
+			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
 		}
   	}
 }
@@ -102,14 +102,14 @@ tech_dtf_ai_compatible_armor_5 = {
 
 	potential = {  
 		is_ai = yes  
-		has_origin = origin_earth_2200
+		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 	
 	ai_weight = {
   	      factor = @dtf_techAIbaseweight
 		modifier = {
 			factor = 0.0
-			NOT = { has_origin = origin_earth_2200 }
+			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
 		}
   	}
 }

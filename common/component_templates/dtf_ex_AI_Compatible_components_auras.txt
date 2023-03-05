@@ -54,7 +54,7 @@ utility_component_template = {
 		weight = @dtf_ai_weight_2
 		modifier = {
 			factor = 0.0
-			NOT = { has_origin = origin_earth_2200 }
+			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
 		}
 	}
 }
@@ -110,7 +110,7 @@ utility_component_template = {
 		weight = @dtf_ai_weight_2
 		modifier = {
 			factor = 0.0
-			NOT = { has_origin = origin_earth_2200 }
+			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
 		}
 	}
 }
