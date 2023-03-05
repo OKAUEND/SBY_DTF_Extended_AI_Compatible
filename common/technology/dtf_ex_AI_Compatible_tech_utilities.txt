@@ -9,12 +9,16 @@ tech_dtf_ai_compatible_reactor_4 = {
 	weight = @dtf_tier8weight3
 
 	potential = {  
-		is_ai = yes  
+		# is_ai = yes  
 		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 
 	ai_weight = {
         	factor = @dtf_techAIbaseweight
+		   modifier = {
+			factor = 100
+			has_technology = tech_dtf_ai_compatible_flag_tech
+		}
 		modifier = {
 			factor = 0.0
 			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }

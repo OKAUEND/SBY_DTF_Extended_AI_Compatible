@@ -12,7 +12,7 @@ tech_dtf_ai_compatible_weapons_2_Energy = {
 	weight = @dtf_tier2weight2
 
 	potential = {  
-		is_ai = yes  
+		# is_ai = yes  
 		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 
@@ -25,6 +25,10 @@ tech_dtf_ai_compatible_weapons_2_Energy = {
 	
 	ai_weight = {
   	     factor = @dtf_techAIbaseweight
+		   modifier = {
+			factor = 100
+			has_technology = tech_dtf_ai_compatible_flag_tech
+		}
 		modifier = {
 			factor = 0.0
 			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
@@ -49,12 +53,16 @@ tech_dtf_ai_compatible_weapons_2_SpinalMountedShockCannon = {
 	}
 
 	potential = {  
-		is_ai = yes  
+		# is_ai = yes  
 		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 	
 	ai_weight = {
   	     factor = @dtf_techAIbaseweight
+		   modifier = {
+			factor = 100
+			has_technology = tech_dtf_ai_compatible_flag_tech
+		}
 		modifier = {
 			factor = 0.0
 			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
@@ -72,12 +80,16 @@ tech_dtf_ai_compatible_weapons_2_Kinetic = {
 	weight = @dtf_tier2weight2
 
 	potential = {  
-		is_ai = yes  
+		# is_ai = yes  
 		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 	
 	ai_weight = {
   	     factor = @dtf_techAIbaseweight
+		   modifier = {
+			factor = 100
+			has_technology = tech_dtf_ai_compatible_flag_tech
+		}
 		modifier = {
 			factor = 0.0
 			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
@@ -97,12 +109,16 @@ tech_dtf_ai_compatible_weapons_3_Energy = {
 	weight = @dtf_tier3weight2
 
 	potential = {  
-		is_ai = yes  
+		# is_ai = yes  
 		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 	
 	ai_weight = {
   	     factor = @dtf_techAIbaseweight
+		   modifier = {
+			factor = 100
+			has_technology = tech_dtf_ai_compatible_flag_tech
+		}
 		modifier = {
 			factor = 0.0
 			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
@@ -120,12 +136,16 @@ tech_dtf_ai_compatible_weapons_3_StrikeCraft = {
 	weight = @dtf_tier3weight2
 
 	potential = {  
-		is_ai = yes  
+		# is_ai = yes  
 		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 	
 	ai_weight = {
   	     factor = @dtf_techAIbaseweight
+		   modifier = {
+			factor = 100
+			has_technology = tech_dtf_ai_compatible_flag_tech
+		}
 		modifier = {
 			factor = 0.0
 			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
@@ -144,12 +164,16 @@ tech_dtf_ai_compatible_weapons_3_Type3Shell = {
 	weight = @dtf_tier3weight2
 
 	potential = {  
-		is_ai = yes  
+		# is_ai = yes  
 		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 	
 	ai_weight = {
   	     factor = @dtf_techAIbaseweight
+		   modifier = {
+			factor = 100
+			has_technology = tech_dtf_ai_compatible_flag_tech
+		}
 		modifier = {
 			factor = 0.0
 			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
@@ -170,12 +194,16 @@ tech_dtf_ai_compatible_weapons_4_Energy = {
 	weight = @dtf_tier4weight2
 
 	potential = {  
-		is_ai = yes  
+		# is_ai = yes  
 		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 	
 	ai_weight = {
   	     factor = @dtf_techAIbaseweight
+		   modifier = {
+			factor = 100
+			has_technology = tech_dtf_ai_compatible_flag_tech
+		}
 		modifier = {
 			factor = 0.0
 			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
@@ -193,12 +221,16 @@ tech_dtf_ai_compatible_weapons_4_SpinalMountedShockCannon = {
 	weight = @dtf_tier4weight3
 
 	potential = {  
-		is_ai = yes  
+		# is_ai = yes  
 		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 	
 	ai_weight = {
   	     factor = @dtf_techAIbaseweight
+		   modifier = {
+			factor = 100
+			has_technology = tech_dtf_ai_compatible_flag_tech
+		}
 		modifier = {
 			factor = 0.0
 			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
@@ -216,12 +248,16 @@ tech_dtf_ai_compatible_weapons_4_Kinetic = {
 	weight = @dtf_tier4weight2
 
 	potential = {  
-		is_ai = yes  
+		# is_ai = yes  
 		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 	
 	ai_weight = {
   	     factor = @dtf_techAIbaseweight
+		   modifier = {
+			factor = 100
+			has_technology = tech_dtf_ai_compatible_flag_tech
+		}
 		modifier = {
 			factor = 0.0
 			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
@@ -239,12 +275,16 @@ tech_dtf_ai_compatible_weapons_4_Type3Shell2 = {
 	weight = @dtf_tier4weight2
 
 	potential = {  
-		is_ai = yes  
+		# is_ai = yes  
 		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 	
 	ai_weight = {
   	     factor = @dtf_techAIbaseweight
+		   modifier = {
+			factor = 100
+			has_technology = tech_dtf_ai_compatible_flag_tech
+		}
 		modifier = {
 			factor = 0.0
 			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
@@ -262,12 +302,16 @@ tech_dtf_ai_compatible_weapons_4_Missile = {
 	weight = @dtf_tier4weight2
 
 	potential = {  
-		is_ai = yes  
+		# is_ai = yes  
 		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 	
 	ai_weight = {
   	     factor = @dtf_techAIbaseweight
+		   modifier = {
+			factor = 100
+			has_technology = tech_dtf_ai_compatible_flag_tech
+		}
 		modifier = {
 			factor = 0.0
 			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
@@ -285,12 +329,16 @@ tech_dtf_ai_compatible_weapons_4_Torpedoes = {
 	weight = @dtf_tier4weight2
 
 	potential = {  
-		is_ai = yes  
+		# is_ai = yes  
 		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 	
 	ai_weight = {
   	     factor = @dtf_techAIbaseweight
+		   modifier = {
+			factor = 100
+			has_technology = tech_dtf_ai_compatible_flag_tech
+		}
 		modifier = {
 			factor = 0.0
 			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
@@ -308,12 +356,16 @@ tech_dtf_ai_compatible_weapons_4_PointDefence = {
 	weight = @dtf_tier4weight2
 
 	potential = {  
-		is_ai = yes  
+		# is_ai = yes  
 		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 	
 	ai_weight = {
   	     factor = @dtf_techAIbaseweight
+		   modifier = {
+			factor = 100
+			has_technology = tech_dtf_ai_compatible_flag_tech
+		}
 		modifier = {
 			factor = 0.0
 			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
@@ -334,12 +386,16 @@ tech_dtf_ai_compatible_weapons_5_Energy = {
 	weight = @dtf_tier5weight2
 
 	potential = {  
-		is_ai = yes  
+		# is_ai = yes  
 		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 	
 	ai_weight = {
   	     factor = @dtf_techAIbaseweight
+		   modifier = {
+			factor = 100
+			has_technology = tech_dtf_ai_compatible_flag_tech
+		}
 		modifier = {
 			factor = 0.0
 			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
@@ -357,12 +413,16 @@ tech_dtf_ai_compatible_weapons_5_Shock_Canon = {
 	weight = @dtf_tier5weight3
 
 	potential = {  
-		is_ai = yes  
+		# is_ai = yes  
 		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 	
 	ai_weight = {
   	     factor = @dtf_techAIbaseweight
+		   modifier = {
+			factor = 100
+			has_technology = tech_dtf_ai_compatible_flag_tech
+		}
 		modifier = {
 			factor = 0.0
 			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
@@ -380,12 +440,16 @@ tech_dtf_ai_compatible_weapons_5_StrikeCraft = {
 	weight = @dtf_tier5weight2
 
 	potential = {  
-		is_ai = yes  
+		# is_ai = yes  
 		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 	
 	ai_weight = {
   	     factor = @dtf_techAIbaseweight
+		   modifier = {
+			factor = 100
+			has_technology = tech_dtf_ai_compatible_flag_tech
+		}
 		modifier = {
 			factor = 0.0
 			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
@@ -404,12 +468,16 @@ tech_dtf_ai_compatible_weapons_5_Wave_Motion_Gun = {
 	weight = @dtf_tier5weight3
 
 	potential = {  
-		is_ai = yes  
+		# is_ai = yes  
 		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 	
 	ai_weight = {
   	     factor = @dtf_techAIbaseweight
+		   modifier = {
+			factor = 100
+			has_technology = tech_dtf_ai_compatible_flag_tech
+		}
 		modifier = {
 			factor = 0.0
 			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
@@ -428,12 +496,16 @@ tech_dtf_ai_compatible_weapons_5_Ion_Beam = {
 	weight = @dtf_tier5weight3
 
 	potential = {  
-		is_ai = yes  
+		# is_ai = yes  
 		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 	
 	ai_weight = {
   	     factor = @dtf_techAIbaseweight
+		   modifier = {
+			factor = 100
+			has_technology = tech_dtf_ai_compatible_flag_tech
+		}
 		modifier = {
 			factor = 0.0
 			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
@@ -452,12 +524,16 @@ tech_dtf_ai_compatible_weapons_5_Wave_Motion_Cartridge_Shell = {
 	weight = @dtf_tier5weight3
 
 	potential = {  
-		is_ai = yes  
+		# is_ai = yes  
 		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 	
 	ai_weight = {
   	     factor = @dtf_techAIbaseweight
+		   modifier = {
+			factor = 100
+			has_technology = tech_dtf_ai_compatible_flag_tech
+		}
 		modifier = {
 			factor = 0.0
 			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
@@ -476,12 +552,16 @@ tech_dtf_ai_compatible_weapons_5_Wave_Motion_Gun_Large_Ship = {
 	weight = @dtf_tier5weight3
 
 	potential = {  
-		is_ai = yes  
+		# is_ai = yes  
 		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 	
 	ai_weight = {
   	     factor = @dtf_techAIbaseweight
+		   modifier = {
+			factor = 100
+			has_technology = tech_dtf_ai_compatible_flag_tech
+		}
 		modifier = {
 			factor = 0.0
 			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
@@ -500,12 +580,16 @@ tech_dtf_ai_compatible_weapons_5_Wave_Motion_Gun_EXPANDED = {
 	weight = @dtf_tier5weight3
 
 	potential = {  
-		is_ai = yes  
+		# is_ai = yes  
 		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 	
 	ai_weight = {
   	     factor = @dtf_techAIbaseweight
+		   modifier = {
+			factor = 100
+			has_technology = tech_dtf_ai_compatible_flag_tech
+		}
 		modifier = {
 			factor = 0.0
 			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
@@ -524,12 +608,16 @@ tech_dtf_ai_compatible_weapons_5_Wave_Motion_Gun_Super_Nova = {
 	weight = @dtf_tier5weight3
 
 	potential = {  
-		is_ai = yes  
+		# is_ai = yes  
 		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 	
 	ai_weight = {
   	     factor = @dtf_techAIbaseweight
+		   modifier = {
+			factor = 100
+			has_technology = tech_dtf_ai_compatible_flag_tech
+		}
 		modifier = {
 			factor = 0.0
 			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }

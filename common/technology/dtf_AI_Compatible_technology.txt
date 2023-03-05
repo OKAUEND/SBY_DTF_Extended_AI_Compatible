@@ -7,8 +7,8 @@ tech_dtf_ai_compatible_flag_tech = {
 	weight = 0
 
 	potential = {  
-		is_ai = yes  
-		has_technology = tech_dtf_ai_compatible_flag_tech
+		# is_ai = yes  
+		has_origin = origin_earth_2200
 	} 
 	
 	ai_weight = {
@@ -30,12 +30,16 @@ tech_dtf_ai_compatible_pretech = {
 	}
 
 	potential = {  
-		is_ai = yes  
-		has_technology = tech_dtf_ai_compatible_flag_tech
+		# is_ai = yes  
+		has_origin = origin_earth_2200
 	} 
 	
 	ai_weight = {
 		factor = @dtf_techAIbaseweight
+		   modifier = {
+			factor = 100
+			has_technology = tech_dtf_ai_compatible_flag_tech
+		}
 		modifier = {
 			factor = 0.0
 			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
@@ -55,12 +59,16 @@ tech_dtf_ai_compatible_technology_1 = {
 
 
 	potential = {  
-		is_ai = yes  
+		# is_ai = yes  
 		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 
 	ai_weight = {
         	factor = @dtf_techAIbaseweight
+		   modifier = {
+			factor = 100
+			has_technology = tech_dtf_ai_compatible_flag_tech
+		}
 		modifier = {
 			factor = 0.0
 			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
@@ -79,12 +87,16 @@ tech_dtf_ai_compatible_technology_2 = {
 
 
 	potential = {  
-		is_ai = yes  
+		# is_ai = yes  
 		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 
 	ai_weight = {
         	factor = @dtf_techAIbaseweight
+		   modifier = {
+			factor = 100
+			has_technology = tech_dtf_ai_compatible_flag_tech
+		}
 		modifier = {
 			factor = 0.0
 			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
@@ -105,12 +117,16 @@ tech_dtf_ai_compatible_technology_3 = {
 	feature_flags = { gateway_activation }
 
 	potential = {  
-		is_ai = yes  
+		# is_ai = yes  
 		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 
 	ai_weight = {
         	factor = @dtf_techAIbaseweight
+		   modifier = {
+			factor = 100
+			has_technology = tech_dtf_ai_compatible_flag_tech
+		}
 		modifier = {
 			factor = 0.0
 			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }

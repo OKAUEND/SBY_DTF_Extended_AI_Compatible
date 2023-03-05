@@ -11,7 +11,7 @@ tech_dtf_ai_compatible_industry_1 = {
 	tier = 1
 
 	potential = {  
-		is_ai = yes  
+		# is_ai = yes  
 		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 
@@ -21,6 +21,10 @@ tech_dtf_ai_compatible_industry_1 = {
 
 	ai_weight = {
 		factor = @dtf_techAIbaseweight
+		   modifier = {
+			factor = 100
+			has_technology = tech_dtf_ai_compatible_flag_tech
+		}
 		modifier = {
 			factor = 0.0
 			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
@@ -38,7 +42,7 @@ tech_dtf_ai_compatible_industry_2 = {
 	prerequisites = { "tech_dtf_ai_compatible_flag_tech" "tech_dtf_ai_compatible_industry_1" }
 
 	potential = {  
-		is_ai = yes  
+		# is_ai = yes  
 		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 
@@ -48,6 +52,10 @@ tech_dtf_ai_compatible_industry_2 = {
 
 	ai_weight = {
 		factor = @dtf_techAIbaseweight
+		   modifier = {
+			factor = 100
+			has_technology = tech_dtf_ai_compatible_flag_tech
+		}
 		modifier = {
 			factor = 0.0
 			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
@@ -64,7 +72,7 @@ tech_dtf_ai_compatible_industry_3 = {
 	weight = @tier3weight2
 
 	potential = {  
-		is_ai = yes  
+		# is_ai = yes  
 		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 
@@ -74,6 +82,10 @@ tech_dtf_ai_compatible_industry_3 = {
 
 	ai_weight = {
 		factor = @dtf_techAIbaseweight
+		   modifier = {
+			factor = 100
+			has_technology = tech_dtf_ai_compatible_flag_tech
+		}
 		modifier = {
 			factor = 0.0
 			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
@@ -90,7 +102,7 @@ tech_dtf_ai_compatible_industry_4 = {
 	weight = @tier4weight2
 
 	potential = {  
-		is_ai = yes  
+		# is_ai = yes  
 		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 
@@ -100,6 +112,10 @@ tech_dtf_ai_compatible_industry_4 = {
 
 	ai_weight = {
 		factor = @dtf_techAIbaseweight
+		   modifier = {
+			factor = 100
+			has_technology = tech_dtf_ai_compatible_flag_tech
+		}
 		modifier = {
 			factor = 0.0
 			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
@@ -116,7 +132,7 @@ tech_dtf_ai_compatible_industry_5 = {
 	weight = @tier5weight2
 
 	potential = {  
-		is_ai = yes  
+		# is_ai = yes  
 		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 
@@ -126,6 +142,10 @@ tech_dtf_ai_compatible_industry_5 = {
 
 	ai_weight = {
 		factor = @dtf_techAIbaseweight
+		   modifier = {
+			factor = 100
+			has_technology = tech_dtf_ai_compatible_flag_tech
+		}
 		modifier = {
 			factor = 0.0
 			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }

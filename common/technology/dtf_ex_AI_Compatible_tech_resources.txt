@@ -11,7 +11,7 @@ tech_dtf_ai_compatible_industry_6 = {
 	weight = @tier6weight2
 
 	potential = {  
-		is_ai = yes  
+		# is_ai = yes  
 		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 
@@ -21,6 +21,10 @@ tech_dtf_ai_compatible_industry_6 = {
 
 	ai_weight = {
 		factor = @dtf_techAIbaseweight
+		   modifier = {
+			factor = 100
+			has_technology = tech_dtf_ai_compatible_flag_tech
+		}
 		modifier = {
 			factor = 0.0
 			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
@@ -37,7 +41,7 @@ tech_dtf_ai_compatible_industry_7 = {
 	weight = @tier7weight2
 
 	potential = {  
-		is_ai = yes  
+		# is_ai = yes  
 		has_technology = tech_dtf_ai_compatible_flag_tech
 	} 
 
@@ -47,6 +51,10 @@ tech_dtf_ai_compatible_industry_7 = {
 
 	ai_weight = {
 		factor = @dtf_techAIbaseweight
+		   modifier = {
+			factor = 100
+			has_technology = tech_dtf_ai_compatible_flag_tech
+		}
 		modifier = {
 			factor = 0.0
 			NOT = { has_technology = tech_dtf_ai_compatible_flag_tech }
