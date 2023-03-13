@@ -43,10 +43,6 @@ tech_dtf_ai_compatible_reactor_2 = {
 	
 	ai_weight = {
   	      factor = @dtf_techAIbaseweight
-			modifier = {
-				factor = 0
-				NOT = { years_passed > 50 }
-			}
 		   modifier = {
 			factor = 100
 			has_technology = tech_dtf_ai_compatible_flag_tech
