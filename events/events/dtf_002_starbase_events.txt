@@ -1,0 +1,90 @@
+namespace = dtf_starbase
+
+
+
+# Spawn Zroni Storm (when a Storm Caster starbase building is complete)
+system_event = {
+	id = dtf_starbase.9900
+	hide_window = yes 
+
+	is_triggered_only = yes
+
+	trigger = {
+		#owner = { NOT = { has_modifier = sr_zro_deficit } }
+		NOT = { has_modifier = system_wave_motion_field }
+		starbase = {
+			count_starbase_buildings = { 
+				type = dtf_starbase_wave_motion_field
+				include_being_constructed = no 
+				count = 1 
+			}
+		}
+	}
+
+	immediate = {
+		add_modifier = {
+			modifier = system_wave_motion_field
+			days = -1
+		}
+		star = {
+			create_ambient_object = {
+				type = "rare_nebula_2"
+				location = this
+			}
+		}
+		last_created_ambient_object = {	
+			set_ambient_object_flag = system_wave_motion_field
+			set_location = {
+				target = prev
+				distance = 0
+				angle = random
+			}
+		}
+		#if = {
+		#	limit = {
+		#		space_owner = {
+		#			has_ascension_perk = ap_archaeoengineers
+		#		}
+		#	}
+			starbase = {
+				add_starbase_component = {
+					component = "DTF_STARBASE_AURA_WAVE_MOTION_FIELD"
+				}
+			}
+		#}
+	}
+}
+
+
+# Remove Zroni Storm (when a Storm Caster starbase building is dismantled)
+system_event = {
+	id = dtf_starbase.9905
+	hide_window = yes 
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_modifier = system_wave_motion_field
+	}
+
+	immediate = {
+		remove_modifier = system_wave_motion_field
+		every_ambient_object = {
+			limit = { has_ambient_object_flag = system_wave_motion_field }
+			destroy_ambient_object = this
+		}
+		if = {
+			limit = {
+				any_ship_in_system = {
+					is_ship_class = shipclass_starbase
+					has_component = "DTF_STARBASE_AURA_WAVE_MOTION_FIELD"
+				}
+			}
+			starbase = {
+				remove_starbase_component = {
+					component = "DTF_STARBASE_AURA_WAVE_MOTION_FIELD"
+				}
+			}
+		}
+	}
+}

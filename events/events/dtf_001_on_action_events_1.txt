@@ -1,0 +1,114 @@
+namespace = dtf_action
+
+
+# 宇宙戦艦ヤマトが破壊された場合
+country_event = {
+	id = dtf_action.70
+	#title = "dtf_action.70.name"
+	#desc = "dtf_action.70.desc"
+	#picture = GFX_evt_exploding_ship
+	show_sound = event_ship_explosion
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		has_origin = origin_earth_2200
+		OR = { 
+			fromfrom = { is_ship_size = dtf_yamato_class_ship }
+			fromfrom = { is_ship_size = dtf_yamato_class_ship_nsc }
+		}
+	}
+
+	#option = {
+	#	name = dtf_action.70.a
+	#}
+
+	immediate = {
+		remove_country_flag = dtf_build_yamato_flag
+	}
+}
+# 宇宙戦艦ヤマトを破棄した場合
+country_event = {
+	id = dtf_action.73
+	#title = "dtf_action.73.name"
+	#desc = "dtf_action.73.desc"
+	#picture = GFX_evt_space_debris
+	show_sound = event_ship_explosion
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		has_origin = origin_earth_2200
+		OR = { 
+			from = { any_controlled_ship = { is_ship_size = dtf_yamato_class_ship } }
+			from = { any_controlled_ship = { is_ship_size = dtf_yamato_class_ship_nsc } }
+		}
+	}
+
+	#option = {
+	#	name = dtf_action.73.a
+	#}
+
+	immediate = {
+		remove_country_flag = dtf_build_yamato_flag
+	}
+}
+
+
+
+# Planet is turned into tomb world by special bombing stance
+planet_event = {
+	id = dtf_action.81
+	hide_window = yes
+	show_sound = event_radio_chatter
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_orbital_bombardment_stance = wave_motion_excavation_shell_ob
+
+		from = {
+			OR = {
+				is_country_type = default
+				is_country_type = fallen_empire
+				is_country_type = awakened_fallen_empire
+			}
+		}
+
+		OR = {
+			habitable_planet = yes
+			is_planet_class = pc_gamilas
+		}
+		#habitable_planet = yes
+	}
+
+	immediate = {
+		owner = {
+			add_static_war_exhaustion = {
+				attacker = from
+				location = root
+				value_for_planet_destruction = 1.0
+			}
+		}
+		#from = { country_event = { id = action.83 } }
+
+		set_planet_flag = dtf_destroyed_by_wmc
+		remove_all_buildings = yes
+		#reroll_deposits = yes
+		remove_modifier = "natural_beauty"
+		remove_modifier = "atmospheric_aphrodisiac"
+		remove_modifier = "atmospheric_hallucinogen"
+		remove_modifier = "lush_planet"
+		remove_modifier = "dangerous_wildlife"
+
+		destroy_colony = yes
+		change_pc = pc_shattered
+
+		
+	}
+}
+
+
+
+
+

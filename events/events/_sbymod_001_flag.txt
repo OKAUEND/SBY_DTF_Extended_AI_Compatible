@@ -1,0 +1,40 @@
+namespace = sbymod_flag
+
+#############################################
+# Technology - Start
+#############################################
+
+# Check ACoT or ESC activated
+country_event = {
+	id = sbymod_flag.301
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		OR = {
+			has_global_flag = Extra_Ship_Components_NEXT
+			has_global_flag = acot_activated
+		}
+	}
+
+	immediate = {
+		give_technology = { tech = tech_sbymod_check_esc_acot message = no }
+	}
+}
+
+# Check AVC activated (Dummy)
+country_event = {
+	id = sbymod_flag.302
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		#has_global_flag = Additional_Vanilla_Mod
+	}
+
+	immediate = {
+		#set_global_flag = Additional_Vanilla_Mod
+		#give_technology = { tech = tech_sbymod_check_avm message = no }
+	}
+}
+

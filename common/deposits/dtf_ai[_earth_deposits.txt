@@ -1,0 +1,95 @@
+
+#########################
+# Earth 2200 Deposits
+
+# Deposits
+
+d_dtf_reconstructed_city = {
+	is_for_colonizable = yes
+	icon = d_city
+
+	planet_modifier = {
+		planet_max_districts_add = 2
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+}
+
+d_dtf_explored_other_dimension = {
+	is_for_colonizable = yes
+	icon = d_radioactive_wasteland
+
+	planet_modifier = {
+		planet_max_districts_add = 4
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+}
+
+
+
+
+
+
+
+
+
+
+# Blockers
+d_dtf_abandoned_city = {
+	icon = d_metal_boneyard
+	time = 120
+
+	is_for_colonizable = yes
+	category = deposit_cat_blockers
+
+	potential = { always = no }
+
+	planet_modifier = {
+		planet_max_districts_add = -2
+	}
+
+	use_weights_for_blocker_swap_types = no
+
+	blocker_swap_types = {
+		d_dtf_reconstructed_city
+	}
+
+	resources = {
+		category = deposit_blockers
+		cost = {
+			energy = 500
+		}
+	}
+}
+
+d_dtf_other_dimension = {
+	icon = d_radioactive_wasteland
+	time = 120
+
+	is_for_colonizable = yes
+	category = deposit_cat_blockers
+
+	potential = { always = no }
+
+	planet_modifier = {
+		planet_max_districts_add = -4
+	}
+
+	use_weights_for_blocker_swap_types = no
+
+	blocker_swap_types = {
+		d_dtf_explored_other_dimension
+	}
+
+	resources = {
+		category = deposit_blockers
+		cost = {
+			energy = 100000
+		}
+	}
+}

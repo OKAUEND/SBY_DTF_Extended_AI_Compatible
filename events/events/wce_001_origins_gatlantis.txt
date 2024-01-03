@@ -1,0 +1,95 @@
+namespace = wce_gatlantis_origin
+
+country_event = {
+	id = wce_gatlantis_origin.001
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		has_origin = origin_gatlantis
+	}
+
+	immediate = {
+		capital_scope = {
+
+			if = {
+				limit = { root = { is_machine_empire = yes } }
+
+				root = {
+					set_country_flag = can_use_wce_tech
+					give_technology = { tech = tech_wce_pretech message = no }
+					give_technology = { tech = tech_wce_weapons_1 message = no }
+					give_technology = { tech = tech_wce_armor_1 message = no }
+					give_technology = { tech = tech_wce_shield_1 message = no }
+					give_technology = { tech = tech_wce_reactor_1 message = no }
+					give_technology = { tech = tech_robotic_workers message = no }
+				}
+			}
+			else_if = {
+				limit = { root = { is_hive_empire = yes } }
+
+				root = {
+					set_country_flag = can_use_wce_tech
+					give_technology = { tech = tech_wce_pretech message = no }
+					give_technology = { tech = tech_wce_weapons_1 message = no }
+					give_technology = { tech = tech_wce_armor_1 message = no }
+					give_technology = { tech = tech_wce_shield_1 message = no }
+					give_technology = { tech = tech_wce_reactor_1 message = no }
+					give_technology = { tech = tech_robotic_workers message = no }
+				}
+			}
+			else = {
+				#limit = { root = { is_regular_empire = yes } }
+				
+				root = {
+					set_country_flag = can_use_wce_tech
+					give_technology = { tech = tech_wce_pretech message = no }
+					give_technology = { tech = tech_wce_weapons_1 message = no }
+					give_technology = { tech = tech_wce_armor_1 message = no }
+					give_technology = { tech = tech_wce_shield_1 message = no }
+					give_technology = { tech = tech_wce_reactor_1 message = no }
+					give_technology = { tech = tech_robotic_workers message = no }
+				}
+			}
+
+		}
+		
+		if = {
+			limit = { is_ai = yes }
+			add_modifier = { modifier = wce_cm_ai_modifier }
+		}
+	}
+}
+
+
+### game start
+
+country_event = {
+	id = wce_gatlantis_origin.202
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_origin = origin_gatlantis
+		NOT = { has_global_flag = has_nsc_active }
+	}
+
+	immediate = {
+		give_technology = { tech = tech_wce_check_nsc_no message = no }
+	}
+}
+
+country_event = {
+	id = wce_gatlantis_origin.203
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_origin = origin_gatlantis
+		has_global_flag = has_nsc_active
+	}
+
+	immediate = {
+		give_technology = { tech = tech_wce_check_nsc_yes message = no }
+	}
+}
