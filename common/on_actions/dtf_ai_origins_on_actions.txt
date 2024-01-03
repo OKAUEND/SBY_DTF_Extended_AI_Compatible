@@ -1,0 +1,53 @@
+
+
+on_game_start_country = {
+
+	events = { dtf_earth_origin_ai.001 }
+	events = { dtf_earth_origin_ai.011 }
+
+	#events = { dtf_earth_origin_ai.201 }
+	#events = { dtf_earth_origin_ai.202 }
+	#events = { dtf_earth_origin_ai.203 }
+	#events = { dtf_earth_origin_ai.301 }
+	#events = { sbymod_flag.301 }
+
+
+} # Event that finishes system setup
+
+on_press_begin = {
+	events = { dtf_earth_origin_ai.201 }
+	events = { dtf_earth_origin_ai.202 }
+	events = { dtf_earth_origin_ai.203 }
+} 
+
+# Planet has reached 0 pops from orbital bombardment
+# This = Planet
+# From = Bombarder
+# on_planet_zero_pops = {
+# 	events = {
+# 		dtf_action.81
+# 	}
+# }
+
+
+
+
+
+# This = owner of ship 1 (destroyed)
+# From = owner of ship 2 (combatant)
+# FromFrom = ship 1
+# FromFromFrom = ship 2
+on_ship_destroyed_victim = {
+	events = {
+		dtf_action.70
+	}
+}
+
+# This = owner of fleet
+# From = disbanded fleet
+on_fleet_disbanded = {
+	events = {
+		dtf_action.73
+	}
+}
+
