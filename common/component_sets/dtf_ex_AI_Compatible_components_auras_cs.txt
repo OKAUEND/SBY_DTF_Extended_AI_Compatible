@@ -1,8 +1,0 @@
-
-component_set = {
-	key = "dtf_ship_aura_advanced_wave_motion_resonance"
-	
-	required_component_set = yes
-	icon = "GFX_ship_part_sensor"
-	icon_frame = 1	
-}
