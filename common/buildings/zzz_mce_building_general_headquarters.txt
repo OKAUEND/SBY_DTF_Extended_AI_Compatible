@@ -1,0 +1,121 @@
+@mce_general_headquarters_build_time_1 = 120
+@mce_general_headquarters_build_time_2 = 160
+@mce_general_headquarters_build_time_3 = 240
+@mce_general_headquarters_build_time_4 = 360
+
+
+@mce_army_job_1 = 1
+@mce_army_job_2 = 2
+@mce_army_job_3 = 3
+@mce_army_job_4 = 4
+
+@mce_general_headquarters_alloys_cost_1 = 300
+@mce_general_headquarters_alloys_cost_2 = 2400
+@mce_general_headquarters_alloys_cost_3 = 8000
+@mce_general_headquarters_alloys_cost_4 = 20000
+
+
+@mce_general_headquarters_energy_upkeep_1 = 10
+@mce_general_headquarters_energy_upkeep_2 = 30
+@mce_general_headquarters_energy_upkeep_3 = 80
+@mce_general_headquarters_energy_upkeep_4 = 160
+
+@mce_general_headquarters_minerals_upkeep_1 = 0
+@mce_general_headquarters_minerals_upkeep_2 = 0
+@mce_general_headquarters_minerals_upkeep_3 = 0
+@mce_general_headquarters_minerals_upkeep_4 = 0
+
+
+
+
+
+building_mce_general_headquarters_1 = {
+	base_buildtime = @mce_general_headquarters_build_time_1
+	base_cap_amount = 1
+	category = army
+	planetary_ftl_inhibitor = yes
+
+	icon = building_mce_general_headquarters
+
+	potential = {
+		exists = owner
+		planet = { is_planet_class = pc_gamilas }
+	}
+
+	allow = { 
+		exists = owner
+		planet = { is_planet_class = pc_gamilas }
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_soldier_add = @mce_army_job_1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_hive_empire = yes }
+		}
+		modifier = {
+			job_warrior_drone_add = @mce_army_job_1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_machine_empire = yes }
+		}
+		modifier = {
+			job_warrior_drone_add = @mce_army_job_1
+		}
+
+	}
+
+	triggered_country_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_ai = no }
+		}
+		country_naval_cap_add = 600
+	}
+
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			alloys = @mce_general_headquarters_alloys_cost_1
+		}
+		upkeep = {
+			energy = @mce_general_headquarters_energy_upkeep_1
+			minerals = @mce_general_headquarters_minerals_upkeep_1
+		}
+
+		produces = {	
+			influence = 1.5
+		}
+	}
+
+	planet_modifier = {
+
+	}
+
+	country_modifier = {
+		command_limit_add = 64
+		species_leader_exp_gain = 0.2
+	}
+
+	upgrades = {
+		"building_mce_general_headquarters_2"
+	}
+
+	prerequisites = { "tech_mce_pretech" }
+
+}
+
