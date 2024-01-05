@@ -1,0 +1,192 @@
+
+#################################################################################
+### Missile
+#################################################################################
+
+weapon_component_template = {
+	key = "MCE_MISSILE_3_S"
+	size = small
+	
+	icon = "GFX_mce_ship_part_missile_3"
+	icon_frame = 1
+	type = missile
+	
+	prerequisites = { "tech_mce_weapons_6" }
+	component_set = "MCE_MISSILE_CS_3"
+	projectile_gfx = "small_missile"
+	tags = { weapon_type_explosive g_slot }
+	ai_tags = { weapon_role_artillery artillery }
+	ai_tag_weight = 0
+	upgrades_to = "MCE_MISSILE_4_S"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_mce_t5_cost
+		}		
+		upkeep = {
+			energy = @s_mce_t5_uk_energy
+			alloys = @s_mce_t5_uk_alloys
+		}
+	}
+
+	power = -30.00
+	
+	damage = { min = 130 max = 200 }
+
+	shield_penetration = 1.00
+	#shield_damage = 0.75
+	#armor_penetration = 0
+	#armor_damage = 1.50
+	hull_damage = 1.25
+	
+	windup = { min = 20 max = 50 }
+	total_fire_time = 60
+	range = @mce_weapon_range_150
+	accuracy = 1
+	tracking = 0.40
+	
+	missile_speed = 36
+	missile_evasion = 0.50
+	missile_health = 24
+	missile_retarget_range = 120
+
+	ai_weight = {
+		weight = @mce_ai_weight_6
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_gamilas }
+		}
+		modifier = {
+			factor = 0.0
+			NOT = { is_ai = no }
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "MCE_MISSILE_3"
+	size = medium
+	
+	icon = "GFX_mce_ship_part_missile_3"
+	icon_frame = 1
+	type = missile
+	
+	prerequisites = { "tech_mce_weapons_6" }
+	component_set = "MCE_MISSILE_CS_3"
+	projectile_gfx = "small_missile"
+	tags = { weapon_type_explosive g_slot }
+	ai_tags = { weapon_role_artillery artillery }
+	ai_tag_weight = 0
+	upgrades_to = "MCE_MISSILE_4"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_mce_t5_cost
+		}		
+		upkeep = {
+			energy = @m_mce_t5_uk_energy
+			alloys = @m_mce_t5_uk_alloys
+		}
+	}
+
+	power = -60.00
+	
+	damage = { min = 260 max = 400 }
+
+	shield_penetration = 1.00
+	#shield_damage = 0.75
+	#armor_penetration = 0
+	#armor_damage = 1.50
+	hull_damage = 1.25
+	
+	windup = { min = 20 max = 50 }
+	total_fire_time = 60
+	range = @mce_weapon_range_150
+	accuracy = 1
+	tracking = 0.40
+	
+	missile_speed = 36
+	missile_evasion = 0.50
+	missile_health = 24
+	missile_retarget_range = 120
+
+	ai_weight = {
+		weight = @mce_ai_weight_6
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_gamilas }
+		}
+		modifier = {
+			factor = 0.0
+			NOT = { is_ai = no }
+		}
+	}
+}
+
+
+
+
+
+
+#################################################################################
+### Subspace Torpedo
+#################################################################################
+
+weapon_component_template = {
+	key = "MCE_SUBSPACE_TORPEDO_3"
+	size = torpedo
+	
+	icon = "GFX_mce_ship_part_torpedo_3"
+	icon_frame = 1
+	type = missile
+	
+	prerequisites = { "tech_mce_weapons_7" }
+	component_set = "MCE_SUBSPACE_TORPEDO_CS_3"
+	projectile_gfx = "large_torpedo"
+	tags = { weapon_type_explosive g_slot }
+	ai_tags = { weapon_role_anti_shield explosive }
+	ai_tag_weight = 0
+	upgrades_to = "MCE_SUBSPACE_TORPEDO_4"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_mce_t6_cost
+		}		
+		upkeep = {
+			energy = @m_mce_t6_uk_energy
+			alloys = @m_mce_t6_uk_alloys
+		}
+	}
+	
+	power = -90
+	damage = { min = 250 max = 340 }
+
+	shield_penetration = 1.00
+	#shield_damage = 0.75
+	#armor_penetration = 1.00
+	armor_damage = 1.50
+	#hull_damage = 1.50
+	
+	windup = { min = 60 max = 80 }
+	total_fire_time = 80
+	range = @mce_weapon_range_200
+	accuracy = 1
+	tracking = 0.30
+	
+	missile_speed = 28
+	missile_evasion = 0.80
+	missile_health = 16
+	missile_retarget_range = 100
+
+	size_damage_factor = 1.0
+	
+	firing_arc = 25.0
+
+	ai_weight = {
+		weight = @mce_ai_weight_6
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_gamilas }
+		}
+	}
+}

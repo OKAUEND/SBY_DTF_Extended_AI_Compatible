@@ -1,0 +1,186 @@
+
+###Missile
+
+weapon_component_template = {
+	key = "DTF_EDF_MISSILE_S_3"
+	size = small
+	
+	icon = "GFX_dtf_ship_part_missile_3"
+	icon_frame = 1
+	type = missile
+	
+	prerequisites = { "tech_dtf_weapons_6" }
+	component_set = "DTF_EDF_MISSILE_CS_3"
+	projectile_gfx = "small_missile"
+	tags = { weapon_type_explosive g_slot }
+	ai_tags = { weapon_role_artillery artillery }
+	ai_tag_weight = 0
+	upgrades_to = "DTF_EDF_MISSILE_S_4"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_dtf_t6_cost
+		}		
+		upkeep = {
+			energy = @s_dtf_t6_uk_energy
+			alloys = @s_dtf_t6_uk_alloys
+		}
+	}
+
+	power = -30.00
+
+	damage = { min = 120 max = 205 }
+
+	shield_penetration = 1.00
+	#shield_damage = 0.75
+	#armor_penetration = 0
+	#armor_damage = 1.50
+	hull_damage = 1.25
+	
+	windup = { min = 20 max = 50 }
+	total_fire_time = 60
+	range = @dtf_weapon_range_150
+	accuracy = 1
+	tracking = 0.25
+	
+	missile_speed = 40
+	missile_evasion = 0.60
+	missile_health = 17
+	missile_retarget_range = 100
+
+	ai_weight = {
+		weight = @dtf_ai_weight_6
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+		modifier = {
+			factor = 0.0
+			NOT = { is_ai = no }
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "DTF_EDF_MISSILE_3"
+	size = medium
+	
+	icon = "GFX_dtf_ship_part_missile_3"
+	icon_frame = 1
+	type = missile
+	
+	prerequisites = { "tech_dtf_weapons_6" }
+	component_set = "DTF_EDF_MISSILE_CS_3"
+	projectile_gfx = "small_missile"
+	tags = { weapon_type_explosive g_slot }
+	ai_tags = { weapon_role_artillery artillery }
+	ai_tag_weight = 0
+	upgrades_to = "DTF_EDF_MISSILE_4"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_dtf_t6_cost
+		}		
+		upkeep = {
+			energy = @m_dtf_t6_uk_energy
+			alloys = @m_dtf_t6_uk_alloys
+		}
+	}
+
+	power = -60.00
+
+	damage = { min = 240 max = 410 }
+
+	shield_penetration = 1.00
+	#shield_damage = 0.75
+	#armor_penetration = 0
+	#armor_damage = 1.50
+	hull_damage = 1.25
+	
+	windup = { min = 20 max = 50 }
+	total_fire_time = 60
+	range = @dtf_weapon_range_150
+	accuracy = 1
+	tracking = 0.25
+	
+	missile_speed = 40
+	missile_evasion = 0.55
+	missile_health = 22
+	missile_retarget_range = 100
+
+	ai_weight = {
+		weight = @dtf_ai_weight_6
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+		modifier = {
+			factor = 0.0
+			NOT = { is_ai = no }
+		}
+	}
+}
+
+
+
+###Missile
+
+weapon_component_template = {
+	key = "DTF_EDF_TORPEDO_3"
+	size = torpedo
+	
+	icon = "GFX_dtf_ship_part_torpedo_3"
+	icon_frame = 1
+	type = missile
+	
+	prerequisites = { "tech_dtf_weapons_6" }
+	component_set = "DTF_EDF_TORPEDO_CS_3"
+	projectile_gfx = "large_torpedo"
+	tags = { weapon_type_explosive g_slot }
+	ai_tags = { weapon_role_anti_shield explosive }
+	ai_tag_weight = 0
+	upgrades_to = "DTF_EDF_TORPEDO_4"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_dtf_t6_cost
+		}		
+		upkeep = {
+			energy = @m_dtf_t6_uk_energy
+			alloys = @m_dtf_t6_uk_alloys
+		}
+	}
+
+	power = -90.00
+
+	damage = { min = 160 max = 200 }
+
+	shield_penetration = 1.00
+	#shield_damage = 0.75
+	#armor_penetration = 1.00
+	armor_damage = 1.75
+	#hull_damage = 1.50
+	
+	windup = { min = 20 max = 50 }
+	total_fire_time = 60
+	range = @dtf_weapon_range_40
+	accuracy = 1
+	tracking = 0.25
+	
+	missile_speed = 32
+	missile_evasion = 0.30
+	missile_health = 22
+	missile_retarget_range = 100
+
+	size_damage_factor = 1.0
+	
+	firing_arc = 25.0
+
+	ai_weight = {
+		weight = @dtf_ai_weight_6
+		modifier = {
+			factor = 0.0
+			NOT = { has_origin = origin_earth_2200 }
+		}
+	}
+}
